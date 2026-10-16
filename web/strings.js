@@ -218,4 +218,5 @@ const STRINGS = {
   "wiz.later": {"fr": "Plus tard", "en": "Later", "es": "Más tarde", "zh": "稍后", "ar": "لاحقًا"},
   "wiz.next": {"fr": "Suivant", "en": "Next", "es": "Siguiente", "zh": "下一步", "ar": "التالي"},
   "wiz.start": {"fr": "C'est parti", "en": "Let's go", "es": "¡Vamos!", "zh": "开始吧", "ar": "هيا بنا"},
+  "state.reconnecting": {"fr": "reconnexion…", "en": "reconnecting…", "es": "reconectando…", "zh": "正在重新连接…", "ar": "جارٍ إعادة الاتصال…"},
 };

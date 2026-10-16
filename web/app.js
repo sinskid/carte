@@ -528,6 +528,7 @@ if (matchMedia("(max-width: 640px)").matches) $("favbar-toggle").onclick();   //
 
 // ---------- playback shared by radio and TV ----------
 function stopMedia(media) {
+  media.unwatch?.(); media.unwatch = null;
   if (media.hls) { media.hls.destroy(); media.hls = null; }
   media.removeAttribute("src");
   media.load();
@@ -537,13 +538,20 @@ function stopMedia(media) {
 // HLS goes through hls.js when the browser has no native HLS (Firefox).
 function tryUrl(media, url, isHls, timeoutMs = 12000) {
   return new Promise((resolve) => {
-    const done = (ok) => { clearTimeout(timer); media.onplaying = media.onerror = null; if (!ok) stopMedia(media); resolve(ok); };
+    let settled = false;                              // later errors are watchStream's business, not this
+    const done = (ok) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timer); media.onplaying = media.onerror = null;
+      if (!ok) stopMedia(media);
+      resolve(ok);
+    };
     const timer = setTimeout(() => done(false), timeoutMs);
     media.onplaying = () => done(true);
     media.onerror = () => done(false);
     const needsHls = (isHls || /\.m3u8(\?|$)/i.test(url)) && !media.canPlayType("application/vnd.apple.mpegurl");
     if (needsHls && window.Hls?.isSupported()) {
-      media.hls = new Hls();
+      media.hls = new Hls({ manifestLoadingMaxRetry: 4, levelLoadingMaxRetry: 4, fragLoadingMaxRetry: 6 });
       media.hls.on(Hls.Events.ERROR, (_, d) => { if (d.fatal) done(false); });
       media.hls.loadSource(url);
       media.hls.attachMedia(media);
@@ -564,33 +572,75 @@ function setPlayer(state) {
   $("player-toggle").title = tr(audio.paused ? "player.play" : "player.pause");
 }
 
-// Try each URL of the station in turn until one plays.
+// Live streams drop now and then (a network blip, the station's server closing the connection):
+// once a stream plays, this watches it, and an error, its end, or 10 s without data → onDrop, once.
+// Passing HLS errors are repaired in place. A drop while paused only marks the stream as dead:
+// it reconnects when ▶ is pressed, not by itself.
+function watchStream(media, isCurrent, onDrop) {
+  let stall = null;
+  const drop = () => {
+    if (!isCurrent()) return;
+    if (media.paused && !media.ended) { media.dead = onDrop; return; }
+    stopMedia(media);
+    onDrop();
+  };
+  const waiting = () => { clearTimeout(stall); stall = setTimeout(drop, 10000); };
+  const flowing = () => clearTimeout(stall);
+  const onHls = (_, d) => {
+    if (!d.fatal) return;
+    if (d.type === Hls.ErrorTypes.MEDIA_ERROR) media.hls.recoverMediaError();
+    else drop();
+  };
+  const events = { error: drop, ended: drop, waiting, stalled: waiting, playing: flowing, timeupdate: flowing };
+  for (const [e, h] of Object.entries(events)) media.addEventListener(e, h);
+  media.hls?.on(Hls.Events.ERROR, onHls);
+  media.dead = null;
+  media.unwatch = () => {
+    clearTimeout(stall);
+    for (const [e, h] of Object.entries(events)) media.removeEventListener(e, h);
+    media.hls?.off(Hls.Events.ERROR, onHls);
+  };
+}
+
+// Try each URL of the station in turn until one plays; reconnect the same way if it drops later.
 async function play(s, country) {
   closeSongCard();
   closeTv();
   stopMedia(audio);
   playing = { ...s, country, countryId: countryIdOf(s, country) };
   renderStations();
-  const urls = [...new Set([s.url_resolved, s.url].filter(Boolean))];
   fetch(`${RADIO_API}/url/${s.stationuuid}`).catch(() => {});   // counts the click, as the API asks clients to
+  connectRadio(s, country, 0);
+}
+
+const RETRY_WAIT = [2, 4, 8, 15];                     // seconds before reconnection attempts 1, 2, 3, 4
+async function connectRadio(s, country, attempt) {
+  const mine = () => playing?.stationuuid === s.stationuuid;    // another station may be chosen meanwhile
+  const urls = [...new Set([s.url_resolved, s.url].filter(Boolean))];
   for (const url of urls) {
-    if (playing?.stationuuid !== s.stationuuid) return;            // another station was chosen meanwhile
-    setPlayer(`${country} · ${tr("state.connecting")}`);
+    if (!mine()) return;
+    setPlayer(`${country} · ${tr(attempt ? "state.reconnecting" : "state.connecting")}`);
     if (await tryUrl(audio, url, s.hls)) {
-      if (playing?.stationuuid === s.stationuuid) {
-        playing.streamUrl = url;
-        setPlayer(`${country} · ${tr("state.live")}`);
-        nowPlaying();
-      }
+      if (!mine()) return;
+      playing.streamUrl = url;
+      setPlayer(`${country} · ${tr("state.live")}`);
+      nowPlaying();
+      watchStream(audio, mine, () => connectRadio(s, country, 1));
       return;
     }
   }
-  if (playing?.stationuuid === s.stationuuid) setPlayer(`${country} · ${tr("state.unavailable")}`);
+  if (!mine()) return;
+  if (attempt && attempt <= RETRY_WAIT.length) {      // it was playing: keep trying for a while
+    setPlayer(`${country} · ${tr("state.reconnecting")}`);
+    setTimeout(() => mine() && connectRadio(s, country, attempt + 1), RETRY_WAIT[attempt - 1] * 1000);
+  } else setPlayer(`${country} · ${tr("state.unavailable")}`);
 }
 
 $("radio-filter").addEventListener("input", renderStations);
 $("player-toggle").onclick = () => {
-  if (audio.paused) { audio.play().catch(() => {}); } else audio.pause();
+  if (audio.dead) { const again = audio.dead; audio.dead = null; stopMedia(audio); again(); }   // dropped while paused
+  else if (audio.paused) audio.play().catch(() => {});
+  else audio.pause();
 };
 function stopRadio() { if (playing) { stopMedia(audio); playing = null; setPlayer(); renderStations(); closeSongCard(); } }
 $("player-stop").onclick = stopRadio;
@@ -1652,7 +1702,13 @@ async function watch(c, country) {
     if (watching?.nanoid !== c.nanoid) return;
     if (state === "dead") { deadStreams.add(url); continue; }
     if (await tryUrl(video, url, true, 10000)) {
-      if (watching?.nanoid === c.nanoid) setTv(`${country} · ${tr("state.live")}`);
+      if (watching?.nanoid === c.nanoid) {
+        setTv(`${country} · ${tr("state.live")}`);
+        watchStream(video, () => watching?.nanoid === c.nanoid && !queue, () => {   // dropped: start again
+          setTv(`${country} · ${tr("state.reconnecting")}`);
+          setTimeout(() => watching?.nanoid === c.nanoid && watch(c, country), 2000);
+        });
+      }
       return;
     }
     deadStreams.add(url);

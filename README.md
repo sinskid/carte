@@ -63,6 +63,20 @@ To stop Carte, go back to the terminal and press **Ctrl + C** (or just close it)
 
 ---
 
+## Updating to a new version
+
+The online version updates by itself. If you installed Carte:
+
+1. Stop Carte (**Ctrl + C**).
+2. Download the ZIP again (step 2) and unzip it.
+3. Copy the **`data`** folder from your old `carte-main` folder into the new one: it holds your
+   favourites and visited countries.
+4. Delete the old folder and start Carte from the new one (step 3).
+
+Your music accounts stay connected: they are saved outside the Carte folder.
+
+---
+
 ## Using YouTube?
 
 To find songs on YouTube, Carte needs one more free tool. In a terminal, type once:

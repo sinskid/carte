@@ -358,7 +358,7 @@ body:not(.with-music) #music-open { display: none; }
   body:has(#panel.open) { --cc: calc((100vw - 472px) / 2); }
   body.music-open { --cc: calc((100vw + 452px) / 2); }
   body.music-open:has(#panel.open) { --cc: calc((100vw - 20px) / 2); }
-  #song-card { left: var(--cc); }
+  #song-card, #player { left: var(--cc); transition: left .35s ease; }   /* the card stays right above the player */
   body:has(#song-card:not([hidden])) #tv-window { left: 16px; width: min(520px, calc(var(--cc) - 242px)); }
   body.music-open:has(#song-card:not([hidden])) #tv-window { left: calc(var(--cc) + 226px); width: min(520px, calc(100vw - var(--cc) - 242px)); }
 }
