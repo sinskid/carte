@@ -1,0 +1,5 @@
+# Personal state written by the local server (favourites, visited countries)
+/data/
+__pycache__/
+*.pyc
+*.tmp

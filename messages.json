@@ -1,0 +1,230 @@
+{
+ "Ça ne ressemble pas à une clé AudD (une longue suite de chiffres et de lettres).": {
+  "en": "That doesn't look like an AudD key (a long string of digits and letters).",
+  "es": "Eso no parece una clave de AudD (una larga cadena de dígitos y letras).",
+  "zh": "这看起来不像 AudD 密钥（一长串数字和字母）。",
+  "ar": "هذا لا يبدو كمفتاح AudD (سلسلة طويلة من الأرقام والحروف)."
+ },
+ "Ce n'est pas le fichier JSON téléchargé depuis Google.": {
+  "en": "This is not the JSON file downloaded from Google.",
+  "es": "Este no es el archivo JSON descargado de Google.",
+  "zh": "这不是从 Google 下载的 JSON 文件。",
+  "ar": "هذا ليس ملف JSON الذي تم تنزيله من Google."
+ },
+ "Fichier incomplet : télécharge le JSON du client « Application de bureau ».": {
+  "en": "Incomplete file: download the JSON of the \"Desktop app\" client.",
+  "es": "Archivo incompleto: descarga el JSON del cliente \"Desktop app\".",
+  "zh": "文件不完整：请下载“Desktop app”客户端的 JSON。",
+  "ar": "ملف غير مكتمل: نزّل ملف JSON الخاص بالعميل \"Desktop app\"."
+ },
+ "Le Client ID Spotify fait 32 caractères (chiffres et lettres a-f).": {
+  "en": "The Spotify Client ID is 32 characters long (digits and letters a-f).",
+  "es": "El Client ID de Spotify tiene 32 caracteres (dígitos y letras a-f).",
+  "zh": "Spotify Client ID 长度为 32 个字符（数字和字母 a-f）。",
+  "ar": "معرّف عميل Spotify (Client ID) يتكوّن من 32 حرفًا (أرقام وحروف a-f)."
+ },
+ "Étape précédente manquante : enregistre d'abord la clé de l'application.": {
+  "en": "Previous step missing: save the app's key first.",
+  "es": "Falta el paso anterior: guarda primero la clave de la app.",
+  "zh": "缺少上一步：请先保存应用的密钥。",
+  "ar": "خطوة سابقة مفقودة: احفظ مفتاح التطبيق أولاً."
+ },
+ "Service inconnu.": {
+  "en": "Unknown service.",
+  "es": "Servicio desconocido.",
+  "zh": "未知服务。",
+  "ar": "خدمة غير معروفة."
+ },
+ "Connexion refusée ({0}).": {
+  "en": "Sign-in refused ({0}).",
+  "es": "Inicio de sesión rechazado ({0}).",
+  "zh": "登录被拒绝（{0}）。",
+  "ar": "تم رفض تسجيل الدخول ({0})."
+ },
+ "Échange du code refusé ({0}).": {
+  "en": "Code exchange refused ({0}).",
+  "es": "Intercambio de código rechazado ({0}).",
+  "zh": "代码交换被拒绝（{0}）。",
+  "ar": "تم رفض تبديل الرمز ({0})."
+ },
+ "Pas de jeton durable reçu : retire l'accès de Carte dans ton compte puis recommence.": {
+  "en": "No lasting token received: remove Carte's access in your account, then try again.",
+  "es": "No se recibió un token duradero: quita el acceso de Carte en tu cuenta y vuelve a intentarlo.",
+  "zh": "未收到持久令牌：请在你的账户中移除 Carte 的访问权限，然后重试。",
+  "ar": "لم يتم استلام رمز مميز دائم: أزل وصول Carte من حسابك ثم أعد المحاولة."
+ },
+ "Erreur pendant la connexion : {0}": {
+  "en": "Error during sign-in: {0}",
+  "es": "Error durante el inicio de sesión: {0}",
+  "zh": "登录时出错：{0}",
+  "ar": "خطأ أثناء تسجيل الدخول: {0}"
+ },
+ "Spotify non connecté : ouvre ⚙ Paramètres.": {
+  "en": "Spotify not connected: open ⚙ Settings.",
+  "es": "Spotify no está conectado: abre ⚙ Ajustes.",
+  "zh": "Spotify 未连接：请打开 ⚙ 设置。",
+  "ar": "Spotify غير متصل: افتح ⚙ الإعدادات."
+ },
+ "Autorisation Spotify expirée ou révoquée : reconnecte-toi dans ⚙ Paramètres.": {
+  "en": "Spotify authorisation expired or revoked: sign in again in ⚙ Settings.",
+  "es": "La autorización de Spotify expiró o fue revocada: vuelve a iniciar sesión en ⚙ Ajustes.",
+  "zh": "Spotify 授权已过期或被撤销：请在 ⚙ 设置中重新登录。",
+  "ar": "انتهت صلاحية تفويض Spotify أو تم إلغاؤه: سجّل الدخول مرة أخرى في ⚙ الإعدادات."
+ },
+ "Pour écouter les titres en entier, reconnecte Spotify dans ⚙ Paramètres.": {
+  "en": "To play full songs, reconnect Spotify in ⚙ Settings.",
+  "es": "Para escuchar canciones completas, reconecta Spotify en ⚙ Ajustes.",
+  "zh": "要播放完整歌曲，请在 ⚙ 设置中重新连接 Spotify。",
+  "ar": "لتشغيل الأغاني كاملة، أعد ربط Spotify في ⚙ الإعدادات."
+ },
+ "il faut un abonnement Spotify Premium sur le compte qui a créé l'application (règle Spotify).": {
+  "en": "the account that created the app needs Spotify Premium (Spotify's rule).",
+  "es": "la cuenta que creó la app necesita Spotify Premium (regla de Spotify).",
+  "zh": "创建该应用的账户需要订阅 Spotify Premium（Spotify 的规定）。",
+  "ar": "الحساب الذي أنشأ التطبيق يحتاج إلى Spotify Premium (قاعدة من Spotify)."
+ },
+ "ce compte n'est pas autorisé : ajoute son e-mail dans developer.spotify.com/dashboard → ton application → Settings → User Management.": {
+  "en": "this account is not allowed: add its e-mail in developer.spotify.com/dashboard → your app → Settings → User Management.",
+  "es": "esta cuenta no está autorizada: añade su correo electrónico en developer.spotify.com/dashboard → tu app → Settings → User Management.",
+  "zh": "该账户未被授权：请在 developer.spotify.com/dashboard → 你的应用 → Settings → User Management 中添加其电子邮箱。",
+  "ar": "هذا الحساب غير مصرّح له: أضف بريده الإلكتروني في developer.spotify.com/dashboard ← تطبيقك ← Settings ← User Management."
+ },
+ "Spotify a refusé ({0}) {1}": {
+  "en": "Spotify refused ({0}) {1}",
+  "es": "Spotify rechazó ({0}) {1}",
+  "zh": "Spotify 拒绝了（{0}）{1}",
+  "ar": "رفض Spotify ({0}) {1}"
+ },
+ "Les titres likés ne se renomment pas, ne se suppriment pas et gardent l'ordre des « J'aime ».": {
+  "en": "Liked songs can't be renamed or deleted, and keep the order you liked them in.",
+  "es": "Las canciones que te gustan no se pueden renombrar ni eliminar, y conservan el orden en que te gustaron.",
+  "zh": "喜欢的歌曲无法重命名或删除，并且会保留你点赞时的顺序。",
+  "ar": "لا يمكن إعادة تسمية الأغاني المفضلة أو حذفها، وهي تحافظ على ترتيب إعجابك بها."
+ },
+ "Pour les titres likés, reconnecte Spotify dans ⚙ Paramètres.": {
+  "en": "For liked songs, reconnect Spotify in ⚙ Settings.",
+  "es": "Para las canciones que te gustan, reconecta Spotify en ⚙ Ajustes.",
+  "zh": "如需使用喜欢的歌曲，请在 ⚙ 设置中重新连接 Spotify。",
+  "ar": "للأغاني المفضلة، أعد ربط Spotify في ⚙ الإعدادات."
+ },
+ "Playlist invalide.": {
+  "en": "Invalid playlist.",
+  "es": "Playlist no válida.",
+  "zh": "播放列表无效。",
+  "ar": "قائمة تشغيل غير صالحة."
+ },
+ "Playlist inconnue.": {
+  "en": "Unknown playlist.",
+  "es": "Playlist desconocida.",
+  "zh": "未知播放列表。",
+  "ar": "قائمة تشغيل غير معروفة."
+ },
+ "Visibilité invalide.": {
+  "en": "Invalid visibility.",
+  "es": "Visibilidad no válida.",
+  "zh": "可见性无效。",
+  "ar": "خصوصية غير صالحة."
+ },
+ "Titre vide ou trop long.": {
+  "en": "Title empty or too long.",
+  "es": "Título vacío o demasiado largo.",
+  "zh": "标题为空或过长。",
+  "ar": "العنوان فارغ أو طويل جدًا."
+ },
+ "Titre invalide.": {
+  "en": "Invalid song.",
+  "es": "Canción no válida.",
+  "zh": "歌曲无效。",
+  "ar": "أغنية غير صالحة."
+ },
+ "Déplacement invalide.": {
+  "en": "Invalid move.",
+  "es": "Movimiento no válido.",
+  "zh": "移动操作无效。",
+  "ar": "نقل غير صالح."
+ },
+ "Adresse de flux invalide.": {
+  "en": "Invalid stream address.",
+  "es": "Dirección de stream no válida.",
+  "zh": "流地址无效。",
+  "ar": "عنوان بث غير صالح."
+ },
+ "Flux HLS illisible.": {
+  "en": "Unreadable HLS stream.",
+  "es": "Stream HLS ilegible.",
+  "zh": "无法读取的 HLS 流。",
+  "ar": "بث HLS غير قابل للقراءة."
+ },
+ "Clé AudD absente : ajoute-la dans ⚙ Paramètres.": {
+  "en": "No AudD key: add it in ⚙ Settings.",
+  "es": "Falta la clave de AudD: añádela en ⚙ Ajustes.",
+  "zh": "缺少 AudD 密钥：请在 ⚙ 设置中添加。",
+  "ar": "لا يوجد مفتاح AudD: أضفه في ⚙ الإعدادات."
+ },
+ "AudD : {0}": {
+  "en": "AudD: {0}",
+  "es": "AudD: {0}",
+  "zh": "AudD：{0}",
+  "ar": "AudD: {0}"
+ },
+ "Impossible d'enregistrer un extrait du flux.": {
+  "en": "Couldn't record a clip of the stream.",
+  "es": "No se pudo grabar un fragmento del stream.",
+  "zh": "无法录制流的片段。",
+  "ar": "تعذّر تسجيل مقطع من البث."
+ },
+ "YouTube non connecté : ouvre ⚙ Paramètres.": {
+  "en": "YouTube not connected: open ⚙ Settings.",
+  "es": "YouTube no está conectado: abre ⚙ Ajustes.",
+  "zh": "YouTube 未连接：请打开 ⚙ 设置。",
+  "ar": "YouTube غير متصل: افتح ⚙ الإعدادات."
+ },
+ "Autorisation YouTube expirée ou révoquée : reconnecte-toi dans ⚙ Paramètres.": {
+  "en": "YouTube authorisation expired or revoked: sign in again in ⚙ Settings.",
+  "es": "La autorización de YouTube expiró o fue revocada: vuelve a iniciar sesión en ⚙ Ajustes.",
+  "zh": "YouTube 授权已过期或被撤销：请在 ⚙ 设置中重新登录。",
+  "ar": "انتهت صلاحية تفويض YouTube أو تم إلغاؤه: سجّل الدخول مرة أخرى في ⚙ الإعدادات."
+ },
+ "YouTube a refusé ({0}) {1}": {
+  "en": "YouTube refused ({0}) {1}",
+  "es": "YouTube rechazó ({0}) {1}",
+  "zh": "YouTube 拒绝了（{0}）{1}",
+  "ar": "رفض YouTube ({0}) {1}"
+ },
+ "Playlist non autorisée.": {
+  "en": "Playlist not allowed.",
+  "es": "Playlist no permitida.",
+  "zh": "播放列表未获授权。",
+  "ar": "قائمة تشغيل غير مسموح بها."
+ },
+ "Vidéo invalide.": {
+  "en": "Invalid video.",
+  "es": "Video no válido.",
+  "zh": "视频无效。",
+  "ar": "فيديو غير صالح."
+ },
+ "Aucune playlist : choisis « ↻ Actualiser » dans le menu des playlists.": {
+  "en": "No playlist: choose \"↻ Refresh\" in the playlist menu.",
+  "es": "No hay playlist: elige \"↻ Actualizar\" en el menú de playlists.",
+  "zh": "没有播放列表：请在播放列表菜单中选择“↻ 刷新”。",
+  "ar": "لا توجد قائمة تشغيل: اختر \"↻ تحديث\" في قائمة قوائم التشغيل."
+ },
+ "Playlist non autorisée : choisis « ↻ Actualiser » dans le menu des playlists.": {
+  "en": "Playlist not allowed: choose \"↻ Refresh\" in the playlist menu.",
+  "es": "Playlist no permitida: elige \"↻ Actualizar\" en el menú de playlists.",
+  "zh": "播放列表未获授权：请在播放列表菜单中选择“↻ 刷新”。",
+  "ar": "قائمة تشغيل غير مسموح بها: اختر \"↻ تحديث\" في قائمة قوائم التشغيل."
+ },
+ "requête invalide": {
+  "en": "invalid request",
+  "es": "solicitud no válida",
+  "zh": "请求无效",
+  "ar": "طلب غير صالح"
+ },
+ "Erreur : {0}": {
+  "en": "Error: {0}",
+  "es": "Error: {0}",
+  "zh": "错误：{0}",
+  "ar": "خطأ: {0}"
+ }
+}

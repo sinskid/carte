@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carte</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%23f6f3ec' stroke='%23b5543c' stroke-width='2'/><path d='M7 13c4-3 7 1 10-1s5-4 8-1M6 19c3 2 6-1 9 1s6 3 11 0' fill='none' stroke='%23b5543c' stroke-width='2' stroke-linecap='round'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Texts: data-i18n (text), data-i18n-html (text with links), data-i18n-ph (placeholder),
+       data-i18n-title (tooltip), data-i18n-aria (aria-label); keys and translations in strings.js -->
+  <header class="brand">
+    <h1>Carte</h1>
+    <input id="search" list="country-list" data-i18n-ph="search.placeholder" autocomplete="off">
+    <datalist id="country-list"></datalist>
+    <button id="music-open" class="pill" data-i18n-title="music.open.title"><span aria-hidden="true">♫</span> <span class="label" data-i18n="music.label"></span></button>
+    <button id="setup-open" class="pill" data-i18n-title="settings.open.title"><span aria-hidden="true">⚙</span> <span class="label" data-i18n="settings.title"></span></button>
+  </header>
+
+  <aside id="music" hidden>
+    <button id="music-close" class="close-x" data-i18n-title="close">×</button>
+    <h2 class="music-h" data-i18n="music.title"></h2>
+    <div class="svc-switch svc-pick" hidden>
+      <button data-svc="youtube">YouTube</button>
+      <button data-svc="spotify">Spotify</button>
+    </div>
+    <nav class="tabs">
+      <button data-mtab="lists" class="active" data-i18n="tab.playlists"></button>
+      <button data-mtab="search" data-i18n="tab.search"></button>
+    </nav>
+
+    <section id="m-lists">
+      <div id="m-overview">
+        <form id="m-create" class="row">
+          <input id="m-new-title" data-i18n-ph="create.placeholder" maxlength="150" autocomplete="off">
+          <select id="m-new-privacy"><option value="private" data-i18n="privacy.private"></option><option value="unlisted" data-i18n="privacy.unlisted"></option><option value="public" data-i18n="privacy.public"></option></select>
+          <button class="primary" type="submit" data-i18n="create.button"></button>
+        </form>
+        <p id="m-status" class="muted"></p>
+        <ul id="m-playlists" class="m-list"></ul>
+      </div>
+      <div id="m-detail" hidden>
+        <button id="m-back" class="ghost" data-i18n="back"></button>
+        <h3 id="m-title"></h3>
+        <p id="m-meta" class="muted"></p>
+        <div class="row">
+          <button id="m-play" class="primary" data-i18n="playAll"></button>
+          <button id="m-edit" class="ghost" data-i18n="edit"></button>
+          <button id="m-delete" class="ghost danger" data-i18n="delete"></button>
+        </div>
+        <form id="m-edit-form" hidden>
+          <input id="m-edit-title" maxlength="150" autocomplete="off" data-i18n-aria="field.title">
+          <textarea id="m-edit-desc" rows="2" data-i18n-ph="field.description" data-i18n-aria="field.description"></textarea>
+          <div class="row">
+            <select id="m-edit-privacy"><option value="" hidden data-i18n="privacy.unchanged"></option><option value="private" data-i18n="privacy.private"></option><option value="unlisted" data-i18n="privacy.unlisted"></option><option value="public" data-i18n="privacy.public"></option></select>
+            <button class="primary" type="submit" data-i18n="save"></button>
+            <button id="m-edit-cancel" class="ghost" type="button" data-i18n="cancel"></button>
+          </div>
+        </form>
+        <p id="m-detail-status" class="muted"></p>
+        <ul id="m-items" class="m-list"></ul>
+      </div>
+    </section>
+
+    <section id="m-search" hidden>
+      <form id="m-search-form" class="row">
+        <input id="m-q" type="search" data-i18n-ph="song.search.placeholder" autocomplete="off">
+        <button class="primary" type="submit" data-i18n="searchBtn"></button>
+      </form>
+      <p id="m-search-status" class="muted"></p>
+      <ul id="m-results" class="m-list"></ul>
+    </section>
+  </aside>
+
+  <aside id="favbar" hidden>
+    <button id="favbar-toggle" class="favbar-head" aria-expanded="true">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path id="favbar-heart"/></svg>
+      <span data-i18n="fav.title"></span><span id="favbar-count" class="muted"></span><span class="chevron" aria-hidden="true">⌃</span>
+    </button>
+    <div class="favbar-body">
+      <section id="favbar-radio"><h3 data-i18n="radio"></h3><ul></ul></section>
+      <section id="favbar-tv"><h3 data-i18n="tv"></h3><ul></ul></section>
+    </div>
+  </aside>
+
+  <div id="toast" hidden></div>
+
+  <!-- One dialog, two modes: the first-run assistant (#wiz) and ⚙ Paramètres (#settings). The
+       connection cards (#cards) are moved into whichever is shown (app.js placeCards). -->
+  <div id="setup" hidden role="dialog" aria-modal="true" aria-labelledby="setup-title">
+    <div class="setup-box">
+      <button id="setup-close" class="close-x" data-i18n-title="close">×</button>
+      <p id="setup-msg" hidden></p>
+
+      <div id="wiz" hidden>
+        <ol class="wiz-dots" aria-hidden="true"></ol>
+        <section class="wiz-page" data-page="lang">
+          <h2 class="music-h" data-i18n="wiz.welcome"></h2>
+          <p class="muted" data-i18n="wiz.chooseLang"></p>
+          <div class="lang-choices"></div>
+        </section>
+        <section class="wiz-page" data-page="intro" hidden>
+          <h2 class="music-h" data-i18n="wiz.introTitle"></h2>
+          <ul class="wiz-list">
+            <li><span class="wiz-ico">🗺️</span><span data-i18n="wiz.introMap"></span></li>
+            <li><span class="wiz-ico">📻</span><span data-i18n="wiz.introRadio"></span></li>
+            <li><span class="wiz-ico">📺</span><span data-i18n="wiz.introTv"></span></li>
+            <li><span class="wiz-ico">♥</span><span data-i18n="wiz.introFav"></span></li>
+          </ul>
+          <p class="wiz-note" data-i18n="wiz.introFree"></p>
+        </section>
+        <section class="wiz-page" data-page="wants" hidden>
+          <h2 class="music-h" data-i18n="wiz.musicTitle"></h2>
+          <p class="muted" data-i18n="wiz.musicIntro"></p>
+          <div class="wiz-options">
+            <label class="wiz-option"><input type="checkbox" value="audd"><span class="wiz-ico">🎤</span>
+              <span><b data-i18n="audd.name"></b><span class="muted" data-i18n="wiz.optAudd"></span></span></label>
+            <label class="wiz-option"><input type="checkbox" value="youtube"><span class="wiz-ico yt">▶</span>
+              <span><b>YouTube</b><span class="muted" data-i18n="wiz.optYoutube"></span></span></label>
+            <label class="wiz-option"><input type="checkbox" value="spotify"><span class="wiz-ico sp">●</span>
+              <span><b>Spotify</b><span class="muted" data-i18n="wiz.optSpotify"></span></span></label>
+          </div>
+          <p class="wiz-note server-only" data-i18n="wiz.musicLater"></p>
+          <p class="wiz-note static-only" data-i18n="wiz.needsComputer"></p>
+        </section>
+        <section class="wiz-page" data-page="connect" hidden>
+          <h2 class="music-h" data-i18n="wiz.connectTitle"></h2>
+          <p class="muted" data-i18n="wiz.connectIntro"></p>
+          <div class="cards-slot"></div>
+        </section>
+        <section class="wiz-page" data-page="done" hidden>
+          <h2 class="music-h" data-i18n="wiz.doneTitle"></h2>
+          <ul class="wiz-list">
+            <li><span class="wiz-ico">🗺️</span><span data-i18n="wiz.tipCountry"></span></li>
+            <li class="server-only"><span class="wiz-ico">♫</span><span data-i18n="wiz.tipRecognize"></span></li>
+            <li><span class="wiz-ico">⚙</span><span data-i18n="wiz.tipSettings"></span></li>
+          </ul>
+        </section>
+        <div class="wiz-nav">
+          <button id="wiz-back" class="ghost" data-i18n="wiz.back"></button>
+          <button id="wiz-skip" class="ghost" data-i18n="wiz.later"></button>
+          <button id="wiz-next" class="primary"></button>
+        </div>
+      </div>
+
+      <div id="settings" hidden>
+        <h2 id="setup-title" class="music-h" data-i18n="settings.title"></h2>
+        <div class="set-row"><span data-i18n="settings.lang"></span><select id="lang" data-i18n-aria="settings.lang"></select></div>
+        <div class="set-row"><span data-i18n="settings.theme"></span>
+          <div class="svc-switch"><button data-theme-set="auto" data-i18n="theme.auto"></button><button data-theme-set="light" data-i18n="theme.light"></button><button data-theme-set="dark" data-i18n="theme.dark"></button></div></div>
+        <div class="set-row svc-pick"><span data-i18n="settings.service"></span>
+          <div class="svc-switch"><button data-svc="youtube">YouTube</button><button data-svc="spotify">Spotify</button></div></div>
+        <h3 class="set-h" data-i18n="settings.connections"></h3>
+        <p class="muted setup-intro server-only" data-i18n="setup.intro"></p>
+        <p class="wiz-note static-only" data-i18n="wiz.needsComputer"></p>
+        <div class="cards-slot server-only"></div>
+        <p class="muted small server-only" data-i18n-html="setup.revoke"></p>
+        <button id="wiz-restart" class="ghost" data-i18n="settings.restart"></button>
+      </div>
+
+      <div id="cards">
+      <details class="setup-card" data-service="audd">
+        <summary><span class="svc-name" data-i18n="audd.name"></span><span class="chip" data-chip="audd"></span></summary>
+        <p class="muted" data-i18n-html="audd.desc"></p>
+        <ol class="steps">
+          <li data-i18n-html="audd.step1"></li>
+          <li><form class="row setup-form" data-action="audd"><input type="password" name="key" data-i18n-ph="audd.placeholder" autocomplete="off"><button class="primary" data-i18n="save"></button></form></li>
+        </ol>
+        <button class="ghost danger disconnect" data-service="audd" data-i18n="audd.remove"></button>
+      </details>
+
+      <details class="setup-card" data-service="youtube">
+        <summary><span class="svc-name">YouTube</span><span class="chip" data-chip="youtube"></span></summary>
+        <p class="muted" data-i18n="yt.desc"></p>
+        <ol class="steps">
+          <li data-i18n-html="yt.step1"></li>
+          <li data-i18n-html="yt.step2"></li>
+          <li data-i18n-html="yt.step3"></li>
+          <li data-i18n-html="yt.step4"></li>
+          <li data-i18n-html="yt.step5"></li>
+          <li><span data-i18n="yt.step6"></span> <label class="file-pick"><input type="file" accept=".json,application/json" data-action="google-client"><span data-i18n="yt.chooseJson"></span></label> <span class="muted" data-ok="youtubeClient"></span></li>
+          <li><button class="primary connect" data-service="youtube" data-i18n="yt.connect"></button>
+            <span class="muted" data-i18n-html="yt.unverified"></span></li>
+        </ol>
+        <p class="muted small" data-i18n-html="yt.note"></p>
+        <button class="ghost danger disconnect" data-service="youtube" data-i18n="yt.disconnect"></button>
+      </details>
+
+      <details class="setup-card" data-service="spotify">
+        <summary><span class="svc-name">Spotify</span><span class="chip" data-chip="spotify"></span></summary>
+        <p class="muted" data-i18n="sp.desc"></p>
+        <ol class="steps">
+          <li data-i18n-html="sp.step1"></li>
+          <li><span data-i18n-html="sp.step2a"></span>
+            <button class="copy" id="spotify-redirect" data-i18n-title="copy"></button> <span data-i18n-html="sp.step2b"></span></li>
+          <li data-i18n-html="sp.step3"></li>
+          <li><span data-i18n-html="sp.step4"></span>
+            <form class="row setup-form" data-action="spotify-client"><input name="clientId" data-i18n-ph="sp.placeholder" autocomplete="off" spellcheck="false"><button class="primary" data-i18n="save"></button></form>
+            <span class="muted" data-ok="spotifyClient"></span></li>
+          <li><button class="primary connect" data-service="spotify" data-i18n="sp.connect"></button></li>
+        </ol>
+        <p class="muted small" data-i18n="sp.note"></p>
+        <button class="ghost danger disconnect" data-service="spotify" data-i18n="sp.disconnect"></button>
+      </details>
+      </div>
+    </div>
+  </div>
+
+  <div id="pl-picker" hidden>
+    <input id="pl-filter" type="search" data-i18n-ph="picker.placeholder" autocomplete="off" data-i18n-aria="picker.aria">
+    <ul id="pl-options"></ul>
+  </div>
+
+  <canvas id="map" role="img" data-i18n-aria="map.aria"></canvas>
+  <div id="tooltip" hidden></div>
+  <div class="zoom-controls">
+    <button id="zoom-in" data-i18n-title="zoom.in">+</button>
+    <button id="zoom-out" data-i18n-title="zoom.out">−</button>
+    <button id="zoom-reset" data-i18n-title="zoom.reset">⤢</button>
+  </div>
+
+  <aside id="panel" aria-hidden="true">
+    <button id="close" data-i18n-title="close.esc">×</button>
+    <p id="continent" class="eyebrow"></p>
+    <h2 id="name"></h2>
+    <p id="name-en" class="muted"></p>
+    <div id="facts" class="facts"></div>
+    <button id="visited" class="ghost visited-btn"></button>
+    <nav class="tabs">
+      <button data-tab="radio" class="active" data-i18n="radio"></button>
+      <button data-tab="tv" data-i18n="tv"></button>
+    </nav>
+
+    <section id="tab-radio" class="tab">
+      <input id="radio-filter" type="search" data-i18n-ph="radio.filter" autocomplete="off">
+      <p id="radio-status" class="muted"></p>
+      <ul id="radio-list"></ul>
+    </section>
+
+    <section id="tab-tv" class="tab" hidden>
+      <input id="tv-filter" type="search" data-i18n-ph="tv.filter" autocomplete="off">
+      <p id="tv-status" class="muted"></p>
+      <ul id="tv-list"></ul>
+      <p class="credit muted" data-i18n-html="tv.credit"></p>
+    </section>
+  </aside>
+
+  <div id="player" hidden>
+    <button id="player-toggle">❚❚</button>
+    <div class="player-text">
+      <div id="player-name"></div>
+      <div id="player-state" class="muted"></div>
+    </div>
+    <button id="player-identify" data-i18n-title="player.identify">♫</button>
+    <button id="player-stop" data-i18n-title="player.stop">×</button>
+  </div>
+  <div id="song-card" hidden>
+    <div class="song-head">
+      <span class="song-kicker" data-i18n="song.kicker"></span>
+      <span id="song-source" class="chip" hidden></span>
+      <button id="song-close" data-i18n-title="close">×</button>
+    </div>
+    <div class="svc-switch svc-pick song-svc" hidden><button data-svc="youtube">YouTube</button><button data-svc="spotify">Spotify</button></div>
+    <p id="song-title" hidden></p>
+    <button id="song-listen" class="ghost" hidden data-i18n="song.listen" data-i18n-title="song.listen.title"></button>
+    <form id="song-search" class="row" hidden>
+      <input id="song-query" type="search" autocomplete="off" data-i18n-ph="song.query.placeholder" data-i18n-aria="song.query.placeholder">
+      <button class="ghost" type="submit" data-i18n="searchBtn"></button>
+    </form>
+    <p id="song-status" class="muted"></p>
+    <ul id="song-results"></ul>
+    <label id="song-playlist-row" class="row">
+      <span class="muted" data-i18n="song.addInto"></span>
+      <select id="song-playlist"></select>
+    </label>
+  </div>
+  <audio id="audio" preload="none"></audio>
+
+  <div id="tv-window" hidden>
+    <div class="tv-bar">
+      <div class="player-text">
+        <div id="tv-name"></div>
+        <div id="tv-state" class="muted"></div>
+      </div>
+      <button id="tv-add" hidden data-i18n-title="tv.addSong">+</button>
+      <span id="tv-queue" hidden>
+        <button id="q-shuffle">🔀</button>
+        <button id="q-prev" data-i18n-title="prev">⏮</button>
+        <button id="q-next" data-i18n-title="next">⏭</button>
+      </span>
+      <button id="tv-close" data-i18n-title="close">×</button>
+    </div>
+    <div class="tv-screen">
+      <video id="video" controls playsinline></video>
+      <div id="tv-yt" hidden></div>
+      <div id="tv-sp" hidden>
+        <img id="sp-cover" alt="">
+        <button id="sp-toggle" data-i18n-title="sp.toggle">⏸</button>
+        <div id="sp-progress"><span id="sp-time">0:00</span><input id="sp-seek" type="range" min="0" max="1000" value="0" data-i18n-aria="sp.seek"><span id="sp-dur">0:00</span></div>
+      </div>
+      <iframe id="tv-youtube" hidden allow="autoplay; encrypted-media; picture-in-picture; fullscreen"></iframe>
+    </div>
+  </div>
+
+  <script src="vendor/d3.min.js"></script>
+  <script src="vendor/hls.light.min.js"></script>
+  <script src="strings.js"></script>
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

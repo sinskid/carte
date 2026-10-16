@@ -1,0 +1,6562 @@
+{
+ "ABW": {
+  "capitale": "Oranjestad",
+  "i18n": {
+   "ar": {
+    "capitale": "أورنجستاد",
+    "langues": "الهولندية، بابيامنتو",
+    "monnaie": "فلورن أروبي (ƒ)"
+   },
+   "en": {
+    "capitale": "Oranjestad",
+    "langues": "Dutch, Papiamento",
+    "monnaie": "Aruban florin (ƒ)"
+   },
+   "es": {
+    "capitale": "Oranjestad",
+    "langues": "neerlandés, papiamento",
+    "monnaie": "florín arubeño (ƒ)"
+   },
+   "zh": {
+    "capitale": "奥腊涅斯塔德",
+    "langues": "荷兰语、帕皮阿门托语",
+    "monnaie": "阿鲁巴弗罗林 (ƒ)"
+   }
+  },
+  "iso2": "AW",
+  "langues": "néerlandais, papiamento",
+  "monnaie": "florin arubais (ƒ)"
+ },
+ "AFG": {
+  "capitale": "Kaboul",
+  "i18n": {
+   "ar": {
+    "capitale": "كابل",
+    "langues": "الدرية، البشتوية، التركمانية",
+    "monnaie": "أفغاني (؋)"
+   },
+   "en": {
+    "capitale": "Kabul",
+    "langues": "Dari, Pashto, Turkmen",
+    "monnaie": "afghani (؋)"
+   },
+   "es": {
+    "capitale": "Kabul",
+    "langues": "dari, pastún, turcomano",
+    "monnaie": "afgani afgano (؋)"
+   },
+   "zh": {
+    "capitale": "喀布尔",
+    "langues": "达里语、普什图语、土库曼语",
+    "monnaie": "阿富汗尼 (؋)"
+   }
+  },
+  "iso2": "AF",
+  "langues": "dari, pachto, turkmène",
+  "monnaie": "afghani (؋)"
+ },
+ "AGO": {
+  "capitale": "Luanda",
+  "i18n": {
+   "ar": {
+    "capitale": "لواندا",
+    "langues": "البرتغالية",
+    "monnaie": "كوانزا أنغولي (Kz)"
+   },
+   "en": {
+    "capitale": "Luanda",
+    "langues": "Portuguese",
+    "monnaie": "kwanza (Kz)"
+   },
+   "es": {
+    "capitale": "Luanda",
+    "langues": "portugués",
+    "monnaie": "kwanza angoleño (Kz)"
+   },
+   "zh": {
+    "capitale": "罗安达",
+    "langues": "葡萄牙语",
+    "monnaie": "安哥拉宽扎 (Kz)"
+   }
+  },
+  "iso2": "AO",
+  "langues": "portugais",
+  "monnaie": "kwanza (Kz)"
+ },
+ "AIA": {
+  "capitale": "The Valley",
+  "i18n": {
+   "ar": {
+    "capitale": "ذا فالي",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار شرق الكاريبي ($)"
+   },
+   "en": {
+    "capitale": "The Valley",
+    "langues": "English",
+    "monnaie": "Eastern Caribbean dollar ($)"
+   },
+   "es": {
+    "capitale": "El Valle",
+    "langues": "inglés",
+    "monnaie": "dólar del Caribe Oriental ($)"
+   },
+   "zh": {
+    "capitale": "瓦利",
+    "langues": "英语",
+    "monnaie": "东加勒比元 ($)"
+   }
+  },
+  "iso2": "AI",
+  "langues": "anglais",
+  "monnaie": "dollar des Caraïbes orientales ($)"
+ },
+ "ALB": {
+  "capitale": "Tirana",
+  "i18n": {
+   "ar": {
+    "capitale": "تيرانا",
+    "langues": "الألبانية",
+    "monnaie": "ليك ألباني (L)"
+   },
+   "en": {
+    "capitale": "Tirana",
+    "langues": "Albanian",
+    "monnaie": "Albanian lek (L)"
+   },
+   "es": {
+    "capitale": "Tirana",
+    "langues": "albanés",
+    "monnaie": "lek albanés (L)"
+   },
+   "zh": {
+    "capitale": "地拉那",
+    "langues": "阿尔巴尼亚语",
+    "monnaie": "阿尔巴尼亚列克 (L)"
+   }
+  },
+  "iso2": "AL",
+  "langues": "albanais",
+  "monnaie": "lek (L)"
+ },
+ "ALD": {
+  "capitale": "Mariehamn",
+  "iso2": "AX",
+  "langues": "suédois",
+  "monnaie": "euro (€)"
+ },
+ "AND": {
+  "capitale": "Andorre-la-Vieille",
+  "i18n": {
+   "ar": {
+    "capitale": "أندورا لا فيلا",
+    "langues": "الكتالونية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Andorra la Vella",
+    "langues": "Catalan",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Andorra la Vieja",
+    "langues": "catalán",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "安道尔城",
+    "langues": "加泰罗尼亚语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "AD",
+  "langues": "catalan",
+  "monnaie": "euro (€)"
+ },
+ "ARE": {
+  "capitale": "Abou Dabi",
+  "i18n": {
+   "ar": {
+    "capitale": "أبو ظبي",
+    "langues": "العربية",
+    "monnaie": "درهم إماراتي (د.إ)"
+   },
+   "en": {
+    "capitale": "Abu Dhabi",
+    "langues": "Arabic",
+    "monnaie": "United Arab Emirates dirham (د.إ)"
+   },
+   "es": {
+    "capitale": "Abu Dhabi",
+    "langues": "árabe",
+    "monnaie": "dírham de los Emiratos Árabes Unidos (د.إ)"
+   },
+   "zh": {
+    "capitale": "阿布扎比",
+    "langues": "阿拉伯语",
+    "monnaie": "阿联酋迪拉姆 (د.إ)"
+   }
+  },
+  "iso2": "AE",
+  "langues": "arabe",
+  "monnaie": "dirham des Émirats arabes unis (د.إ)"
+ },
+ "ARG": {
+  "capitale": "Buenos Aires",
+  "i18n": {
+   "ar": {
+    "capitale": "بوينس آيرس",
+    "langues": "اللغة الغوارانية، الإسبانية",
+    "monnaie": "بيزو أرجنتيني ($)"
+   },
+   "en": {
+    "capitale": "Buenos Aires",
+    "langues": "Guarani, Spanish",
+    "monnaie": "Argentine convertible peso ($)"
+   },
+   "es": {
+    "capitale": "Buenos Aires",
+    "langues": "guaraní, español",
+    "monnaie": "peso argentino convertible ($)"
+   },
+   "zh": {
+    "capitale": "布宜诺斯艾利斯",
+    "langues": "瓜纳尼语、西班牙语",
+    "monnaie": "阿根廷比索 ($)"
+   }
+  },
+  "iso2": "AR",
+  "langues": "guarani, espagnol",
+  "monnaie": "peso argentin ($)"
+ },
+ "ARM": {
+  "capitale": "Erevan",
+  "i18n": {
+   "ar": {
+    "capitale": "يريفان",
+    "langues": "الأرمنية",
+    "monnaie": "درام أرميني (֏)"
+   },
+   "en": {
+    "capitale": "Yerevan",
+    "langues": "Armenian",
+    "monnaie": "Armenian dram (֏)"
+   },
+   "es": {
+    "capitale": "Ereván",
+    "langues": "armenio",
+    "monnaie": "dram armenio (֏)"
+   },
+   "zh": {
+    "capitale": "埃里温",
+    "langues": "亚美尼亚语",
+    "monnaie": "亚美尼亚德拉姆 (֏)"
+   }
+  },
+  "iso2": "AM",
+  "langues": "arménien",
+  "monnaie": "dram arménien (֏)"
+ },
+ "ASM": {
+  "capitale": "Pago Pago",
+  "i18n": {
+   "ar": {
+    "capitale": "باغو باغو",
+    "langues": "الإنجليزية، الساموية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Pago Pago",
+    "langues": "English, Samoan",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Pago Pago",
+    "langues": "inglés, samoano",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "帕果帕果",
+    "langues": "英语、萨摩亚语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "AS",
+  "langues": "anglais, samoan",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "ATA": {
+  "i18n": {},
+  "iso2": "AQ"
+ },
+ "ATF": {
+  "capitale": "Port-aux-Français",
+  "i18n": {
+   "ar": {
+    "capitale": "بورت أو فرانسيه",
+    "langues": "الفرنسية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Port-aux-Français",
+    "langues": "French",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Port-aux-Français",
+    "langues": "francés",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "法兰西港",
+    "langues": "法语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "TF",
+  "langues": "français",
+  "monnaie": "euro (€)"
+ },
+ "ATG": {
+  "capitale": "Saint John's",
+  "i18n": {
+   "ar": {
+    "capitale": "سانت جونز",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار شرق الكاريبي ($)"
+   },
+   "en": {
+    "capitale": "Saint John's",
+    "langues": "English",
+    "monnaie": "Eastern Caribbean dollar ($)"
+   },
+   "es": {
+    "capitale": "Saint John",
+    "langues": "inglés",
+    "monnaie": "dólar del Caribe Oriental ($)"
+   },
+   "zh": {
+    "capitale": "圣约翰",
+    "langues": "英语",
+    "monnaie": "东加勒比元 ($)"
+   }
+  },
+  "iso2": "AG",
+  "langues": "anglais",
+  "monnaie": "dollar des Caraïbes orientales ($)"
+ },
+ "AUS": {
+  "capitale": "Canberra",
+  "i18n": {
+   "ar": {
+    "capitale": "كانبرا",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار أسترالي ($)"
+   },
+   "en": {
+    "capitale": "Canberra",
+    "langues": "English",
+    "monnaie": "Australian dollar ($)"
+   },
+   "es": {
+    "capitale": "Canberra",
+    "langues": "inglés",
+    "monnaie": "dólar australiano ($)"
+   },
+   "zh": {
+    "capitale": "堪培拉",
+    "langues": "英语",
+    "monnaie": "澳大利亚元 ($)"
+   }
+  },
+  "iso2": "AU",
+  "langues": "anglais",
+  "monnaie": "dollar australien ($)"
+ },
+ "AUT": {
+  "capitale": "Vienne",
+  "i18n": {
+   "ar": {
+    "capitale": "فيينا",
+    "langues": "البوارية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Vienna",
+    "langues": "Bavarian",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Viena",
+    "langues": "bávaro",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "维也纳",
+    "langues": "奥地利-巴伐利亚德语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "AT",
+  "langues": "bavarois",
+  "monnaie": "euro (€)"
+ },
+ "AZE": {
+  "capitale": "Bakou",
+  "i18n": {
+   "ar": {
+    "capitale": "باكو",
+    "langues": "الأذرية، الروسية",
+    "monnaie": "مانات أذربيجاني (₼)"
+   },
+   "en": {
+    "capitale": "Baku",
+    "langues": "Azerbaijani, Russian",
+    "monnaie": "Azerbaijani manat (₼)"
+   },
+   "es": {
+    "capitale": "Bakú",
+    "langues": "azerí, ruso",
+    "monnaie": "manat azerbaiyano (₼)"
+   },
+   "zh": {
+    "capitale": "巴库",
+    "langues": "阿塞拜疆语、俄语",
+    "monnaie": "阿塞拜疆马纳特 (₼)"
+   }
+  },
+  "iso2": "AZ",
+  "langues": "azéri, russe",
+  "monnaie": "manat azerbaïdjanais (₼)"
+ },
+ "BDI": {
+  "capitale": "Gitega",
+  "i18n": {
+   "ar": {
+    "capitale": "غيتيغا",
+    "langues": "الفرنسية، الكيروندية",
+    "monnaie": "فرنك بوروندي (Fr)"
+   },
+   "en": {
+    "capitale": "Gitega",
+    "langues": "French, Kirundi",
+    "monnaie": "Burundian franc (Fr)"
+   },
+   "es": {
+    "capitale": "Guitega",
+    "langues": "francés, kirundi",
+    "monnaie": "franco burundés (Fr)"
+   },
+   "zh": {
+    "capitale": "基特加",
+    "langues": "法语、基隆迪语",
+    "monnaie": "布隆迪法郎 (Fr)"
+   }
+  },
+  "iso2": "BI",
+  "langues": "français, kirundi",
+  "monnaie": "franc burundais (Fr)"
+ },
+ "BEL": {
+  "capitale": "Bruxelles",
+  "i18n": {
+   "ar": {
+    "capitale": "مدينة بروكسل",
+    "langues": "الألمانية، الفرنسية، الهولندية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Brussels",
+    "langues": "German, French, Dutch",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Bruselas",
+    "langues": "alemán, francés, neerlandés",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "布鲁塞尔",
+    "langues": "德语、法语、荷兰语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "BE",
+  "langues": "allemand, français, néerlandais",
+  "monnaie": "euro (€)"
+ },
+ "BEN": {
+  "capitale": "Porto-Novo",
+  "i18n": {
+   "ar": {
+    "capitale": "بورتو نوفو",
+    "langues": "الفرنسية",
+    "monnaie": "فرنك غرب إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Porto-Novo",
+    "langues": "French",
+    "monnaie": "West African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Porto Novo",
+    "langues": "francés",
+    "monnaie": "franco CFA de África Occidental (Fr)"
+   },
+   "zh": {
+    "capitale": "波多诺伏",
+    "langues": "法语",
+    "monnaie": "西非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "BJ",
+  "langues": "français",
+  "monnaie": "franc CFA (Fr)"
+ },
+ "BFA": {
+  "capitale": "Ouagadougou",
+  "i18n": {
+   "ar": {
+    "capitale": "واغادوغو",
+    "langues": "الفرنسية",
+    "monnaie": "فرنك غرب إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Ouagadougou",
+    "langues": "French",
+    "monnaie": "West African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Uagadugú",
+    "langues": "francés",
+    "monnaie": "franco CFA de África Occidental (Fr)"
+   },
+   "zh": {
+    "capitale": "瓦加杜古",
+    "langues": "法语",
+    "monnaie": "西非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "BF",
+  "langues": "français",
+  "monnaie": "franc CFA (Fr)"
+ },
+ "BGD": {
+  "capitale": "Dacca",
+  "i18n": {
+   "ar": {
+    "capitale": "دكا",
+    "langues": "البنغالية",
+    "monnaie": "تاكا بنغلاديشي (৳)"
+   },
+   "en": {
+    "capitale": "Dhaka",
+    "langues": "Bangla",
+    "monnaie": "Bangladeshi taka (৳)"
+   },
+   "es": {
+    "capitale": "Daca",
+    "langues": "bengalí",
+    "monnaie": "taka bangladesí (৳)"
+   },
+   "zh": {
+    "capitale": "达卡市",
+    "langues": "孟加拉语",
+    "monnaie": "孟加拉塔卡 (৳)"
+   }
+  },
+  "iso2": "BD",
+  "langues": "bengali",
+  "monnaie": "taka (৳)"
+ },
+ "BGR": {
+  "capitale": "Sofia",
+  "i18n": {
+   "ar": {
+    "capitale": "صوفيا",
+    "langues": "البلغارية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Sofia",
+    "langues": "Bulgarian",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Sofía",
+    "langues": "búlgaro",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "索非亚",
+    "langues": "保加利亚语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "BG",
+  "langues": "bulgare",
+  "monnaie": "euro (€)"
+ },
+ "BHR": {
+  "capitale": "Manama",
+  "i18n": {
+   "ar": {
+    "capitale": "المنامة",
+    "langues": "العربية",
+    "monnaie": "دينار بحريني (.د.ب)"
+   },
+   "en": {
+    "capitale": "Manama",
+    "langues": "Arabic",
+    "monnaie": "Bahraini dinar (.د.ب)"
+   },
+   "es": {
+    "capitale": "Manama",
+    "langues": "árabe",
+    "monnaie": "dinar bareiní (.د.ب)"
+   },
+   "zh": {
+    "capitale": "麦纳麦",
+    "langues": "阿拉伯语",
+    "monnaie": "巴林第纳尔 (.د.ب)"
+   }
+  },
+  "iso2": "BH",
+  "langues": "arabe",
+  "monnaie": "dinar bahreïnien (.د.ب)"
+ },
+ "BHS": {
+  "capitale": "Nassau",
+  "i18n": {
+   "ar": {
+    "capitale": "ناساو",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار بهامي ($)، دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Nassau",
+    "langues": "English",
+    "monnaie": "Bahamian dollar ($), United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Nasáu",
+    "langues": "inglés",
+    "monnaie": "dólar bahameño ($), dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "拿骚",
+    "langues": "英语",
+    "monnaie": "巴哈马元 ($)、美元 ($)"
+   }
+  },
+  "iso2": "BS",
+  "langues": "anglais",
+  "monnaie": "dollar bahaméen ($), dollar des États-Unis ($)"
+ },
+ "BIH": {
+  "capitale": "Sarajevo",
+  "i18n": {
+   "ar": {
+    "capitale": "سراييفو",
+    "langues": "البوسنية، الكرواتية، الصربية",
+    "monnaie": "مارك بوسني (KM)"
+   },
+   "en": {
+    "capitale": "Sarajevo",
+    "langues": "Bosnian, Croatian, Serbian",
+    "monnaie": "convertible mark (KM)"
+   },
+   "es": {
+    "capitale": "Sarajevo",
+    "langues": "bosnio, croata, serbio",
+    "monnaie": "marco bosnioherzegovino (KM)"
+   },
+   "zh": {
+    "capitale": "萨拉热窝",
+    "langues": "波斯尼亚语、克罗地亚语、塞尔维亚语",
+    "monnaie": "波斯尼亚和黑塞哥维那可兑换马克 (KM)"
+   }
+  },
+  "iso2": "BA",
+  "langues": "bosnien, croate, serbe",
+  "monnaie": "mark convertible de Bosnie-Herzégovine (KM)"
+ },
+ "BLM": {
+  "capitale": "Gustavia",
+  "i18n": {
+   "ar": {
+    "capitale": "غوستافيا، سانت بارتيليمي",
+    "langues": "الفرنسية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Gustavia",
+    "langues": "French",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Gustavia",
+    "langues": "francés",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "古斯塔维亚",
+    "langues": "法语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "BL",
+  "langues": "français",
+  "monnaie": "euro (€)"
+ },
+ "BLR": {
+  "capitale": "Minsk",
+  "i18n": {
+   "ar": {
+    "capitale": "مينسك",
+    "langues": "البيلاروسية، الروسية",
+    "monnaie": "روبل بيلاروسي (Br)"
+   },
+   "en": {
+    "capitale": "Minsk",
+    "langues": "Belarusian, Russian",
+    "monnaie": "Belarusian ruble (Br)"
+   },
+   "es": {
+    "capitale": "Minsk",
+    "langues": "bielorruso, ruso",
+    "monnaie": "rublo bierlorruso (Br)"
+   },
+   "zh": {
+    "capitale": "明斯克",
+    "langues": "白俄罗斯语、俄语",
+    "monnaie": "白俄羅斯盧布 (Br)"
+   }
+  },
+  "iso2": "BY",
+  "langues": "biélorusse, russe",
+  "monnaie": "rouble biélorusse (Br)"
+ },
+ "BLZ": {
+  "capitale": "Belmopan",
+  "i18n": {
+   "ar": {
+    "capitale": "بلموبان",
+    "langues": "Belizean Creole، الإنجليزية، الإسبانية",
+    "monnaie": "دولار بليزي ($)"
+   },
+   "en": {
+    "capitale": "Belmopan",
+    "langues": "Baruga, English, Spanish",
+    "monnaie": "Belize dollar ($)"
+   },
+   "es": {
+    "capitale": "Belmopán",
+    "langues": "belizean Creole, inglés, español",
+    "monnaie": "dólar beliceño ($)"
+   },
+   "zh": {
+    "capitale": "贝尔墨邦",
+    "langues": "Belizean Creole、英语、西班牙语",
+    "monnaie": "伯利兹元 ($)"
+   }
+  },
+  "iso2": "BZ",
+  "langues": "baruga, anglais, espagnol",
+  "monnaie": "dollar bélizien ($)"
+ },
+ "BMU": {
+  "capitale": "Hamilton",
+  "i18n": {
+   "ar": {
+    "capitale": "هاميلتون، جزر برمودا",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار برمودي ($)"
+   },
+   "en": {
+    "capitale": "Hamilton",
+    "langues": "English",
+    "monnaie": "Bermudian dollar ($)"
+   },
+   "es": {
+    "capitale": "Hamilton",
+    "langues": "inglés",
+    "monnaie": "dólar bermudeño ($)"
+   },
+   "zh": {
+    "capitale": "哈密尔顿",
+    "langues": "英语",
+    "monnaie": "百慕大元 ($)"
+   }
+  },
+  "iso2": "BM",
+  "langues": "anglais",
+  "monnaie": "dollar bermudien ($)"
+ },
+ "BOL": {
+  "capitale": "La Paz, Sucre",
+  "i18n": {
+   "ar": {
+    "capitale": "لاباز، سوكري",
+    "langues": "الأيمرية، اللغة الغوارانية، كتشوا، الإسبانية",
+    "monnaie": "بوليفيانو بوليفي (Bs.)"
+   },
+   "en": {
+    "capitale": "La Paz, Sucre",
+    "langues": "Aymara, Guarani, Quechua, Spanish",
+    "monnaie": "boliviano (Bs.)"
+   },
+   "es": {
+    "capitale": "La Paz, Sucre",
+    "langues": "aymara, guaraní, lenguas quechuas, español",
+    "monnaie": "boliviano (Bs.)"
+   },
+   "zh": {
+    "capitale": "拉巴斯",
+    "langues": "艾马拉语、瓜纳尼语、克丘亚语、西班牙语",
+    "monnaie": "玻利维亚玻利维亚诺 (Bs.)"
+   }
+  },
+  "iso2": "BO",
+  "langues": "aymara, guarani, quechua, espagnol",
+  "monnaie": "boliviano (Bs.)"
+ },
+ "BRA": {
+  "capitale": "Brasilia",
+  "i18n": {
+   "ar": {
+    "capitale": "برازيليا",
+    "langues": "البرتغالية",
+    "monnaie": "ريال برازيلي (R$)"
+   },
+   "en": {
+    "capitale": "Brasília",
+    "langues": "Portuguese",
+    "monnaie": "Brazilian real (R$)"
+   },
+   "es": {
+    "capitale": "Brasilia",
+    "langues": "portugués",
+    "monnaie": "real brasileño (R$)"
+   },
+   "zh": {
+    "capitale": "巴西利亚",
+    "langues": "葡萄牙语",
+    "monnaie": "巴西雷亚尔 (R$)"
+   }
+  },
+  "iso2": "BR",
+  "langues": "portugais",
+  "monnaie": "réal brésilien (R$)"
+ },
+ "BRB": {
+  "capitale": "Bridgetown",
+  "i18n": {
+   "ar": {
+    "capitale": "بريدج تاون",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار بربادوسي ($)"
+   },
+   "en": {
+    "capitale": "Bridgetown",
+    "langues": "English",
+    "monnaie": "Barbadian dollar ($)"
+   },
+   "es": {
+    "capitale": "Bridgetown",
+    "langues": "inglés",
+    "monnaie": "dólar de Barbados ($)"
+   },
+   "zh": {
+    "capitale": "布里奇顿",
+    "langues": "英语",
+    "monnaie": "巴巴多斯元 ($)"
+   }
+  },
+  "iso2": "BB",
+  "langues": "anglais",
+  "monnaie": "dollar barbadien ($)"
+ },
+ "BRN": {
+  "capitale": "Bandar Seri Begawan",
+  "i18n": {
+   "ar": {
+    "capitale": "بندر سري بكاوان",
+    "langues": "الملايوية",
+    "monnaie": "دولار بروني ($)، دولار سنغافوري ($)"
+   },
+   "en": {
+    "capitale": "Bandar Seri Begawan",
+    "langues": "Malay",
+    "monnaie": "Brunei dollar ($), Singapore dollar ($)"
+   },
+   "es": {
+    "capitale": "Bandar Seri Begawan",
+    "langues": "malayo",
+    "monnaie": "dólar de Brunéi ($), dólar de Singapur ($)"
+   },
+   "zh": {
+    "capitale": "斯里巴加湾市",
+    "langues": "马来语",
+    "monnaie": "文莱元 ($)、新加坡元 ($)"
+   }
+  },
+  "iso2": "BN",
+  "langues": "malais",
+  "monnaie": "dollar de Brunei ($), dollar de Singapour ($)"
+ },
+ "BTN": {
+  "capitale": "Thimphou",
+  "i18n": {
+   "ar": {
+    "capitale": "تيمفو",
+    "langues": "لغة دزونكا",
+    "monnaie": "نغولترم بوتاني (Nu.)، روبية هندية (₹)"
+   },
+   "en": {
+    "capitale": "Thimphu",
+    "langues": "Dzongkha",
+    "monnaie": "ngultrum (Nu.), Indian rupee (₹)"
+   },
+   "es": {
+    "capitale": "Timbu",
+    "langues": "idioma dzongkha",
+    "monnaie": "ngultrum butanés (Nu.), rupia india (₹)"
+   },
+   "zh": {
+    "capitale": "廷布",
+    "langues": "宗卡语",
+    "monnaie": "不丹努扎姆 (Nu.)、印度盧比 (₹)"
+   }
+  },
+  "iso2": "BT",
+  "langues": "dzongkha",
+  "monnaie": "ngultrum (Nu.), roupie indienne (₹)"
+ },
+ "BWA": {
+  "capitale": "Gaborone",
+  "i18n": {
+   "ar": {
+    "capitale": "غابورون",
+    "langues": "الإنجليزية، التسوانية",
+    "monnaie": "بوتسوانا بولا (P)"
+   },
+   "en": {
+    "capitale": "Gaborone",
+    "langues": "English, Tswana",
+    "monnaie": "Botswana pula (P)"
+   },
+   "es": {
+    "capitale": "Gaborone",
+    "langues": "inglés, setsuana",
+    "monnaie": "pula (P)"
+   },
+   "zh": {
+    "capitale": "哈博罗内",
+    "langues": "英语、茨瓦纳语",
+    "monnaie": "博茨瓦纳普拉 (P)"
+   }
+  },
+  "iso2": "BW",
+  "langues": "anglais, tswana",
+  "monnaie": "pula (P)"
+ },
+ "CAF": {
+  "capitale": "Bangui",
+  "i18n": {
+   "ar": {
+    "capitale": "بنغي",
+    "langues": "الفرنسية، السنغوية",
+    "monnaie": "فرنك وسط إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Bangui",
+    "langues": "French, Sango",
+    "monnaie": "Central African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Bangui",
+    "langues": "francés, idioma sango",
+    "monnaie": "franco CFA de África Central (Fr)"
+   },
+   "zh": {
+    "capitale": "班吉",
+    "langues": "法语、桑戈语",
+    "monnaie": "中非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "CF",
+  "langues": "français, sango",
+  "monnaie": "franc CFA d'Afrique centrale (Fr)"
+ },
+ "CAN": {
+  "capitale": "Ottawa",
+  "i18n": {
+   "ar": {
+    "capitale": "أوتاوا",
+    "langues": "الإنجليزية، الفرنسية",
+    "monnaie": "دولار كندي ($)"
+   },
+   "en": {
+    "capitale": "Ottawa",
+    "langues": "English, French",
+    "monnaie": "Canadian dollar ($)"
+   },
+   "es": {
+    "capitale": "Ottawa",
+    "langues": "inglés, francés",
+    "monnaie": "dólar canadiense ($)"
+   },
+   "zh": {
+    "capitale": "渥太华",
+    "langues": "英语、法语",
+    "monnaie": "加拿大元 ($)"
+   }
+  },
+  "iso2": "CA",
+  "langues": "anglais, français",
+  "monnaie": "dollar canadien ($)"
+ },
+ "CHE": {
+  "capitale": "Berne",
+  "i18n": {
+   "ar": {
+    "capitale": "برن",
+    "langues": "الفرنسية، الألامانية، الإيطالية، الرومانشية",
+    "monnaie": "فرنك سويسري (Fr.)"
+   },
+   "en": {
+    "capitale": "Bern",
+    "langues": "French, Alemannic, Italian, Romansh",
+    "monnaie": "Swiss franc (Fr.)"
+   },
+   "es": {
+    "capitale": "Berna",
+    "langues": "francés, alemánico, italiano, romanche",
+    "monnaie": "franco suizo (Fr.)"
+   },
+   "zh": {
+    "capitale": "伯尔尼",
+    "langues": "法语、阿勒曼尼语、意大利语、罗曼什语",
+    "monnaie": "瑞士法郎 (Fr.)"
+   }
+  },
+  "iso2": "CH",
+  "langues": "français, allemand, italien, romanche",
+  "monnaie": "franc suisse (Fr.)"
+ },
+ "CHL": {
+  "capitale": "Santiago",
+  "i18n": {
+   "ar": {
+    "capitale": "سانتياغو",
+    "langues": "الإسبانية",
+    "monnaie": "بيزو تشيلي ($)"
+   },
+   "en": {
+    "capitale": "Santiago",
+    "langues": "Spanish",
+    "monnaie": "Chilean peso ($)"
+   },
+   "es": {
+    "capitale": "Santiago de Chile",
+    "langues": "español",
+    "monnaie": "peso ($)"
+   },
+   "zh": {
+    "capitale": "圣地亚哥",
+    "langues": "西班牙语",
+    "monnaie": "智利比索 ($)"
+   }
+  },
+  "iso2": "CL",
+  "langues": "espagnol",
+  "monnaie": "peso chilien ($)"
+ },
+ "CHN": {
+  "capitale": "Pékin",
+  "i18n": {
+   "ar": {
+    "capitale": "بكين",
+    "langues": "الصينية",
+    "monnaie": "رنمينبي (¥)"
+   },
+   "en": {
+    "capitale": "Beijing",
+    "langues": "Chinese",
+    "monnaie": "renminbi (¥)"
+   },
+   "es": {
+    "capitale": "Pekín",
+    "langues": "chino",
+    "monnaie": "yuan chino (¥)"
+   },
+   "zh": {
+    "capitale": "北京市",
+    "langues": "中文",
+    "monnaie": "人民币 (¥)"
+   }
+  },
+  "iso2": "CN",
+  "langues": "chinois",
+  "monnaie": "renminbi (¥)"
+ },
+ "CIV": {
+  "capitale": "Yamoussoukro",
+  "i18n": {
+   "ar": {
+    "capitale": "ياموسوكرو",
+    "langues": "الفرنسية",
+    "monnaie": "فرنك غرب إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Yamoussoukro",
+    "langues": "French",
+    "monnaie": "West African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Yamusukro",
+    "langues": "francés",
+    "monnaie": "franco CFA de África Occidental (Fr)"
+   },
+   "zh": {
+    "capitale": "亚穆苏克罗",
+    "langues": "法语",
+    "monnaie": "西非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "CI",
+  "langues": "français",
+  "monnaie": "franc CFA (Fr)"
+ },
+ "CMR": {
+  "capitale": "Yaoundé",
+  "i18n": {
+   "ar": {
+    "capitale": "ياوندي",
+    "langues": "الإنجليزية، الفرنسية",
+    "monnaie": "فرنك وسط إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Yaoundé",
+    "langues": "English, French",
+    "monnaie": "Central African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Yaundé",
+    "langues": "inglés, francés",
+    "monnaie": "franco CFA de África Central (Fr)"
+   },
+   "zh": {
+    "capitale": "雅温得",
+    "langues": "英语、法语",
+    "monnaie": "中非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "CM",
+  "langues": "anglais, français",
+  "monnaie": "franc CFA d'Afrique centrale (Fr)"
+ },
+ "COD": {
+  "capitale": "Kinshasa",
+  "i18n": {
+   "ar": {
+    "capitale": "كينشاسا",
+    "langues": "الفرنسية، لغة كونغو، لنغالا، لغة تشيلوبا، السواحلية",
+    "monnaie": "فرنك كونغولي (FC)"
+   },
+   "en": {
+    "capitale": "Kinshasa",
+    "langues": "French, Kongo, Lingala, Luba-Kasai, Swahili",
+    "monnaie": "Congolese franc (FC)"
+   },
+   "es": {
+    "capitale": "Kinsasa",
+    "langues": "francés, kikongo, lingala, chiluba, suajili",
+    "monnaie": "franco congoleño (FC)"
+   },
+   "zh": {
+    "capitale": "金沙萨",
+    "langues": "法语、刚果语、林加拉语、鲁巴-开赛语、斯瓦希里语",
+    "monnaie": "剛果法郎 (FC)"
+   }
+  },
+  "iso2": "CD",
+  "langues": "français, kikongo, lingala, luba-kasaï, swahili",
+  "monnaie": "franc congolais (FC)"
+ },
+ "COG": {
+  "capitale": "Brazzaville",
+  "i18n": {
+   "ar": {
+    "capitale": "برازافيل",
+    "langues": "الفرنسية، لغة كونغو، لنغالا",
+    "monnaie": "فرنك وسط إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Brazzaville",
+    "langues": "French, Kongo, Lingala",
+    "monnaie": "Central African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Brazzaville",
+    "langues": "francés, kikongo, lingala",
+    "monnaie": "franco CFA de África Central (Fr)"
+   },
+   "zh": {
+    "capitale": "布拉柴维尔",
+    "langues": "法语、刚果语、林加拉语",
+    "monnaie": "中非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "CG",
+  "langues": "français, kikongo, lingala",
+  "monnaie": "franc CFA d'Afrique centrale (Fr)"
+ },
+ "COK": {
+  "capitale": "Avarua",
+  "i18n": {
+   "ar": {
+    "capitale": "آواروآ",
+    "langues": "الإنجليزية، Cook Islands Māori",
+    "monnaie": "Cook Islands dollar ($)، دولار نيوزيلندي ($)"
+   },
+   "en": {
+    "capitale": "Avarua",
+    "langues": "English, Cook Islands Maori",
+    "monnaie": "Cook Islands dollar ($), New Zealand dollar ($)"
+   },
+   "es": {
+    "capitale": "Avarua",
+    "langues": "inglés, idioma rarotongano",
+    "monnaie": "cook Islands dollar ($), dólar neozelandés ($)"
+   },
+   "zh": {
+    "capitale": "阿瓦鲁阿",
+    "langues": "英语、庫克群島毛利語",
+    "monnaie": "Cook Islands dollar ($)、新西兰元 ($)"
+   }
+  },
+  "iso2": "CK",
+  "langues": "anglais, maori des îles Cook",
+  "monnaie": "dollar des îles Cook ($), dollar néo-zélandais ($)"
+ },
+ "COL": {
+  "capitale": "Bogota",
+  "i18n": {
+   "ar": {
+    "capitale": "بوغوتا",
+    "langues": "الإسبانية",
+    "monnaie": "بيزو كولومبي ($)"
+   },
+   "en": {
+    "capitale": "Bogotá",
+    "langues": "Spanish",
+    "monnaie": "Colombian peso ($)"
+   },
+   "es": {
+    "capitale": "Bogotá",
+    "langues": "español",
+    "monnaie": "peso ($)"
+   },
+   "zh": {
+    "capitale": "波哥大",
+    "langues": "西班牙语",
+    "monnaie": "哥伦比亚比索 ($)"
+   }
+  },
+  "iso2": "CO",
+  "langues": "espagnol",
+  "monnaie": "peso colombien ($)"
+ },
+ "COM": {
+  "capitale": "Moroni",
+  "i18n": {
+   "ar": {
+    "capitale": "موروني",
+    "langues": "العربية، الفرنسية، Comorian",
+    "monnaie": "فرنك قمري (Fr)"
+   },
+   "en": {
+    "capitale": "Moroni",
+    "langues": "Arabic, French, Ngazidja Comorian",
+    "monnaie": "Comorian franc (Fr)"
+   },
+   "es": {
+    "capitale": "Moroni",
+    "langues": "árabe, francés, comorian",
+    "monnaie": "franco comorense (Fr)"
+   },
+   "zh": {
+    "capitale": "莫洛尼",
+    "langues": "阿拉伯语、法语、Comorian",
+    "monnaie": "科摩罗法郎 (Fr)"
+   }
+  },
+  "iso2": "KM",
+  "langues": "arabe, français, grand comorien",
+  "monnaie": "franc comorien (Fr)"
+ },
+ "CPV": {
+  "capitale": "Praia",
+  "i18n": {
+   "ar": {
+    "capitale": "برايا",
+    "langues": "البرتغالية",
+    "monnaie": "إيسكودو جزر الرأس الأخضر (Esc)"
+   },
+   "en": {
+    "capitale": "Praia",
+    "langues": "Portuguese",
+    "monnaie": "Cape Verdean escudo (Esc)"
+   },
+   "es": {
+    "capitale": "Praia",
+    "langues": "portugués",
+    "monnaie": "escudo caboverdiano (Esc)"
+   },
+   "zh": {
+    "capitale": "普拉亚",
+    "langues": "葡萄牙语",
+    "monnaie": "佛得角埃斯库多 (Esc)"
+   }
+  },
+  "iso2": "CV",
+  "langues": "portugais",
+  "monnaie": "escudo cap-verdien (Esc)"
+ },
+ "CRI": {
+  "capitale": "San José",
+  "i18n": {
+   "ar": {
+    "capitale": "سان خوسيه",
+    "langues": "الإسبانية",
+    "monnaie": "كولون كوستاريكي (₡)"
+   },
+   "en": {
+    "capitale": "San José",
+    "langues": "Spanish",
+    "monnaie": "Costa Rican colón (₡)"
+   },
+   "es": {
+    "capitale": "San José",
+    "langues": "español",
+    "monnaie": "colón costarricense (₡)"
+   },
+   "zh": {
+    "capitale": "圣何塞",
+    "langues": "西班牙语",
+    "monnaie": "哥斯达黎加科朗 (₡)"
+   }
+  },
+  "iso2": "CR",
+  "langues": "espagnol",
+  "monnaie": "colón (₡)"
+ },
+ "CUB": {
+  "capitale": "La Havane",
+  "i18n": {
+   "ar": {
+    "capitale": "هافانا",
+    "langues": "الإسبانية",
+    "monnaie": "بيزو كوبي قابل للتحويل ($)، بيزو كوبي ($)"
+   },
+   "en": {
+    "capitale": "Havana",
+    "langues": "Spanish",
+    "monnaie": "convertible peso ($), Cuban peso ($)"
+   },
+   "es": {
+    "capitale": "La Habana",
+    "langues": "español",
+    "monnaie": "peso cubano convertible ($), peso ($)"
+   },
+   "zh": {
+    "capitale": "哈瓦那",
+    "langues": "西班牙语",
+    "monnaie": "古巴可兑换比索 ($)、古巴比索 ($)"
+   }
+  },
+  "iso2": "CU",
+  "langues": "espagnol",
+  "monnaie": "peso cubain convertible ($), peso cubain ($)"
+ },
+ "CUW": {
+  "capitale": "Willemstad",
+  "i18n": {
+   "ar": {
+    "capitale": "ويلمستاد",
+    "langues": "الإنجليزية، الهولندية، بابيامنتو",
+    "monnaie": "غيلدر الأنتيل الهولندية (ƒ)"
+   },
+   "en": {
+    "capitale": "Willemstad",
+    "langues": "English, Dutch, Papiamento",
+    "monnaie": "Netherlands Antillean guilder (ƒ)"
+   },
+   "es": {
+    "capitale": "Willemstad",
+    "langues": "inglés, neerlandés, papiamento",
+    "monnaie": "florín antillano neerlandés (ƒ)"
+   },
+   "zh": {
+    "capitale": "威廉斯塔德",
+    "langues": "英语、荷兰语、帕皮阿门托语",
+    "monnaie": "荷属安的列斯盾 (ƒ)"
+   }
+  },
+  "iso2": "CW",
+  "langues": "anglais, néerlandais, papiamento",
+  "monnaie": "florin des Antilles néerlandaises (ƒ)"
+ },
+ "CYM": {
+  "capitale": "George Town",
+  "i18n": {
+   "ar": {
+    "capitale": "جورج تاون، جزر كايمان",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار جزر كايمان ($)"
+   },
+   "en": {
+    "capitale": "George Town",
+    "langues": "English",
+    "monnaie": "Cayman Islands dollar ($)"
+   },
+   "es": {
+    "capitale": "George Town",
+    "langues": "inglés",
+    "monnaie": "dólar caimanés ($)"
+   },
+   "zh": {
+    "capitale": "乔治敦",
+    "langues": "英语",
+    "monnaie": "开曼群岛元 ($)"
+   }
+  },
+  "iso2": "KY",
+  "langues": "anglais",
+  "monnaie": "dollar des îles Caïmans ($)"
+ },
+ "CYN": {
+  "capitale": "Nicosie-Nord",
+  "langues": "turc",
+  "monnaie": "livre turque (₺)"
+ },
+ "CYP": {
+  "capitale": "Nicosie",
+  "i18n": {
+   "ar": {
+    "capitale": "نيقوسيا",
+    "langues": "اليونانية الحديثة، التركية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Nicosia",
+    "langues": "Modern Greek, Turkish",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Nicosia",
+    "langues": "griego, turco",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "尼科西亚",
+    "langues": "现代希腊语、土耳其语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "CY",
+  "langues": "grec moderne, turc",
+  "monnaie": "euro (€)"
+ },
+ "CZE": {
+  "capitale": "Prague",
+  "i18n": {
+   "ar": {
+    "capitale": "براغ",
+    "langues": "التشيكية، السلوفاكية",
+    "monnaie": "كرونة تشيكية (Kč)"
+   },
+   "en": {
+    "capitale": "Prague",
+    "langues": "Czech, Slovak",
+    "monnaie": "Czech koruna (Kč)"
+   },
+   "es": {
+    "capitale": "Praga",
+    "langues": "checo, eslovaco",
+    "monnaie": "corona checa (Kč)"
+   },
+   "zh": {
+    "capitale": "布拉格",
+    "langues": "捷克语、斯洛伐克语",
+    "monnaie": "捷克克朗 (Kč)"
+   }
+  },
+  "iso2": "CZ",
+  "langues": "tchèque, slovaque",
+  "monnaie": "couronne tchèque (Kč)"
+ },
+ "DEU": {
+  "capitale": "Berlin",
+  "i18n": {
+   "ar": {
+    "capitale": "برلين",
+    "langues": "الألمانية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Berlin",
+    "langues": "German",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Berlín",
+    "langues": "alemán",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "柏林",
+    "langues": "德语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "DE",
+  "langues": "allemand",
+  "monnaie": "euro (€)"
+ },
+ "DJI": {
+  "capitale": "Djibouti",
+  "i18n": {
+   "ar": {
+    "capitale": "جيبوتي",
+    "langues": "العربية، الفرنسية",
+    "monnaie": "فرنك جيبوتي (Fr)"
+   },
+   "en": {
+    "capitale": "Djibouti",
+    "langues": "Arabic, French",
+    "monnaie": "Djiboutian franc (Fr)"
+   },
+   "es": {
+    "capitale": "Ciudad de Yibuti",
+    "langues": "árabe, francés",
+    "monnaie": "franco yibutiano (Fr)"
+   },
+   "zh": {
+    "capitale": "吉布提市",
+    "langues": "阿拉伯语、法语",
+    "monnaie": "吉布提法郎 (Fr)"
+   }
+  },
+  "iso2": "DJ",
+  "langues": "arabe, français",
+  "monnaie": "franc Djibouti (Fr)"
+ },
+ "DMA": {
+  "capitale": "Roseau",
+  "i18n": {
+   "ar": {
+    "capitale": "روسو",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار شرق الكاريبي ($)"
+   },
+   "en": {
+    "capitale": "Roseau",
+    "langues": "English",
+    "monnaie": "Eastern Caribbean dollar ($)"
+   },
+   "es": {
+    "capitale": "Roseau",
+    "langues": "inglés",
+    "monnaie": "dólar del Caribe Oriental ($)"
+   },
+   "zh": {
+    "capitale": "罗索",
+    "langues": "英语",
+    "monnaie": "东加勒比元 ($)"
+   }
+  },
+  "iso2": "DM",
+  "langues": "anglais",
+  "monnaie": "dollar des Caraïbes orientales ($)"
+ },
+ "DNK": {
+  "capitale": "Copenhague",
+  "i18n": {
+   "ar": {
+    "capitale": "كوبنهاغن",
+    "langues": "الدنماركية",
+    "monnaie": "كرونة دنماركية (kr)"
+   },
+   "en": {
+    "capitale": "Copenhagen",
+    "langues": "Danish",
+    "monnaie": "Danish krone (kr)"
+   },
+   "es": {
+    "capitale": "Copenhague",
+    "langues": "danés",
+    "monnaie": "corona danesa (kr)"
+   },
+   "zh": {
+    "capitale": "哥本哈根",
+    "langues": "丹麦语",
+    "monnaie": "丹麦克朗 (kr)"
+   }
+  },
+  "iso2": "DK",
+  "langues": "danois",
+  "monnaie": "couronne danoise (kr)"
+ },
+ "DOM": {
+  "capitale": "Saint-Domingue",
+  "i18n": {
+   "ar": {
+    "capitale": "سانتو دومينغو",
+    "langues": "الإسبانية",
+    "monnaie": "بيزو دومنيكاني ($)"
+   },
+   "en": {
+    "capitale": "Santo Domingo",
+    "langues": "Spanish",
+    "monnaie": "Dominican peso ($)"
+   },
+   "es": {
+    "capitale": "Santo Domingo",
+    "langues": "español",
+    "monnaie": "peso dominicano ($)"
+   },
+   "zh": {
+    "capitale": "圣多明哥",
+    "langues": "西班牙语",
+    "monnaie": "多米尼加比索 ($)"
+   }
+  },
+  "iso2": "DO",
+  "langues": "espagnol",
+  "monnaie": "peso dominicain ($)"
+ },
+ "DZA": {
+  "capitale": "Alger",
+  "i18n": {
+   "ar": {
+    "capitale": "الجزائر العاصمة",
+    "langues": "العربية",
+    "monnaie": "دينار جزائري (د.ج)"
+   },
+   "en": {
+    "capitale": "Algiers",
+    "langues": "Arabic",
+    "monnaie": "Algerian dinar (د.ج)"
+   },
+   "es": {
+    "capitale": "Argel",
+    "langues": "árabe",
+    "monnaie": "dinar argelino (د.ج)"
+   },
+   "zh": {
+    "capitale": "阿尔及尔",
+    "langues": "阿拉伯语",
+    "monnaie": "阿尔及利亚第纳尔 (د.ج)"
+   }
+  },
+  "iso2": "DZ",
+  "langues": "arabe",
+  "monnaie": "dinar algérien (د.ج)"
+ },
+ "ECU": {
+  "capitale": "Quito",
+  "i18n": {
+   "ar": {
+    "capitale": "كيتو",
+    "langues": "الإسبانية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Quito",
+    "langues": "Spanish",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Quito",
+    "langues": "español",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "基多",
+    "langues": "西班牙语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "EC",
+  "langues": "espagnol",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "EGY": {
+  "capitale": "Le Caire",
+  "i18n": {
+   "ar": {
+    "capitale": "القاهرة",
+    "langues": "العربية",
+    "monnaie": "جنيه مصري (£)"
+   },
+   "en": {
+    "capitale": "Cairo",
+    "langues": "Arabic",
+    "monnaie": "Egyptian pound (£)"
+   },
+   "es": {
+    "capitale": "El Cairo",
+    "langues": "árabe",
+    "monnaie": "libra egipcia (£)"
+   },
+   "zh": {
+    "capitale": "开罗",
+    "langues": "阿拉伯语",
+    "monnaie": "埃及镑 (£)"
+   }
+  },
+  "iso2": "EG",
+  "langues": "arabe",
+  "monnaie": "livre égyptienne (£)"
+ },
+ "ERI": {
+  "capitale": "Asmara",
+  "i18n": {
+   "ar": {
+    "capitale": "أسمرة",
+    "langues": "العربية، الإنجليزية، التغرينية",
+    "monnaie": "نقفة (Nfk)"
+   },
+   "en": {
+    "capitale": "Asmara",
+    "langues": "Arabic, English, Tigrinya",
+    "monnaie": "nakfa (Nfk)"
+   },
+   "es": {
+    "capitale": "Asmara",
+    "langues": "árabe, inglés, idioma tigriña",
+    "monnaie": "nakfa (Nfk)"
+   },
+   "zh": {
+    "capitale": "阿斯马拉",
+    "langues": "阿拉伯语、英语、提格雷尼亚语",
+    "monnaie": "厄立特里亚纳克法 (Nfk)"
+   }
+  },
+  "iso2": "ER",
+  "langues": "arabe, anglais, tigrigna",
+  "monnaie": "nakfa érythréen (Nfk)"
+ },
+ "ESP": {
+  "capitale": "Madrid",
+  "i18n": {
+   "ar": {
+    "capitale": "مدريد",
+    "langues": "الإسبانية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Madrid",
+    "langues": "Spanish",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Madrid",
+    "langues": "español",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "马德里",
+    "langues": "西班牙语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "ES",
+  "langues": "espagnol",
+  "monnaie": "euro (€)"
+ },
+ "EST": {
+  "capitale": "Tallinn",
+  "i18n": {
+   "ar": {
+    "capitale": "تالين",
+    "langues": "الإستونية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Tallinn",
+    "langues": "Estonian",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Tallin",
+    "langues": "estonio",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "塔林",
+    "langues": "爱沙尼亚语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "EE",
+  "langues": "estonien",
+  "monnaie": "euro (€)"
+ },
+ "ETH": {
+  "capitale": "Addis-Abeba",
+  "i18n": {
+   "ar": {
+    "capitale": "أديس أبابا",
+    "langues": "الأمهرية",
+    "monnaie": "بير إثيوبي (Br)"
+   },
+   "en": {
+    "capitale": "Addis Ababa",
+    "langues": "Amharic",
+    "monnaie": "bir (Br)"
+   },
+   "es": {
+    "capitale": "Adís Abeba",
+    "langues": "amhárico",
+    "monnaie": "bir etíope (Br)"
+   },
+   "zh": {
+    "capitale": "亚的斯亚贝巴",
+    "langues": "阿姆哈拉语",
+    "monnaie": "埃塞俄比亚比尔 (Br)"
+   }
+  },
+  "iso2": "ET",
+  "langues": "amharique",
+  "monnaie": "birr (Br)"
+ },
+ "FIN": {
+  "capitale": "Helsinki",
+  "i18n": {
+   "ar": {
+    "capitale": "هلسنكي",
+    "langues": "الفنلندية، السويدية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Helsinki",
+    "langues": "Finnish, Swedish",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Helsinki",
+    "langues": "finés, sueco",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "赫尔辛基",
+    "langues": "芬兰语、瑞典语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "FI",
+  "langues": "finnois, suédois",
+  "monnaie": "euro (€)"
+ },
+ "FJI": {
+  "capitale": "Suva",
+  "i18n": {
+   "ar": {
+    "capitale": "سوفا",
+    "langues": "الإنجليزية، الفيجية، هندية فيجي",
+    "monnaie": "دولار فيجي ($)"
+   },
+   "en": {
+    "capitale": "Suva",
+    "langues": "English, Fijian, Fiji Hindi",
+    "monnaie": "Fijian dollar ($)"
+   },
+   "es": {
+    "capitale": "Suva",
+    "langues": "inglés, fiyiano, hindi de Fiyi",
+    "monnaie": "dólar fiyiano ($)"
+   },
+   "zh": {
+    "capitale": "苏瓦",
+    "langues": "英语、斐济语、斐濟印地語",
+    "monnaie": "斐濟元 ($)"
+   }
+  },
+  "iso2": "FJ",
+  "langues": "anglais, fidjien, hindi des Fidji",
+  "monnaie": "dollar des Fidji ($)"
+ },
+ "FLK": {
+  "capitale": "Port Stanley",
+  "i18n": {
+   "ar": {
+    "capitale": "ستانلي",
+    "langues": "الإنجليزية",
+    "monnaie": "جنيه جزر فوكلاند (£)"
+   },
+   "en": {
+    "capitale": "Stanley",
+    "langues": "English",
+    "monnaie": "Falkland Islands pound (£)"
+   },
+   "es": {
+    "capitale": "Puerto Argentino",
+    "langues": "inglés",
+    "monnaie": "libra malvinense (£)"
+   },
+   "zh": {
+    "capitale": "斯坦利",
+    "langues": "英语",
+    "monnaie": "福克兰群岛镑 (£)"
+   }
+  },
+  "iso2": "FK",
+  "langues": "anglais",
+  "monnaie": "livre des Îles Malouines (£)"
+ },
+ "FRA": {
+  "capitale": "Paris",
+  "i18n": {
+   "ar": {
+    "capitale": "باريس",
+    "langues": "الفرنسية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Paris",
+    "langues": "French",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "París",
+    "langues": "francés",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "巴黎",
+    "langues": "法语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "FR",
+  "langues": "français",
+  "monnaie": "euro (€)"
+ },
+ "FRO": {
+  "capitale": "Tórshavn",
+  "i18n": {
+   "ar": {
+    "capitale": "توشهافن",
+    "langues": "الدنماركية، الفاروية",
+    "monnaie": "كرونة دنماركية (kr)، Faroese króna (kr)"
+   },
+   "en": {
+    "capitale": "Tórshavn",
+    "langues": "Danish, Faroese",
+    "monnaie": "Danish krone (kr), Faroese króna (kr)"
+   },
+   "es": {
+    "capitale": "Tórshavn",
+    "langues": "danés, feroés",
+    "monnaie": "corona danesa (kr), faroese króna (kr)"
+   },
+   "zh": {
+    "capitale": "托尔斯港",
+    "langues": "丹麦语、法罗语",
+    "monnaie": "丹麦克朗 (kr)、Faroese króna (kr)"
+   }
+  },
+  "iso2": "FO",
+  "langues": "danois, féroïen",
+  "monnaie": "couronne danoise (kr), couronne féroïenne (kr)"
+ },
+ "FSM": {
+  "capitale": "Palikir",
+  "i18n": {
+   "ar": {
+    "capitale": "باليكير",
+    "langues": "الإنجليزية"
+   },
+   "en": {
+    "capitale": "Palikir",
+    "langues": "English"
+   },
+   "es": {
+    "capitale": "Palikir",
+    "langues": "inglés"
+   },
+   "zh": {
+    "capitale": "帕利基尔",
+    "langues": "英语"
+   }
+  },
+  "iso2": "FM",
+  "langues": "anglais",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "GAB": {
+  "capitale": "Libreville",
+  "i18n": {
+   "ar": {
+    "capitale": "ليبرفيل",
+    "langues": "الفرنسية",
+    "monnaie": "فرنك وسط إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Libreville",
+    "langues": "French",
+    "monnaie": "Central African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Libreville",
+    "langues": "francés",
+    "monnaie": "franco CFA de África Central (Fr)"
+   },
+   "zh": {
+    "capitale": "利伯维尔",
+    "langues": "法语",
+    "monnaie": "中非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "GA",
+  "langues": "français",
+  "monnaie": "franc CFA d'Afrique centrale (Fr)"
+ },
+ "GBR": {
+  "capitale": "Londres",
+  "i18n": {
+   "ar": {
+    "capitale": "لندن",
+    "langues": "الإنجليزية",
+    "monnaie": "جنيه إسترليني (£)"
+   },
+   "en": {
+    "capitale": "London",
+    "langues": "English",
+    "monnaie": "pound sterling (£)"
+   },
+   "es": {
+    "capitale": "Londres",
+    "langues": "inglés",
+    "monnaie": "libra esterlina (£)"
+   },
+   "zh": {
+    "capitale": "伦敦",
+    "langues": "英语",
+    "monnaie": "英镑 (£)"
+   }
+  },
+  "iso2": "GB",
+  "langues": "anglais",
+  "monnaie": "livre sterling (£)"
+ },
+ "GEO": {
+  "capitale": "Tbilissi",
+  "i18n": {
+   "ar": {
+    "capitale": "تبليسي",
+    "langues": "الجورجية",
+    "monnaie": "لاري جورجي (₾)"
+   },
+   "en": {
+    "capitale": "Tbilisi",
+    "langues": "Georgian",
+    "monnaie": "Georgian lari (₾)"
+   },
+   "es": {
+    "capitale": "Tiflis",
+    "langues": "georgiano",
+    "monnaie": "lari georgiano (₾)"
+   },
+   "zh": {
+    "capitale": "第比利斯",
+    "langues": "格鲁吉亚语",
+    "monnaie": "格鲁吉亚拉里 (₾)"
+   }
+  },
+  "iso2": "GE",
+  "langues": "géorgien",
+  "monnaie": "lari (₾)"
+ },
+ "GGY": {
+  "capitale": "Saint-Pierre-Port",
+  "i18n": {
+   "ar": {
+    "capitale": "سان بيتر بورت",
+    "langues": "الإنجليزية، الفرنسية، نافانرا",
+    "monnaie": "جنيه إسترليني (£)، Guernsey pound (£)"
+   },
+   "en": {
+    "capitale": "Saint Peter Port",
+    "langues": "English, French, Nafaanra",
+    "monnaie": "pound sterling (£), Guernsey pound (£)"
+   },
+   "es": {
+    "capitale": "Saint Peter Port",
+    "langues": "inglés, francés, nafaanra",
+    "monnaie": "libra esterlina (£), guernsey pound (£)"
+   },
+   "zh": {
+    "capitale": "圣彼得港",
+    "langues": "英语、法语、納凡拉語",
+    "monnaie": "英镑 (£)、Guernsey pound (£)"
+   }
+  },
+  "iso2": "GG",
+  "langues": "anglais, français, nafaanra",
+  "monnaie": "livre sterling (£), livre de Guernesey (£)"
+ },
+ "GHA": {
+  "capitale": "Accra",
+  "i18n": {
+   "ar": {
+    "capitale": "أكرا",
+    "langues": "الإنجليزية",
+    "monnaie": "سيدي غاني (₵)"
+   },
+   "en": {
+    "capitale": "Accra",
+    "langues": "English",
+    "monnaie": "Ghana cedi (₵)"
+   },
+   "es": {
+    "capitale": "Acra",
+    "langues": "inglés",
+    "monnaie": "cedi (₵)"
+   },
+   "zh": {
+    "capitale": "阿克拉",
+    "langues": "英语",
+    "monnaie": "加纳塞地 (₵)"
+   }
+  },
+  "iso2": "GH",
+  "langues": "anglais",
+  "monnaie": "cedi (₵)"
+ },
+ "GIN": {
+  "capitale": "Conakry",
+  "i18n": {
+   "ar": {
+    "capitale": "كوناكري",
+    "langues": "الفرنسية",
+    "monnaie": "فرنك غيني (Fr)"
+   },
+   "en": {
+    "capitale": "Conakry",
+    "langues": "French",
+    "monnaie": "Guinean franc (Fr)"
+   },
+   "es": {
+    "capitale": "Conakri",
+    "langues": "francés",
+    "monnaie": "franco guineano (Fr)"
+   },
+   "zh": {
+    "capitale": "科纳克里",
+    "langues": "法语",
+    "monnaie": "几内亚法郎 (Fr)"
+   }
+  },
+  "iso2": "GN",
+  "langues": "français",
+  "monnaie": "franc guinéen (Fr)"
+ },
+ "GMB": {
+  "capitale": "Banjul",
+  "i18n": {
+   "ar": {
+    "capitale": "بانجول",
+    "langues": "الإنجليزية",
+    "monnaie": "دالاسي غامبي (D)"
+   },
+   "en": {
+    "capitale": "Banjul",
+    "langues": "English",
+    "monnaie": "dalasi (D)"
+   },
+   "es": {
+    "capitale": "Banjul",
+    "langues": "inglés",
+    "monnaie": "dalasi (D)"
+   },
+   "zh": {
+    "capitale": "班珠尔",
+    "langues": "英语",
+    "monnaie": "冈比亚达拉西 (D)"
+   }
+  },
+  "iso2": "GM",
+  "langues": "anglais",
+  "monnaie": "dalasi (D)"
+ },
+ "GNB": {
+  "capitale": "Bissau",
+  "i18n": {
+   "ar": {
+    "capitale": "بيساو",
+    "langues": "البرتغالية، Upper Guinea Creole",
+    "monnaie": "فرنك غرب إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Bissau",
+    "langues": "Portuguese, Guinea-Bissau Creole",
+    "monnaie": "West African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Bisáu",
+    "langues": "portugués, criollo de Guinea-Bisáu",
+    "monnaie": "franco CFA de África Occidental (Fr)"
+   },
+   "zh": {
+    "capitale": "比绍",
+    "langues": "葡萄牙语、几内亚比绍克里奥尔语",
+    "monnaie": "西非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "GW",
+  "langues": "portugais, créole de Guinée-Bissau",
+  "monnaie": "franc CFA (Fr)"
+ },
+ "GNQ": {
+  "capitale": "Ciudad de la Paz",
+  "i18n": {
+   "ar": {
+    "capitale": "سيوداد دي لا باز",
+    "langues": "الفرنسية، البرتغالية، الإسبانية",
+    "monnaie": "فرنك وسط إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Ciudad de la Paz",
+    "langues": "French, Portuguese, Spanish",
+    "monnaie": "Central African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Ciudad de la Paz",
+    "langues": "francés, portugués, español",
+    "monnaie": "franco CFA de África Central (Fr)"
+   },
+   "zh": {
+    "capitale": "拉巴斯城",
+    "langues": "法语、葡萄牙语、西班牙语",
+    "monnaie": "中非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "GQ",
+  "langues": "français, portugais, espagnol",
+  "monnaie": "franc CFA d'Afrique centrale (Fr)"
+ },
+ "GRC": {
+  "capitale": "Athènes",
+  "i18n": {
+   "ar": {
+    "capitale": "أثينا",
+    "langues": "اليونانية الحديثة",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Athens",
+    "langues": "Modern Greek",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Atenas",
+    "langues": "griego",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "雅典",
+    "langues": "现代希腊语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "GR",
+  "langues": "grec moderne",
+  "monnaie": "euro (€)"
+ },
+ "GRD": {
+  "capitale": "Saint-Georges",
+  "i18n": {
+   "ar": {
+    "capitale": "سانت جورجز",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار شرق الكاريبي ($)"
+   },
+   "en": {
+    "capitale": "St. George's",
+    "langues": "English",
+    "monnaie": "Eastern Caribbean dollar ($)"
+   },
+   "es": {
+    "capitale": "Saint George",
+    "langues": "inglés",
+    "monnaie": "dólar del Caribe Oriental ($)"
+   },
+   "zh": {
+    "capitale": "圣乔治",
+    "langues": "英语",
+    "monnaie": "东加勒比元 ($)"
+   }
+  },
+  "iso2": "GD",
+  "langues": "anglais",
+  "monnaie": "dollar des Caraïbes orientales ($)"
+ },
+ "GRL": {
+  "capitale": "Nuuk",
+  "i18n": {
+   "ar": {
+    "capitale": "نوك",
+    "langues": "الغرينلاندية",
+    "monnaie": "كرونة دنماركية (kr.)"
+   },
+   "en": {
+    "capitale": "Nuuk",
+    "langues": "Greenlandic",
+    "monnaie": "Danish krone (kr.)"
+   },
+   "es": {
+    "capitale": "Nuuk",
+    "langues": "groenlandés",
+    "monnaie": "corona danesa (kr.)"
+   },
+   "zh": {
+    "capitale": "努克",
+    "langues": "格陵兰语",
+    "monnaie": "丹麦克朗 (kr.)"
+   }
+  },
+  "iso2": "GL",
+  "langues": "groenlandais",
+  "monnaie": "couronne danoise (kr.)"
+ },
+ "GTM": {
+  "capitale": "Guatemala",
+  "i18n": {
+   "ar": {
+    "capitale": "غواتيمالا العاصمة",
+    "langues": "الإسبانية",
+    "monnaie": "كتزال غواتيمالي (Q)"
+   },
+   "en": {
+    "capitale": "Guatemala City",
+    "langues": "Spanish",
+    "monnaie": "quetzal (Q)"
+   },
+   "es": {
+    "capitale": "Ciudad de Guatemala",
+    "langues": "español",
+    "monnaie": "quetzal (Q)"
+   },
+   "zh": {
+    "capitale": "危地马拉城",
+    "langues": "西班牙语",
+    "monnaie": "危地马拉格查尔 (Q)"
+   }
+  },
+  "iso2": "GT",
+  "langues": "espagnol",
+  "monnaie": "quetzal (Q)"
+ },
+ "GUM": {
+  "capitale": "Hagåtña",
+  "i18n": {
+   "ar": {
+    "capitale": "هاغاتنيا",
+    "langues": "لغة تشاموروية، الإنجليزية، الإسبانية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Hagåtña",
+    "langues": "Chamorro, English, Spanish",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Agaña",
+    "langues": "idioma chamorro, inglés, español",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "阿加尼亚",
+    "langues": "查莫罗语、英语、西班牙语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "GU",
+  "langues": "chamorro, anglais, espagnol",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "GUY": {
+  "capitale": "Georgetown",
+  "i18n": {
+   "ar": {
+    "capitale": "جورج تاون",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار غوياني ($)"
+   },
+   "en": {
+    "capitale": "Georgetown",
+    "langues": "English",
+    "monnaie": "Guyanese dollar ($)"
+   },
+   "es": {
+    "capitale": "Georgetown",
+    "langues": "inglés",
+    "monnaie": "dólar guyanés ($)"
+   },
+   "zh": {
+    "capitale": "乔治敦",
+    "langues": "英语",
+    "monnaie": "圭亚那元 ($)"
+   }
+  },
+  "iso2": "GY",
+  "langues": "anglais",
+  "monnaie": "dollar guyanien ($)"
+ },
+ "HKG": {
+  "capitale": "City of Victoria",
+  "i18n": {
+   "ar": {
+    "capitale": "City of Victoria",
+    "langues": "الإنجليزية، الصينية",
+    "monnaie": "دولار هونغ كونغ ($)"
+   },
+   "en": {
+    "capitale": "City of Victoria",
+    "langues": "English, Chinese",
+    "monnaie": "Hong Kong dollar ($)"
+   },
+   "es": {
+    "capitale": "City of Victoria",
+    "langues": "inglés, chino",
+    "monnaie": "dólar de Hong Kong ($)"
+   },
+   "zh": {
+    "capitale": "City of Victoria",
+    "langues": "英语、中文",
+    "monnaie": "港币 ($)"
+   }
+  },
+  "iso2": "HK",
+  "langues": "anglais, chinois",
+  "monnaie": "dollar de Hong Kong ($)"
+ },
+ "HMD": {
+  "i18n": {
+   "ar": {
+    "langues": "الإنجليزية"
+   },
+   "en": {
+    "langues": "English"
+   },
+   "es": {
+    "langues": "inglés"
+   },
+   "zh": {
+    "langues": "英语"
+   }
+  },
+  "iso2": "HM",
+  "langues": "anglais"
+ },
+ "HND": {
+  "capitale": "Tegucigalpa",
+  "i18n": {
+   "ar": {
+    "capitale": "تيغوسيغالبا",
+    "langues": "الإسبانية",
+    "monnaie": "لمبيرة هندوراسية (L)"
+   },
+   "en": {
+    "capitale": "Tegucigalpa",
+    "langues": "Spanish",
+    "monnaie": "Honduran lempira (L)"
+   },
+   "es": {
+    "capitale": "Tegucigalpa",
+    "langues": "español",
+    "monnaie": "lempira (L)"
+   },
+   "zh": {
+    "capitale": "特古西加尔巴",
+    "langues": "西班牙语",
+    "monnaie": "宏都拉斯倫皮拉 (L)"
+   }
+  },
+  "iso2": "HN",
+  "langues": "espagnol",
+  "monnaie": "lempira (L)"
+ },
+ "HRV": {
+  "capitale": "Zagreb",
+  "i18n": {
+   "ar": {
+    "capitale": "زغرب",
+    "langues": "الكرواتية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Zagreb",
+    "langues": "Croatian",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Zagreb",
+    "langues": "croata",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "萨格勒布",
+    "langues": "克罗地亚语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "HR",
+  "langues": "croate",
+  "monnaie": "euro (€)"
+ },
+ "HTI": {
+  "capitale": "Port-au-Prince",
+  "i18n": {
+   "ar": {
+    "capitale": "بورت أو برانس",
+    "langues": "الفرنسية، الكريولية الهايتية",
+    "monnaie": "جوردة هايتية (G)"
+   },
+   "en": {
+    "capitale": "Port-au-Prince",
+    "langues": "French, Haitian Creole",
+    "monnaie": "gourde (G)"
+   },
+   "es": {
+    "capitale": "Puerto Príncipe",
+    "langues": "francés, criollo haitiano",
+    "monnaie": "gourde (G)"
+   },
+   "zh": {
+    "capitale": "太子港",
+    "langues": "法语、海地克里奥尔语",
+    "monnaie": "海地古德 (G)"
+   }
+  },
+  "iso2": "HT",
+  "langues": "français, créole haïtien",
+  "monnaie": "gourde (G)"
+ },
+ "HUN": {
+  "capitale": "Budapest",
+  "i18n": {
+   "ar": {
+    "capitale": "بودابست",
+    "langues": "المجرية",
+    "monnaie": "فورنت مجري (Ft)"
+   },
+   "en": {
+    "capitale": "Budapest",
+    "langues": "Hungarian",
+    "monnaie": "forint (Ft)"
+   },
+   "es": {
+    "capitale": "Budapest",
+    "langues": "húngaro",
+    "monnaie": "forinto húngaro (Ft)"
+   },
+   "zh": {
+    "capitale": "布达佩斯",
+    "langues": "匈牙利语",
+    "monnaie": "匈牙利福林 (Ft)"
+   }
+  },
+  "iso2": "HU",
+  "langues": "hongrois",
+  "monnaie": "forint (Ft)"
+ },
+ "IDN": {
+  "capitale": "Jakarta",
+  "i18n": {
+   "ar": {
+    "capitale": "جاكرتا",
+    "langues": "الإندونيسية",
+    "monnaie": "روبية إندونيسية (Rp)"
+   },
+   "en": {
+    "capitale": "Jakarta",
+    "langues": "Indonesian",
+    "monnaie": "rupiah (Rp)"
+   },
+   "es": {
+    "capitale": "Yakarta",
+    "langues": "indonesio",
+    "monnaie": "rupia indonesia (Rp)"
+   },
+   "zh": {
+    "capitale": "雅加达",
+    "langues": "印尼语",
+    "monnaie": "印度尼西亚卢比 (Rp)"
+   }
+  },
+  "iso2": "ID",
+  "langues": "indonésien",
+  "monnaie": "roupie indonésienne (Rp)"
+ },
+ "IMN": {
+  "capitale": "Douglas",
+  "i18n": {
+   "ar": {
+    "capitale": "دوغلاس، جزيرة مان",
+    "langues": "الإنجليزية، اللغة المنكية",
+    "monnaie": "جنيه إسترليني (£)، Manx pound (£)"
+   },
+   "en": {
+    "capitale": "Douglas",
+    "langues": "English, Manx",
+    "monnaie": "pound sterling (£), Manx pound (£)"
+   },
+   "es": {
+    "capitale": "Douglas",
+    "langues": "inglés, manés",
+    "monnaie": "libra esterlina (£), manx pound (£)"
+   },
+   "zh": {
+    "capitale": "道格拉斯",
+    "langues": "英语、马恩岛语",
+    "monnaie": "英镑 (£)、Manx pound (£)"
+   }
+  },
+  "iso2": "IM",
+  "langues": "anglais, mannois",
+  "monnaie": "livre sterling (£), livre mannoise (£)"
+ },
+ "IND": {
+  "capitale": "New Delhi",
+  "i18n": {
+   "ar": {
+    "capitale": "نيو دلهي",
+    "langues": "الإنجليزية، الهندية، التملية",
+    "monnaie": "روبية هندية (₹)"
+   },
+   "en": {
+    "capitale": "New Delhi",
+    "langues": "English, Hindi, Tamil",
+    "monnaie": "Indian rupee (₹)"
+   },
+   "es": {
+    "capitale": "Nueva Delhi",
+    "langues": "inglés, hindi, tamil",
+    "monnaie": "rupia india (₹)"
+   },
+   "zh": {
+    "capitale": "新德里",
+    "langues": "英语、印地语、泰米尔语",
+    "monnaie": "印度盧比 (₹)"
+   }
+  },
+  "iso2": "IN",
+  "langues": "anglais, hindi, tamoul",
+  "monnaie": "roupie indienne (₹)"
+ },
+ "IOT": {
+  "capitale": "Diego Garcia",
+  "i18n": {
+   "ar": {
+    "capitale": "دييغو غارسيا",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Diego Garcia",
+    "langues": "English",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Diego García",
+    "langues": "inglés",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "迪戈加西亚岛",
+    "langues": "英语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "IO",
+  "langues": "anglais",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "IRL": {
+  "capitale": "Dublin",
+  "i18n": {
+   "ar": {
+    "capitale": "دبلن",
+    "langues": "الإنجليزية، الأيرلندية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Dublin",
+    "langues": "English, Irish",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Dublín",
+    "langues": "inglés, irlandés",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "都柏林",
+    "langues": "英语、爱尔兰语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "IE",
+  "langues": "anglais, irlandais",
+  "monnaie": "euro (€)"
+ },
+ "IRN": {
+  "capitale": "Téhéran",
+  "i18n": {
+   "ar": {
+    "capitale": "طهران",
+    "langues": "الفارسية",
+    "monnaie": "ريال إيراني (﷼)"
+   },
+   "en": {
+    "capitale": "Tehran",
+    "langues": "Persian",
+    "monnaie": "Iranian rial (﷼)"
+   },
+   "es": {
+    "capitale": "Teherán",
+    "langues": "persa",
+    "monnaie": "rial iraní (﷼)"
+   },
+   "zh": {
+    "capitale": "德黑兰",
+    "langues": "波斯语",
+    "monnaie": "伊朗里亚尔 (﷼)"
+   }
+  },
+  "iso2": "IR",
+  "langues": "persan",
+  "monnaie": "rial iranien (﷼)"
+ },
+ "IRQ": {
+  "capitale": "Bagdad",
+  "i18n": {
+   "ar": {
+    "capitale": "بغداد",
+    "langues": "العربية، الآرامية الإمبراطورية، السورانية",
+    "monnaie": "دينار عراقي (ع.د)"
+   },
+   "en": {
+    "capitale": "Baghdad",
+    "langues": "Arabic, Imperial Aramaic, Sorani",
+    "monnaie": "Iraqi dinar (ع.د)"
+   },
+   "es": {
+    "capitale": "Bagdad",
+    "langues": "árabe, arameo imperial, sorani",
+    "monnaie": "dinar iraquí (ع.د)"
+   },
+   "zh": {
+    "capitale": "巴格达",
+    "langues": "阿拉伯语、帝国阿拉姆语、中库尔德语",
+    "monnaie": "伊拉克第纳尔 (ع.د)"
+   }
+  },
+  "iso2": "IQ",
+  "langues": "arabe, araméen impérial, sorani",
+  "monnaie": "dinar irakien (ع.د)"
+ },
+ "ISL": {
+  "capitale": "Reykjavik",
+  "i18n": {
+   "ar": {
+    "capitale": "ريكيافيك",
+    "langues": "الآيسلندية",
+    "monnaie": "كرونة آيسلندية (kr)"
+   },
+   "en": {
+    "capitale": "Reykjavík",
+    "langues": "Icelandic",
+    "monnaie": "Icelandic króna (kr)"
+   },
+   "es": {
+    "capitale": "Reikiavik",
+    "langues": "islandés",
+    "monnaie": "corona islandesa (kr)"
+   },
+   "zh": {
+    "capitale": "雷克雅未克",
+    "langues": "冰岛语",
+    "monnaie": "冰岛克朗 (kr)"
+   }
+  },
+  "iso2": "IS",
+  "langues": "islandais",
+  "monnaie": "couronne islandaise (kr)"
+ },
+ "ISR": {
+  "capitale": "Jérusalem",
+  "i18n": {
+   "ar": {
+    "capitale": "القدس",
+    "langues": "العربية، العبرية الحديثة",
+    "monnaie": "شيكل إسرائيلي جديد (₪)"
+   },
+   "en": {
+    "capitale": "Jerusalem",
+    "langues": "Arabic, Modern Hebrew",
+    "monnaie": "new shekel (₪)"
+   },
+   "es": {
+    "capitale": "Jerusalén",
+    "langues": "árabe, hebreo moderno",
+    "monnaie": "nuevo séquel (₪)"
+   },
+   "zh": {
+    "capitale": "耶路撒冷",
+    "langues": "阿拉伯语、希伯来语",
+    "monnaie": "以色列新谢克尔 (₪)"
+   }
+  },
+  "iso2": "IL",
+  "langues": "arabe, hébreu moderne",
+  "monnaie": "shekel (₪)"
+ },
+ "ITA": {
+  "capitale": "Rome",
+  "i18n": {
+   "ar": {
+    "capitale": "روما",
+    "langues": "الإيطالية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Rome",
+    "langues": "Italian",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Roma",
+    "langues": "italiano",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "罗马",
+    "langues": "意大利语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "IT",
+  "langues": "italien",
+  "monnaie": "euro (€)"
+ },
+ "JAM": {
+  "capitale": "Kingston",
+  "i18n": {
+   "ar": {
+    "capitale": "كينغستون",
+    "langues": "الإنجليزية، كريولية جامايكية",
+    "monnaie": "دولار جامايكي ($)"
+   },
+   "en": {
+    "capitale": "Kingston",
+    "langues": "English, Jamaican Patois",
+    "monnaie": "Jamaican dollar ($)"
+   },
+   "es": {
+    "capitale": "Kingston",
+    "langues": "inglés, criollo jamaicano",
+    "monnaie": "dólar jamaiquino ($)"
+   },
+   "zh": {
+    "capitale": "金斯敦",
+    "langues": "英语、牙买加克里奥尔语",
+    "monnaie": "牙买加元 ($)"
+   }
+  },
+  "iso2": "JM",
+  "langues": "anglais, créole jamaïcain",
+  "monnaie": "dollar jamaïcain ($)"
+ },
+ "JEY": {
+  "capitale": "Saint-Hélier",
+  "i18n": {
+   "ar": {
+    "capitale": "ساينت هيلير",
+    "langues": "الإنجليزية، الفرنسية، النرمندية",
+    "monnaie": "جنيه إسترليني (£)، Jersey pound (£)"
+   },
+   "en": {
+    "capitale": "Saint Helier",
+    "langues": "English, French, Norman",
+    "monnaie": "pound sterling (£), Jersey pound (£)"
+   },
+   "es": {
+    "capitale": "Saint Helier",
+    "langues": "inglés, francés, normando",
+    "monnaie": "libra esterlina (£), jersey pound (£)"
+   },
+   "zh": {
+    "capitale": "圣赫利尔",
+    "langues": "英语、法语、諾曼語",
+    "monnaie": "英镑 (£)、Jersey pound (£)"
+   }
+  },
+  "iso2": "JE",
+  "langues": "anglais, français, normand",
+  "monnaie": "livre sterling (£), livre de Jersey (£)"
+ },
+ "JOR": {
+  "capitale": "Amman",
+  "i18n": {
+   "ar": {
+    "capitale": "عَمَّان",
+    "langues": "العربية",
+    "monnaie": "دينار أردني (د.ا)"
+   },
+   "en": {
+    "capitale": "Amman",
+    "langues": "Arabic",
+    "monnaie": "Jordanian dinar (د.ا)"
+   },
+   "es": {
+    "capitale": "Amán",
+    "langues": "árabe",
+    "monnaie": "dinar jordano (د.ا)"
+   },
+   "zh": {
+    "capitale": "安曼",
+    "langues": "阿拉伯语",
+    "monnaie": "约旦第纳尔 (د.ا)"
+   }
+  },
+  "iso2": "JO",
+  "langues": "arabe",
+  "monnaie": "dinar jordanien (د.ا)"
+ },
+ "JPN": {
+  "capitale": "Tokyo",
+  "i18n": {
+   "ar": {
+    "capitale": "طوكيو",
+    "langues": "اليابانية",
+    "monnaie": "ين ياباني (¥)"
+   },
+   "en": {
+    "capitale": "Tokyo",
+    "langues": "Japanese",
+    "monnaie": "yen (¥)"
+   },
+   "es": {
+    "capitale": "Tokio",
+    "langues": "japonés",
+    "monnaie": "yen (¥)"
+   },
+   "zh": {
+    "capitale": "东京都",
+    "langues": "日语",
+    "monnaie": "日圆 (¥)"
+   }
+  },
+  "iso2": "JP",
+  "langues": "japonais",
+  "monnaie": "yen (¥)"
+ },
+ "KAZ": {
+  "capitale": "Astana",
+  "i18n": {
+   "ar": {
+    "capitale": "أستانة",
+    "langues": "القزاقية، الروسية",
+    "monnaie": "تنك قزاقستاني (₸)"
+   },
+   "en": {
+    "capitale": "Astana",
+    "langues": "Kazakh, Russian",
+    "monnaie": "Kazakhstani tenge (₸)"
+   },
+   "es": {
+    "capitale": "Astaná",
+    "langues": "kazajo, ruso",
+    "monnaie": "tenge kazajo (₸)"
+   },
+   "zh": {
+    "capitale": "阿斯塔纳",
+    "langues": "哈萨克语、俄语",
+    "monnaie": "哈萨克斯坦坚戈 (₸)"
+   }
+  },
+  "iso2": "KZ",
+  "langues": "kazakh, russe",
+  "monnaie": "tenge kazakh (₸)"
+ },
+ "KEN": {
+  "capitale": "Nairobi",
+  "i18n": {
+   "ar": {
+    "capitale": "نيروبي",
+    "langues": "الإنجليزية، السواحلية",
+    "monnaie": "شلن كيني (Sh)"
+   },
+   "en": {
+    "capitale": "Nairobi",
+    "langues": "English, Swahili",
+    "monnaie": "Kenyan shilling (Sh)"
+   },
+   "es": {
+    "capitale": "Nairobi",
+    "langues": "inglés, suajili",
+    "monnaie": "chelín keniano (Sh)"
+   },
+   "zh": {
+    "capitale": "内罗毕",
+    "langues": "英语、斯瓦希里语",
+    "monnaie": "肯尼亚先令 (Sh)"
+   }
+  },
+  "iso2": "KE",
+  "langues": "anglais, swahili",
+  "monnaie": "shilling kényan (Sh)"
+ },
+ "KGZ": {
+  "capitale": "Bichkek",
+  "i18n": {
+   "ar": {
+    "capitale": "بيشكك",
+    "langues": "القرغيزية، الروسية",
+    "monnaie": "سوم قيرغيزستاني (с)"
+   },
+   "en": {
+    "capitale": "Bishkek",
+    "langues": "Kyrgyz, Russian",
+    "monnaie": "Kyrgyz som (с)"
+   },
+   "es": {
+    "capitale": "Biskek",
+    "langues": "kirguís, ruso",
+    "monnaie": "som kirguís (с)"
+   },
+   "zh": {
+    "capitale": "比什凯克",
+    "langues": "柯尔克孜语、俄语",
+    "monnaie": "吉尔吉斯斯坦索姆 (с)"
+   }
+  },
+  "iso2": "KG",
+  "langues": "kirghize, russe",
+  "monnaie": "som (с)"
+ },
+ "KHM": {
+  "capitale": "Phnom Penh",
+  "i18n": {
+   "ar": {
+    "capitale": "بنوم بنه",
+    "langues": "الخميرية",
+    "monnaie": "ريال كمبودي (៛)، دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Phnom Penh",
+    "langues": "Khmer",
+    "monnaie": "riel (៛), United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Nom Pen",
+    "langues": "camboyano",
+    "monnaie": "riel camboyano (៛), dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "金边",
+    "langues": "高棉语",
+    "monnaie": "柬埔寨瑞尔 (៛)、美元 ($)"
+   }
+  },
+  "iso2": "KH",
+  "langues": "khmer",
+  "monnaie": "riel (៛), dollar des États-Unis ($)"
+ },
+ "KIR": {
+  "capitale": "Tarawa-Sud",
+  "i18n": {
+   "ar": {
+    "capitale": "جنوب تاراوا",
+    "langues": "الإنجليزية، الكيريباتية",
+    "monnaie": "دولار أسترالي ($)، Kiribati dollar ($)"
+   },
+   "en": {
+    "capitale": "South Tarawa",
+    "langues": "English, Gilbertese",
+    "monnaie": "Australian dollar ($), Kiribati dollar ($)"
+   },
+   "es": {
+    "capitale": "Tarawa Sur",
+    "langues": "inglés, gilbertino",
+    "monnaie": "dólar australiano ($), kiribati dollar ($)"
+   },
+   "zh": {
+    "capitale": "南塔拉瓦",
+    "langues": "英语、吉里巴斯語",
+    "monnaie": "澳大利亚元 ($)、Kiribati dollar ($)"
+   }
+  },
+  "iso2": "KI",
+  "langues": "anglais, gilbertin",
+  "monnaie": "dollar australien ($), dollar des Kiribati ($)"
+ },
+ "KNA": {
+  "capitale": "Basseterre",
+  "i18n": {
+   "ar": {
+    "capitale": "باستير",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار شرق الكاريبي ($)"
+   },
+   "en": {
+    "capitale": "Basseterre",
+    "langues": "English",
+    "monnaie": "Eastern Caribbean dollar ($)"
+   },
+   "es": {
+    "capitale": "Basseterre",
+    "langues": "inglés",
+    "monnaie": "dólar del Caribe Oriental ($)"
+   },
+   "zh": {
+    "capitale": "巴斯特尔",
+    "langues": "英语",
+    "monnaie": "东加勒比元 ($)"
+   }
+  },
+  "iso2": "KN",
+  "langues": "anglais",
+  "monnaie": "dollar des Caraïbes orientales ($)"
+ },
+ "KOR": {
+  "capitale": "Séoul",
+  "i18n": {
+   "ar": {
+    "capitale": "سول",
+    "langues": "الكورية",
+    "monnaie": "وون كوري جنوبي (₩)"
+   },
+   "en": {
+    "capitale": "Seoul",
+    "langues": "Korean",
+    "monnaie": "won (₩)"
+   },
+   "es": {
+    "capitale": "Seúl",
+    "langues": "coreano",
+    "monnaie": "won surcoreano (₩)"
+   },
+   "zh": {
+    "capitale": "首尔",
+    "langues": "朝鲜语",
+    "monnaie": "韩圆 (₩)"
+   }
+  },
+  "iso2": "KR",
+  "langues": "coréen",
+  "monnaie": "won sud-coréen (₩)"
+ },
+ "KOS": {
+  "capitale": "Pristina",
+  "iso2": "XK",
+  "langues": "albanais, serbe",
+  "monnaie": "euro (€)"
+ },
+ "KWT": {
+  "capitale": "Koweït",
+  "i18n": {
+   "ar": {
+    "capitale": "مدينة الكويت",
+    "langues": "العربية",
+    "monnaie": "دينار كويتي (د.ك)"
+   },
+   "en": {
+    "capitale": "Kuwait City",
+    "langues": "Arabic",
+    "monnaie": "Kuwaiti dinar (د.ك)"
+   },
+   "es": {
+    "capitale": "Ciudad de Kuwait",
+    "langues": "árabe",
+    "monnaie": "dinar kuwaití (د.ك)"
+   },
+   "zh": {
+    "capitale": "科威特城",
+    "langues": "阿拉伯语",
+    "monnaie": "科威特第纳尔 (د.ك)"
+   }
+  },
+  "iso2": "KW",
+  "langues": "arabe",
+  "monnaie": "dinar koweïtien (د.ك)"
+ },
+ "LAO": {
+  "capitale": "Vientiane",
+  "i18n": {
+   "ar": {
+    "capitale": "فيينتيان",
+    "langues": "لاو",
+    "monnaie": "كيب لاوي (₭)"
+   },
+   "en": {
+    "capitale": "Vientiane",
+    "langues": "Lao",
+    "monnaie": "Lao kip (₭)"
+   },
+   "es": {
+    "capitale": "Vientián",
+    "langues": "lao",
+    "monnaie": "kip laosiano (₭)"
+   },
+   "zh": {
+    "capitale": "万象",
+    "langues": "老挝语",
+    "monnaie": "老挝基普 (₭)"
+   }
+  },
+  "iso2": "LA",
+  "langues": "lao",
+  "monnaie": "kip laotien (₭)"
+ },
+ "LBN": {
+  "capitale": "Beyrouth",
+  "i18n": {
+   "ar": {
+    "capitale": "بيروت",
+    "langues": "العربية، الفرنسية",
+    "monnaie": "ليرة لبنانية (ل.ل)"
+   },
+   "en": {
+    "capitale": "Beirut",
+    "langues": "Arabic, French",
+    "monnaie": "Lebanese pound (ل.ل)"
+   },
+   "es": {
+    "capitale": "Beirut",
+    "langues": "árabe, francés",
+    "monnaie": "libra libanesa (ل.ل)"
+   },
+   "zh": {
+    "capitale": "贝鲁特",
+    "langues": "阿拉伯语、法语",
+    "monnaie": "黎巴嫩镑 (ل.ل)"
+   }
+  },
+  "iso2": "LB",
+  "langues": "arabe, français",
+  "monnaie": "livre libanaise (ل.ل)"
+ },
+ "LBR": {
+  "capitale": "Monrovia",
+  "i18n": {
+   "ar": {
+    "capitale": "مونروفيا",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار ليبيري ($)"
+   },
+   "en": {
+    "capitale": "Monrovia",
+    "langues": "English",
+    "monnaie": "Liberian dollar ($)"
+   },
+   "es": {
+    "capitale": "Monrovia",
+    "langues": "inglés",
+    "monnaie": "dólar liberiano ($)"
+   },
+   "zh": {
+    "capitale": "蒙罗维亚",
+    "langues": "英语",
+    "monnaie": "利比里亚元 ($)"
+   }
+  },
+  "iso2": "LR",
+  "langues": "anglais",
+  "monnaie": "dollar libérien ($)"
+ },
+ "LBY": {
+  "capitale": "Tripoli",
+  "i18n": {
+   "ar": {
+    "capitale": "طرابلس",
+    "langues": "العربية",
+    "monnaie": "دينار ليبي (ل.د)"
+   },
+   "en": {
+    "capitale": "Tripoli",
+    "langues": "Arabic",
+    "monnaie": "Libyan dinar (ل.د)"
+   },
+   "es": {
+    "capitale": "Trípoli",
+    "langues": "árabe",
+    "monnaie": "dinar libio (ل.د)"
+   },
+   "zh": {
+    "capitale": "的黎波里",
+    "langues": "阿拉伯语",
+    "monnaie": "利比亚第纳尔 (ل.د)"
+   }
+  },
+  "iso2": "LY",
+  "langues": "arabe",
+  "monnaie": "dinar libyen (ل.د)"
+ },
+ "LCA": {
+  "capitale": "Castries",
+  "i18n": {
+   "ar": {
+    "capitale": "كاستريس",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار شرق الكاريبي ($)"
+   },
+   "en": {
+    "capitale": "Castries",
+    "langues": "English",
+    "monnaie": "Eastern Caribbean dollar ($)"
+   },
+   "es": {
+    "capitale": "Castries",
+    "langues": "inglés",
+    "monnaie": "dólar del Caribe Oriental ($)"
+   },
+   "zh": {
+    "capitale": "卡斯特里",
+    "langues": "英语",
+    "monnaie": "东加勒比元 ($)"
+   }
+  },
+  "iso2": "LC",
+  "langues": "anglais",
+  "monnaie": "dollar des Caraïbes orientales ($)"
+ },
+ "LIE": {
+  "capitale": "Vaduz",
+  "i18n": {
+   "ar": {
+    "capitale": "فادوتس",
+    "langues": "الألمانية",
+    "monnaie": "فرنك سويسري (Fr)"
+   },
+   "en": {
+    "capitale": "Vaduz",
+    "langues": "German",
+    "monnaie": "Swiss franc (Fr)"
+   },
+   "es": {
+    "capitale": "Vaduz",
+    "langues": "alemán",
+    "monnaie": "franco suizo (Fr)"
+   },
+   "zh": {
+    "capitale": "瓦杜兹",
+    "langues": "德语",
+    "monnaie": "瑞士法郎 (Fr)"
+   }
+  },
+  "iso2": "LI",
+  "langues": "allemand",
+  "monnaie": "franc suisse (Fr)"
+ },
+ "LKA": {
+  "capitale": "Colombo, Sri Jayawardenapura",
+  "i18n": {
+   "ar": {
+    "capitale": "سري جاياواردنابورا كوتي، كولمبو",
+    "langues": "السنهالية، التملية",
+    "monnaie": "روبية سريلانكية (Rs රු)"
+   },
+   "en": {
+    "capitale": "Colombo, Sri Jayawardenepura Kotte",
+    "langues": "Sinhala, Tamil",
+    "monnaie": "Sri Lankan rupee (Rs රු)"
+   },
+   "es": {
+    "capitale": "Colombo, Sri Jayawardenapura Kotte",
+    "langues": "cingalés, tamil",
+    "monnaie": "rupia esrilanquesa (Rs රු)"
+   },
+   "zh": {
+    "capitale": "科伦坡、斯里贾亚瓦德纳普拉科特",
+    "langues": "僧伽罗语、泰米尔语",
+    "monnaie": "斯里兰卡卢比 (Rs රු)"
+   }
+  },
+  "iso2": "LK",
+  "langues": "singhalais, tamoul",
+  "monnaie": "roupie srilankaise (Rs රු)"
+ },
+ "LSO": {
+  "capitale": "Maseru",
+  "i18n": {
+   "ar": {
+    "capitale": "ماسيرو",
+    "langues": "الإنجليزية، لغة سوتية",
+    "monnaie": "لوتي ليسوتو (L)، راند جنوب إفريقي (R)"
+   },
+   "en": {
+    "capitale": "Maseru",
+    "langues": "English, Sesotho",
+    "monnaie": "loti (L), rand (R)"
+   },
+   "es": {
+    "capitale": "Maseru",
+    "langues": "inglés, sesotho",
+    "monnaie": "loti (L), rand sudafricano (R)"
+   },
+   "zh": {
+    "capitale": "马塞卢",
+    "langues": "英语、索托语",
+    "monnaie": "莱索托洛蒂 (L)、南非兰特 (R)"
+   }
+  },
+  "iso2": "LS",
+  "langues": "anglais, sotho du Sud",
+  "monnaie": "loti (L), rand (R)"
+ },
+ "LTU": {
+  "capitale": "Vilnius",
+  "i18n": {
+   "ar": {
+    "capitale": "فيلنيوس",
+    "langues": "اللتوانية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Vilnius",
+    "langues": "Lithuanian",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Vilna",
+    "langues": "lituano",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "维尔纽斯",
+    "langues": "立陶宛语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "LT",
+  "langues": "lituanien",
+  "monnaie": "euro (€)"
+ },
+ "LUX": {
+  "capitale": "Luxembourg",
+  "i18n": {
+   "ar": {
+    "capitale": "مدينة لوكسمبورغ",
+    "langues": "الألمانية، الفرنسية، اللوكسمبورغية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Luxembourg",
+    "langues": "German, French, Luxembourgish",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Luxemburgo",
+    "langues": "alemán, francés, luxemburgués",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "卢森堡市",
+    "langues": "德语、法语、卢森堡语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "LU",
+  "langues": "allemand, français, luxembourgeois",
+  "monnaie": "euro (€)"
+ },
+ "LVA": {
+  "capitale": "Riga",
+  "i18n": {
+   "ar": {
+    "capitale": "ريغا",
+    "langues": "اللاتفية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Riga",
+    "langues": "Latvian",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Riga",
+    "langues": "letón",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "里加",
+    "langues": "拉脱维亚语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "LV",
+  "langues": "letton",
+  "monnaie": "euro (€)"
+ },
+ "MAC": {
+  "capitale": "Macao",
+  "i18n": {
+   "ar": {
+    "langues": "البرتغالية، الصينية",
+    "monnaie": "باتاكا ماكاوية (P)"
+   },
+   "en": {
+    "langues": "Portuguese, Chinese",
+    "monnaie": "Macanese pataca (P)"
+   },
+   "es": {
+    "langues": "portugués, chino",
+    "monnaie": "pataca macaense (P)"
+   },
+   "zh": {
+    "langues": "葡萄牙语、中文",
+    "monnaie": "澳门元 (P)"
+   }
+  },
+  "iso2": "MO",
+  "langues": "portugais, chinois",
+  "monnaie": "pataca (P)"
+ },
+ "MAF": {
+  "capitale": "Marigot",
+  "i18n": {
+   "ar": {
+    "capitale": "ماريغو",
+    "langues": "الفرنسية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Marigot",
+    "langues": "French",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Marigot",
+    "langues": "francés",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "马里戈特",
+    "langues": "法语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "MF",
+  "langues": "français",
+  "monnaie": "euro (€)"
+ },
+ "MAR": {
+  "capitale": "Rabat",
+  "i18n": {
+   "ar": {
+    "capitale": "الرباط",
+    "langues": "العربية، Berber",
+    "monnaie": "درهم مغربي (د.م.)"
+   },
+   "en": {
+    "capitale": "Rabat",
+    "langues": "Arabic, Berber",
+    "monnaie": "Moroccan dirham (د.م.)"
+   },
+   "es": {
+    "capitale": "Rabat",
+    "langues": "árabe, berber",
+    "monnaie": "dírham marroquí (د.م.)"
+   },
+   "zh": {
+    "capitale": "拉巴特",
+    "langues": "阿拉伯语、Berber",
+    "monnaie": "摩洛哥迪尔汗 (د.م.)"
+   }
+  },
+  "iso2": "MA",
+  "langues": "arabe, berbère",
+  "monnaie": "dirham marocain (د.م.)"
+ },
+ "MCO": {
+  "capitale": "Monaco",
+  "i18n": {
+   "ar": {
+    "capitale": "موناكو",
+    "langues": "الفرنسية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Monaco",
+    "langues": "French",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Mónaco",
+    "langues": "francés",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "摩纳哥",
+    "langues": "法语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "MC",
+  "langues": "français",
+  "monnaie": "euro (€)"
+ },
+ "MDA": {
+  "capitale": "Chișinău",
+  "i18n": {
+   "ar": {
+    "capitale": "كيشيناو",
+    "langues": "الرومانية",
+    "monnaie": "لو ملداوي (L)"
+   },
+   "en": {
+    "capitale": "Chișinău",
+    "langues": "Romanian",
+    "monnaie": "Moldovan leu (L)"
+   },
+   "es": {
+    "capitale": "Chisináu",
+    "langues": "rumano",
+    "monnaie": "leu moldavo (L)"
+   },
+   "zh": {
+    "capitale": "基希讷乌",
+    "langues": "罗马尼亚语",
+    "monnaie": "摩尔多瓦列伊 (L)"
+   }
+  },
+  "iso2": "MD",
+  "langues": "roumain",
+  "monnaie": "leu moldave (L)"
+ },
+ "MDG": {
+  "capitale": "Antananarivo",
+  "i18n": {
+   "ar": {
+    "capitale": "أنتانانريفو",
+    "langues": "الفرنسية، الملغاشية",
+    "monnaie": "أرياري مدغشقري (Ar)"
+   },
+   "en": {
+    "capitale": "Antananarivo",
+    "langues": "French, Malagasy",
+    "monnaie": "ariary (Ar)"
+   },
+   "es": {
+    "capitale": "Antananarivo",
+    "langues": "francés, malgache",
+    "monnaie": "ariary (Ar)"
+   },
+   "zh": {
+    "capitale": "塔那那利佛",
+    "langues": "法语、马达加斯加语",
+    "monnaie": "马达加斯加阿里亚里 (Ar)"
+   }
+  },
+  "iso2": "MG",
+  "langues": "français, malgache",
+  "monnaie": "ariary (Ar)"
+ },
+ "MDV": {
+  "capitale": "Malé",
+  "i18n": {
+   "ar": {
+    "capitale": "ماليه",
+    "langues": "ديفهي",
+    "monnaie": "روفية مالديفية (.ރ)"
+   },
+   "en": {
+    "capitale": "Malé",
+    "langues": "Maldivian",
+    "monnaie": "Maldivian rufiyaa (.ރ)"
+   },
+   "es": {
+    "capitale": "Malé",
+    "langues": "maldivo",
+    "monnaie": "rupia maldiva (.ރ)"
+   },
+   "zh": {
+    "capitale": "马累",
+    "langues": "迪维希语",
+    "monnaie": "马尔代夫拉菲亚 (.ރ)"
+   }
+  },
+  "iso2": "MV",
+  "langues": "maldivien",
+  "monnaie": "rufiyaa (.ރ)"
+ },
+ "MEX": {
+  "capitale": "Mexico",
+  "i18n": {
+   "ar": {
+    "capitale": "مدينة مكسيكو",
+    "langues": "الإسبانية",
+    "monnaie": "بيزو مكسيكي ($)"
+   },
+   "en": {
+    "capitale": "Mexico City",
+    "langues": "Spanish",
+    "monnaie": "peso ($)"
+   },
+   "es": {
+    "capitale": "Ciudad de México",
+    "langues": "español",
+    "monnaie": "peso ($)"
+   },
+   "zh": {
+    "capitale": "墨西哥城",
+    "langues": "西班牙语",
+    "monnaie": "墨西哥比索 ($)"
+   }
+  },
+  "iso2": "MX",
+  "langues": "espagnol",
+  "monnaie": "peso mexicain ($)"
+ },
+ "MHL": {
+  "capitale": "Majuro",
+  "i18n": {
+   "ar": {
+    "capitale": "ماجورو",
+    "langues": "الإنجليزية، المارشالية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Majuro",
+    "langues": "English, Marshallese",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Majuro",
+    "langues": "inglés, marshalés",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "马朱罗",
+    "langues": "英语、马绍尔语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "MH",
+  "langues": "anglais, marshallais",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "MKD": {
+  "capitale": "Skopje",
+  "i18n": {
+   "ar": {
+    "capitale": "إسكوبية",
+    "langues": "المقدونية",
+    "monnaie": "دينار مقدوني (den)"
+   },
+   "en": {
+    "capitale": "Skopje",
+    "langues": "Macedonian",
+    "monnaie": "Macedonian denar (den)"
+   },
+   "es": {
+    "capitale": "Skopie",
+    "langues": "macedonio",
+    "monnaie": "denar macedonio (den)"
+   },
+   "zh": {
+    "capitale": "斯科普里",
+    "langues": "马其顿语",
+    "monnaie": "北马其顿代纳尔 (den)"
+   }
+  },
+  "iso2": "MK",
+  "langues": "macédonien",
+  "monnaie": "denar macédonien (den)"
+ },
+ "MLI": {
+  "capitale": "Bamako",
+  "i18n": {
+   "ar": {
+    "capitale": "باماكو",
+    "langues": "الفرنسية",
+    "monnaie": "فرنك غرب إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Bamako",
+    "langues": "French",
+    "monnaie": "West African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Bamako",
+    "langues": "francés",
+    "monnaie": "franco CFA de África Occidental (Fr)"
+   },
+   "zh": {
+    "capitale": "巴马科",
+    "langues": "法语",
+    "monnaie": "西非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "ML",
+  "langues": "français",
+  "monnaie": "franc CFA (Fr)"
+ },
+ "MLT": {
+  "capitale": "La Valette",
+  "i18n": {
+   "ar": {
+    "capitale": "البلد",
+    "langues": "الإنجليزية، المالطية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Valletta",
+    "langues": "English, Maltese",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "La Valeta",
+    "langues": "inglés, maltés",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "瓦莱塔",
+    "langues": "英语、马耳他语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "MT",
+  "langues": "anglais, maltais",
+  "monnaie": "euro (€)"
+ },
+ "MMR": {
+  "capitale": "Naypyidaw",
+  "i18n": {
+   "ar": {
+    "capitale": "نايبيداو",
+    "langues": "البورمية",
+    "monnaie": "كيات ميانماري (Ks)"
+   },
+   "en": {
+    "capitale": "Naypyidaw",
+    "langues": "Burmese",
+    "monnaie": "kyat (Ks)"
+   },
+   "es": {
+    "capitale": "Naipyidó",
+    "langues": "idioma birmano",
+    "monnaie": "kyat birmano (Ks)"
+   },
+   "zh": {
+    "capitale": "奈比多",
+    "langues": "缅甸语",
+    "monnaie": "缅甸元 (Ks)"
+   }
+  },
+  "iso2": "MM",
+  "langues": "birman",
+  "monnaie": "kyat (Ks)"
+ },
+ "MNE": {
+  "capitale": "Podgorica",
+  "i18n": {
+   "ar": {
+    "capitale": "بودغوريتسا",
+    "langues": "المونتنغرية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Podgorica",
+    "langues": "Montenegrin",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Podgorica",
+    "langues": "montenegrino",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "波德戈里察",
+    "langues": "黑山语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "ME",
+  "langues": "monténégrin",
+  "monnaie": "euro (€)"
+ },
+ "MNG": {
+  "capitale": "Oulan-Bator",
+  "i18n": {
+   "ar": {
+    "capitale": "أولان باتور",
+    "langues": "المغولية",
+    "monnaie": "توغروغ منغولي (₮)"
+   },
+   "en": {
+    "capitale": "Ulaanbaatar",
+    "langues": "Mongolian",
+    "monnaie": "Mongolian tögrög (₮)"
+   },
+   "es": {
+    "capitale": "Ulán Bator",
+    "langues": "mongol",
+    "monnaie": "tugrik mongol (₮)"
+   },
+   "zh": {
+    "capitale": "乌兰巴托",
+    "langues": "蒙古语",
+    "monnaie": "蒙古图格里克 (₮)"
+   }
+  },
+  "iso2": "MN",
+  "langues": "mongol",
+  "monnaie": "tugrik (₮)"
+ },
+ "MNP": {
+  "capitale": "Saïpan",
+  "i18n": {
+   "ar": {
+    "capitale": "Saipan",
+    "langues": "Carolinian، لغة تشاموروية، الإنجليزية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Saipan",
+    "langues": "Carolinian, Chamorro, English",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Saipan",
+    "langues": "carolinio, idioma chamorro, inglés",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "Saipan",
+    "langues": "卡羅萊納文、查莫罗语、英语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "MP",
+  "langues": "carolinien, chamorro, anglais",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "MOZ": {
+  "capitale": "Maputo",
+  "i18n": {
+   "ar": {
+    "capitale": "مابوتو",
+    "langues": "البرتغالية",
+    "monnaie": "مثقال موزنبيقي (MT)"
+   },
+   "en": {
+    "capitale": "Maputo",
+    "langues": "Portuguese",
+    "monnaie": "Mozambican metical (MT)"
+   },
+   "es": {
+    "capitale": "Maputo",
+    "langues": "portugués",
+    "monnaie": "metical mozambiqueño (MT)"
+   },
+   "zh": {
+    "capitale": "马普托",
+    "langues": "葡萄牙语",
+    "monnaie": "莫桑比克梅蒂卡尔 (MT)"
+   }
+  },
+  "iso2": "MZ",
+  "langues": "portugais",
+  "monnaie": "metical (MT)"
+ },
+ "MRT": {
+  "capitale": "Nouakchott",
+  "i18n": {
+   "ar": {
+    "capitale": "نواكشوط",
+    "langues": "العربية",
+    "monnaie": "أوقية موريتانية (UM)"
+   },
+   "en": {
+    "capitale": "Nouakchott",
+    "langues": "Arabic",
+    "monnaie": "Mauritanian ouguiya (UM)"
+   },
+   "es": {
+    "capitale": "Nuakchot",
+    "langues": "árabe",
+    "monnaie": "uguiya (UM)"
+   },
+   "zh": {
+    "capitale": "努瓦克肖特",
+    "langues": "阿拉伯语",
+    "monnaie": "毛里塔尼亚乌吉亚 (UM)"
+   }
+  },
+  "iso2": "MR",
+  "langues": "arabe",
+  "monnaie": "ouguiya (UM)"
+ },
+ "MSR": {
+  "capitale": "Plymouth, Brades",
+  "i18n": {
+   "ar": {
+    "capitale": "بريدز، بليموث، مونتسيرات",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار شرق الكاريبي ($)"
+   },
+   "en": {
+    "capitale": "Plymouth, Brades",
+    "langues": "English",
+    "monnaie": "Eastern Caribbean dollar ($)"
+   },
+   "es": {
+    "capitale": "Brades, Plymouth",
+    "langues": "inglés",
+    "monnaie": "dólar del Caribe Oriental ($)"
+   },
+   "zh": {
+    "capitale": "普利茅斯、布莱兹",
+    "langues": "英语",
+    "monnaie": "东加勒比元 ($)"
+   }
+  },
+  "iso2": "MS",
+  "langues": "anglais",
+  "monnaie": "dollar des Caraïbes orientales ($)"
+ },
+ "MUS": {
+  "capitale": "Port-Louis",
+  "i18n": {
+   "ar": {
+    "capitale": "بورت لويس",
+    "langues": "الإنجليزية، الفرنسية، الكريولية الموريشية",
+    "monnaie": "روبي موريشي (₨)"
+   },
+   "en": {
+    "capitale": "Port Louis",
+    "langues": "English, French, Mauritian Creole",
+    "monnaie": "Mauritian rupee (₨)"
+   },
+   "es": {
+    "capitale": "Port Louis",
+    "langues": "inglés, francés, criollo mauriciano",
+    "monnaie": "rupia mauricia (₨)"
+   },
+   "zh": {
+    "capitale": "路易港",
+    "langues": "英语、法语、毛里求斯克里奥尔语",
+    "monnaie": "毛里求斯卢比 (₨)"
+   }
+  },
+  "iso2": "MU",
+  "langues": "anglais, français, créole mauricien",
+  "monnaie": "roupie mauricienne (₨)"
+ },
+ "MWI": {
+  "capitale": "Lilongwe",
+  "i18n": {
+   "ar": {
+    "capitale": "ليلونغوي",
+    "langues": "الإنجليزية، لغة الشيشيوا",
+    "monnaie": "كواشا ملاوية (MK)"
+   },
+   "en": {
+    "capitale": "Lilongwe",
+    "langues": "English, Chewa",
+    "monnaie": "Malawian kwacha (MK)"
+   },
+   "es": {
+    "capitale": "Lilongüe",
+    "langues": "inglés, chichewa",
+    "monnaie": "kuacha malauí (MK)"
+   },
+   "zh": {
+    "capitale": "利隆圭",
+    "langues": "英语、切瓦语",
+    "monnaie": "马拉维克瓦查 (MK)"
+   }
+  },
+  "iso2": "MW",
+  "langues": "anglais, chewa",
+  "monnaie": "kwacha malawien (MK)"
+ },
+ "MYS": {
+  "capitale": "Kuala Lumpur",
+  "i18n": {
+   "ar": {
+    "capitale": "كوالالمبور",
+    "langues": "الإنجليزية، الملايوية",
+    "monnaie": "رينغيت ماليزي (RM)"
+   },
+   "en": {
+    "capitale": "Kuala Lumpur",
+    "langues": "English, Malay",
+    "monnaie": "Malaysian ringgit (RM)"
+   },
+   "es": {
+    "capitale": "Kuala Lumpur",
+    "langues": "inglés, malayo",
+    "monnaie": "ringgit (RM)"
+   },
+   "zh": {
+    "capitale": "吉隆坡",
+    "langues": "英语、马来语",
+    "monnaie": "马來西亚令吉 (RM)"
+   }
+  },
+  "iso2": "MY",
+  "langues": "anglais, malais",
+  "monnaie": "ringgit (RM)"
+ },
+ "NAM": {
+  "capitale": "Windhoek",
+  "i18n": {
+   "ar": {
+    "capitale": "ويندهوك",
+    "langues": "الأفريقانية، الألمانية، الإنجليزية، هيريرو، Khoekhoe، Kwangali، Lozi، Ndonga، التسوانية",
+    "monnaie": "دولار ناميبي ($)، راند جنوب إفريقي (R)"
+   },
+   "en": {
+    "capitale": "Windhoek",
+    "langues": "Afrikaans, German, English, Herero, Haiǁom, Kwangali, Lozi, Ndonga, Tswana",
+    "monnaie": "Namibian dollar ($), rand (R)"
+   },
+   "es": {
+    "capitale": "Windhoek",
+    "langues": "afrikáans, alemán, inglés, herero, ǂAakhoe, idioma RuKwangali, idioma lozi, ndonga, setsuana",
+    "monnaie": "dólar namibio ($), rand sudafricano (R)"
+   },
+   "zh": {
+    "capitale": "温得和克",
+    "langues": "阿非利卡语、德语、英语、赫雷羅語、海奥姆人、卡納利語、洛齐语、恩东加语、茨瓦纳语",
+    "monnaie": "纳米比亚元 ($)、南非兰特 (R)"
+   }
+  },
+  "iso2": "NA",
+  "langues": "afrikaans, allemand, anglais, héréro, haiǁom, kwangali, lozi, ndonga, tswana",
+  "monnaie": "dollar namibien ($), rand (R)"
+ },
+ "NCL": {
+  "capitale": "Nouméa",
+  "i18n": {
+   "ar": {
+    "capitale": "نوميا",
+    "langues": "الفرنسية",
+    "monnaie": "فرنك باسيفيكي (₣)"
+   },
+   "en": {
+    "capitale": "Nouméa",
+    "langues": "French",
+    "monnaie": "CFP Franc (₣)"
+   },
+   "es": {
+    "capitale": "Numea",
+    "langues": "francés",
+    "monnaie": "franco CFP (₣)"
+   },
+   "zh": {
+    "capitale": "努美阿",
+    "langues": "法语",
+    "monnaie": "太平洋法郎 (₣)"
+   }
+  },
+  "iso2": "NC",
+  "langues": "français",
+  "monnaie": "franc Pacifique (₣)"
+ },
+ "NER": {
+  "capitale": "Niamey",
+  "i18n": {
+   "ar": {
+    "capitale": "نيامي",
+    "langues": "الفرنسية",
+    "monnaie": "فرنك غرب إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Niamey",
+    "langues": "French",
+    "monnaie": "West African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Niamey",
+    "langues": "francés",
+    "monnaie": "franco CFA de África Occidental (Fr)"
+   },
+   "zh": {
+    "capitale": "尼亚美",
+    "langues": "法语",
+    "monnaie": "西非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "NE",
+  "langues": "français",
+  "monnaie": "franc CFA (Fr)"
+ },
+ "NFK": {
+  "capitale": "Kingston",
+  "i18n": {
+   "ar": {
+    "capitale": "كينغستون",
+    "langues": "الإنجليزية، البتكرنية",
+    "monnaie": "دولار أسترالي ($)"
+   },
+   "en": {
+    "capitale": "Kingston",
+    "langues": "English, Pitkern",
+    "monnaie": "Australian dollar ($)"
+   },
+   "es": {
+    "capitale": "Kingston",
+    "langues": "inglés, pitcairnés",
+    "monnaie": "dólar australiano ($)"
+   },
+   "zh": {
+    "capitale": "金斯敦",
+    "langues": "英语、皮特肯語",
+    "monnaie": "澳大利亚元 ($)"
+   }
+  },
+  "iso2": "NF",
+  "langues": "anglais, pitcairnais",
+  "monnaie": "dollar australien ($)"
+ },
+ "NGA": {
+  "capitale": "Abuja",
+  "i18n": {
+   "ar": {
+    "capitale": "أبوجا",
+    "langues": "الإنجليزية",
+    "monnaie": "نيرة نيجيرية (₦)"
+   },
+   "en": {
+    "capitale": "Abuja",
+    "langues": "English",
+    "monnaie": "naira (₦)"
+   },
+   "es": {
+    "capitale": "Abuya",
+    "langues": "inglés",
+    "monnaie": "naira (₦)"
+   },
+   "zh": {
+    "capitale": "阿布贾",
+    "langues": "英语",
+    "monnaie": "尼日利亚奈拉 (₦)"
+   }
+  },
+  "iso2": "NG",
+  "langues": "anglais",
+  "monnaie": "naira (₦)"
+ },
+ "NIC": {
+  "capitale": "Managua",
+  "i18n": {
+   "ar": {
+    "capitale": "ماناغوا",
+    "langues": "الإسبانية",
+    "monnaie": "كوردبا نيكاراغوا (C$)"
+   },
+   "en": {
+    "capitale": "Managua",
+    "langues": "Spanish",
+    "monnaie": "Nicaraguan córdoba (C$)"
+   },
+   "es": {
+    "capitale": "Managua",
+    "langues": "español",
+    "monnaie": "córdoba (C$)"
+   },
+   "zh": {
+    "capitale": "马那瓜",
+    "langues": "西班牙语",
+    "monnaie": "尼加拉瓜科多巴 (C$)"
+   }
+  },
+  "iso2": "NI",
+  "langues": "espagnol",
+  "monnaie": "córdoba (C$)"
+ },
+ "NIU": {
+  "capitale": "Alofi",
+  "i18n": {
+   "ar": {
+    "capitale": "الوفي",
+    "langues": "الإنجليزية، النييوية",
+    "monnaie": "دولار نيوزيلندي ($)"
+   },
+   "en": {
+    "capitale": "Alofi",
+    "langues": "English, Niuean",
+    "monnaie": "New Zealand dollar ($)"
+   },
+   "es": {
+    "capitale": "Alofi",
+    "langues": "inglés, idioma niuano",
+    "monnaie": "dólar neozelandés ($)"
+   },
+   "zh": {
+    "capitale": "阿洛菲",
+    "langues": "英语、纽埃语",
+    "monnaie": "新西兰元 ($)"
+   }
+  },
+  "iso2": "NU",
+  "langues": "anglais, niuéen",
+  "monnaie": "dollar néo-zélandais ($)"
+ },
+ "NLD": {
+  "capitale": "Amsterdam",
+  "i18n": {
+   "ar": {
+    "capitale": "أمستردام",
+    "langues": "الهولندية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Amsterdam",
+    "langues": "Dutch",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Ámsterdam",
+    "langues": "neerlandés",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "阿姆斯特丹",
+    "langues": "荷兰语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "NL",
+  "langues": "néerlandais",
+  "monnaie": "euro (€)"
+ },
+ "NOR": {
+  "capitale": "Oslo",
+  "i18n": {
+   "ar": {
+    "capitale": "أوسلو",
+    "langues": "ني نوشك، بوكمول، Sami",
+    "monnaie": "كرونة نروجية (kr)"
+   },
+   "en": {
+    "capitale": "Oslo",
+    "langues": "Nynorsk, Bokmål, Sami",
+    "monnaie": "Norwegian krone (kr)"
+   },
+   "es": {
+    "capitale": "Oslo",
+    "langues": "nynorsk, bokmål, sami",
+    "monnaie": "corona noruega (kr)"
+   },
+   "zh": {
+    "capitale": "奥斯陆",
+    "langues": "新挪威语、书面挪威语、Sami",
+    "monnaie": "挪威克朗 (kr)"
+   }
+  },
+  "iso2": "NO",
+  "langues": "nynorsk, bokmål, same",
+  "monnaie": "couronne norvégienne (kr)"
+ },
+ "NPL": {
+  "capitale": "Katmandou",
+  "i18n": {
+   "ar": {
+    "capitale": "كتمندو",
+    "langues": "النيبالية",
+    "monnaie": "روبية نيبالية (₨)"
+   },
+   "en": {
+    "capitale": "Kathmandu",
+    "langues": "Nepali",
+    "monnaie": "Nepalese rupee (₨)"
+   },
+   "es": {
+    "capitale": "Katmandú",
+    "langues": "nepalí",
+    "monnaie": "rupia nepalí (₨)"
+   },
+   "zh": {
+    "capitale": "加德满都",
+    "langues": "尼泊尔语",
+    "monnaie": "尼泊尔卢比 (₨)"
+   }
+  },
+  "iso2": "NP",
+  "langues": "népalais",
+  "monnaie": "roupie népalaise (₨)"
+ },
+ "NRU": {
+  "capitale": "Yaren",
+  "i18n": {
+   "ar": {
+    "capitale": "ضاحية يارين",
+    "langues": "الإنجليزية، الناوروية",
+    "monnaie": "دولار أسترالي ($)"
+   },
+   "en": {
+    "capitale": "Yaren District",
+    "langues": "English, Nauruan",
+    "monnaie": "Australian dollar ($)"
+   },
+   "es": {
+    "capitale": "Yaren",
+    "langues": "inglés, nauruano",
+    "monnaie": "dólar australiano ($)"
+   },
+   "zh": {
+    "capitale": "亚伦区",
+    "langues": "英语、瑙鲁语",
+    "monnaie": "澳大利亚元 ($)"
+   }
+  },
+  "iso2": "NR",
+  "langues": "anglais, nauruan",
+  "monnaie": "dollar australien ($)"
+ },
+ "NZL": {
+  "capitale": "Wellington",
+  "i18n": {
+   "ar": {
+    "capitale": "ويلينغتون",
+    "langues": "الإنجليزية، الماورية، لغة الإشارة النيوزيلندية",
+    "monnaie": "دولار نيوزيلندي ($)"
+   },
+   "en": {
+    "capitale": "Wellington",
+    "langues": "English, Māori, New Zealand Sign Language",
+    "monnaie": "New Zealand dollar ($)"
+   },
+   "es": {
+    "capitale": "Wellington",
+    "langues": "inglés, maorí, lengua de señas neozelandesa",
+    "monnaie": "dólar neozelandés ($)"
+   },
+   "zh": {
+    "capitale": "惠灵顿",
+    "langues": "英语、毛利语、新西兰手语",
+    "monnaie": "新西兰元 ($)"
+   }
+  },
+  "iso2": "NZ",
+  "langues": "anglais, māori, langue des signes néo-zélandaise",
+  "monnaie": "dollar néo-zélandais ($)"
+ },
+ "OMN": {
+  "capitale": "Mascate",
+  "i18n": {
+   "ar": {
+    "capitale": "مسقط",
+    "langues": "العربية",
+    "monnaie": "ريال عُماني (ر.ع.)"
+   },
+   "en": {
+    "capitale": "Muscat",
+    "langues": "Arabic",
+    "monnaie": "Omani rial (ر.ع.)"
+   },
+   "es": {
+    "capitale": "Mascate",
+    "langues": "árabe",
+    "monnaie": "rial omaní (ر.ع.)"
+   },
+   "zh": {
+    "capitale": "马斯喀特",
+    "langues": "阿拉伯语",
+    "monnaie": "阿曼里亚尔 (ر.ع.)"
+   }
+  },
+  "iso2": "OM",
+  "langues": "arabe",
+  "monnaie": "rial omanais (ر.ع.)"
+ },
+ "PAK": {
+  "capitale": "Islamabad",
+  "i18n": {
+   "ar": {
+    "capitale": "إسلام آباد",
+    "langues": "الإنجليزية، الأردية",
+    "monnaie": "روبية باكستانية (₨)"
+   },
+   "en": {
+    "capitale": "Islamabad",
+    "langues": "English, Urdu",
+    "monnaie": "Pakistani rupee (₨)"
+   },
+   "es": {
+    "capitale": "Islamabad",
+    "langues": "inglés, urdu",
+    "monnaie": "rupia pakistaní (₨)"
+   },
+   "zh": {
+    "capitale": "伊斯兰堡",
+    "langues": "英语、乌尔都语",
+    "monnaie": "巴基斯坦卢比 (₨)"
+   }
+  },
+  "iso2": "PK",
+  "langues": "anglais, ourdou",
+  "monnaie": "roupie pakistanaise (₨)"
+ },
+ "PAN": {
+  "capitale": "Panama",
+  "i18n": {
+   "ar": {
+    "capitale": "مدينة بنما",
+    "langues": "الإسبانية",
+    "monnaie": "بالبوا بنمي (B/.)، دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Panama City",
+    "langues": "Spanish",
+    "monnaie": "Panamanian balboa (B/.), United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Ciudad de Panamá",
+    "langues": "español",
+    "monnaie": "balboa (B/.), dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "巴拿马城",
+    "langues": "西班牙语",
+    "monnaie": "巴拿马巴波亚 (B/.)、美元 ($)"
+   }
+  },
+  "iso2": "PA",
+  "langues": "espagnol",
+  "monnaie": "balboa (B/.), dollar des États-Unis ($)"
+ },
+ "PCN": {
+  "capitale": "Adamstown",
+  "i18n": {
+   "ar": {
+    "capitale": "آدمزتاون",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار نيوزيلندي ($)"
+   },
+   "en": {
+    "capitale": "Adamstown",
+    "langues": "English",
+    "monnaie": "New Zealand dollar ($)"
+   },
+   "es": {
+    "capitale": "Adamstown",
+    "langues": "inglés",
+    "monnaie": "dólar neozelandés ($)"
+   },
+   "zh": {
+    "capitale": "亚当斯敦",
+    "langues": "英语",
+    "monnaie": "新西兰元 ($)"
+   }
+  },
+  "iso2": "PN",
+  "langues": "anglais",
+  "monnaie": "dollar néo-zélandais ($)"
+ },
+ "PER": {
+  "capitale": "Lima",
+  "i18n": {
+   "ar": {
+    "capitale": "ليما",
+    "langues": "الأيمرية، كتشوا، الإسبانية",
+    "monnaie": "سول بيروفي جديد (S/.)"
+   },
+   "en": {
+    "capitale": "Lima",
+    "langues": "Aymara, Quechua, Spanish",
+    "monnaie": "Nuevo sol (S/.)"
+   },
+   "es": {
+    "capitale": "Lima",
+    "langues": "aymara, lenguas quechuas, español",
+    "monnaie": "sol (S/.)"
+   },
+   "zh": {
+    "capitale": "利马",
+    "langues": "艾马拉语、克丘亚语、西班牙语",
+    "monnaie": "秘鲁新索尔 (S/.)"
+   }
+  },
+  "iso2": "PE",
+  "langues": "aymara, quechua, espagnol",
+  "monnaie": "sol (S/.)"
+ },
+ "PHL": {
+  "capitale": "Manille",
+  "i18n": {
+   "ar": {
+    "capitale": "مانيلا",
+    "langues": "الإنجليزية، الفلبينية",
+    "monnaie": "بيسو فلبيني (₱)"
+   },
+   "en": {
+    "capitale": "Manila",
+    "langues": "English, Filipino",
+    "monnaie": "Philippine peso (₱)"
+   },
+   "es": {
+    "capitale": "Manila",
+    "langues": "inglés, idioma filipino",
+    "monnaie": "peso filipino (₱)"
+   },
+   "zh": {
+    "capitale": "马尼拉",
+    "langues": "英语、菲律宾语",
+    "monnaie": "菲律宾比索 (₱)"
+   }
+  },
+  "iso2": "PH",
+  "langues": "anglais, philippin",
+  "monnaie": "peso philippin (₱)"
+ },
+ "PLW": {
+  "capitale": "Ngerulmud",
+  "i18n": {
+   "ar": {
+    "capitale": "نغيرولمود",
+    "langues": "الإنجليزية، البالاوية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Ngerulmud",
+    "langues": "English, Palauan",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Ngerulmud",
+    "langues": "inglés, palauano",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "恩吉鲁穆德",
+    "langues": "英语、帕劳语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "PW",
+  "langues": "anglais, palau",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "PNG": {
+  "capitale": "Port Moresby",
+  "i18n": {
+   "ar": {
+    "capitale": "بورت مورسبي",
+    "langues": "الإنجليزية، هيري موتو، لغة توك بيسين",
+    "monnaie": "كينا بابوا غينيا الجديدة (K)"
+   },
+   "en": {
+    "capitale": "Port Moresby",
+    "langues": "English, Hiri Motu, Tok Pisin",
+    "monnaie": "kina (K)"
+   },
+   "es": {
+    "capitale": "Puerto Moresby",
+    "langues": "inglés, hiri motu, tok pisin",
+    "monnaie": "kina (K)"
+   },
+   "zh": {
+    "capitale": "莫尔兹比港",
+    "langues": "英语、希里摩圖語、巴布亚皮钦语",
+    "monnaie": "巴布亚新几内亚基那 (K)"
+   }
+  },
+  "iso2": "PG",
+  "langues": "anglais, hiri motou, tok pisin",
+  "monnaie": "kina (K)"
+ },
+ "POL": {
+  "capitale": "Varsovie",
+  "i18n": {
+   "ar": {
+    "capitale": "وارسو",
+    "langues": "البولندية",
+    "monnaie": "زواتي بولندي (zł)"
+   },
+   "en": {
+    "capitale": "Warsaw",
+    "langues": "Polish",
+    "monnaie": "złoty (zł)"
+   },
+   "es": {
+    "capitale": "Varsovia",
+    "langues": "polaco",
+    "monnaie": "złoty (zł)"
+   },
+   "zh": {
+    "capitale": "华沙",
+    "langues": "波兰语",
+    "monnaie": "波兰兹罗提 (zł)"
+   }
+  },
+  "iso2": "PL",
+  "langues": "polonais",
+  "monnaie": "złoty (zł)"
+ },
+ "PRI": {
+  "capitale": "San Juan",
+  "i18n": {
+   "ar": {
+    "capitale": "سان خوان",
+    "langues": "الإنجليزية، الإسبانية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "San Juan",
+    "langues": "English, Spanish",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "San Juan",
+    "langues": "inglés, español",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "圣胡安",
+    "langues": "英语、西班牙语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "PR",
+  "langues": "anglais, espagnol",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "PRK": {
+  "capitale": "Pyongyang",
+  "i18n": {
+   "ar": {
+    "capitale": "بيونغيانغ",
+    "langues": "الكورية",
+    "monnaie": "وون كوري شمالي (₩)"
+   },
+   "en": {
+    "capitale": "Pyongyang",
+    "langues": "Korean",
+    "monnaie": "North Korean won (₩)"
+   },
+   "es": {
+    "capitale": "Pionyang",
+    "langues": "coreano",
+    "monnaie": "wŏn norcoreano (₩)"
+   },
+   "zh": {
+    "capitale": "平壤",
+    "langues": "朝鲜语",
+    "monnaie": "朝鲜圆 (₩)"
+   }
+  },
+  "iso2": "KP",
+  "langues": "coréen",
+  "monnaie": "won nord-coréen (₩)"
+ },
+ "PRT": {
+  "capitale": "Lisbonne",
+  "i18n": {
+   "ar": {
+    "capitale": "لشبونة",
+    "langues": "البرتغالية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Lisbon",
+    "langues": "Portuguese",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Lisboa",
+    "langues": "portugués",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "里斯本",
+    "langues": "葡萄牙语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "PT",
+  "langues": "portugais",
+  "monnaie": "euro (€)"
+ },
+ "PRY": {
+  "capitale": "Asuncion",
+  "i18n": {
+   "ar": {
+    "capitale": "أسونسيون",
+    "langues": "اللغة الغوارانية، الإسبانية",
+    "monnaie": "غواراني باراغواي (₲)"
+   },
+   "en": {
+    "capitale": "Asunción",
+    "langues": "Guarani, Spanish",
+    "monnaie": "Paraguayan guaraní (₲)"
+   },
+   "es": {
+    "capitale": "Asunción",
+    "langues": "guaraní, español",
+    "monnaie": "guaraní (₲)"
+   },
+   "zh": {
+    "capitale": "亚松森",
+    "langues": "瓜纳尼语、西班牙语",
+    "monnaie": "巴拉圭瓜拉尼 (₲)"
+   }
+  },
+  "iso2": "PY",
+  "langues": "guarani, espagnol",
+  "monnaie": "guaraní (₲)"
+ },
+ "PSX": {
+  "capitale": "Jérusalem-Est, Ramallah",
+  "i18n": {
+   "ar": {
+    "capitale": "رام الله، القدس الشرقية",
+    "langues": "العربية",
+    "monnaie": "جنيه مصري (E£)، شيكل إسرائيلي جديد (₪)، دينار أردني (JD)"
+   },
+   "en": {
+    "capitale": "Ramallah, East Jerusalem",
+    "langues": "Arabic",
+    "monnaie": "Egyptian pound (E£), new shekel (₪), Jordanian dinar (JD)"
+   },
+   "es": {
+    "capitale": "Ramala, Jerusalén Este",
+    "langues": "árabe",
+    "monnaie": "libra egipcia (E£), nuevo séquel (₪), dinar jordano (JD)"
+   },
+   "zh": {
+    "capitale": "东耶路撒冷、拉姆安拉",
+    "langues": "阿拉伯语",
+    "monnaie": "埃及镑 (E£)、以色列新谢克尔 (₪)、约旦第纳尔 (JD)"
+   }
+  },
+  "iso2": "PS",
+  "langues": "arabe",
+  "monnaie": "livre égyptienne (E£), shekel (₪), dinar jordanien (JD)"
+ },
+ "PYF": {
+  "capitale": "Papeete",
+  "i18n": {
+   "ar": {
+    "capitale": "بابيتي",
+    "langues": "الفرنسية",
+    "monnaie": "فرنك باسيفيكي (₣)"
+   },
+   "en": {
+    "capitale": "Papeete",
+    "langues": "French",
+    "monnaie": "CFP Franc (₣)"
+   },
+   "es": {
+    "capitale": "Papeete",
+    "langues": "francés",
+    "monnaie": "franco CFP (₣)"
+   },
+   "zh": {
+    "capitale": "帕皮提",
+    "langues": "法语",
+    "monnaie": "太平洋法郎 (₣)"
+   }
+  },
+  "iso2": "PF",
+  "langues": "français",
+  "monnaie": "franc Pacifique (₣)"
+ },
+ "QAT": {
+  "capitale": "Doha",
+  "i18n": {
+   "ar": {
+    "capitale": "الدوحة",
+    "langues": "العربية",
+    "monnaie": "ريال قطري (ر.ق)"
+   },
+   "en": {
+    "capitale": "Doha",
+    "langues": "Arabic",
+    "monnaie": "Qatari riyal (ر.ق)"
+   },
+   "es": {
+    "capitale": "Doha",
+    "langues": "árabe",
+    "monnaie": "riyal catarí (ر.ق)"
+   },
+   "zh": {
+    "capitale": "多哈",
+    "langues": "阿拉伯语",
+    "monnaie": "卡塔尔里亚尔 (ر.ق)"
+   }
+  },
+  "iso2": "QA",
+  "langues": "arabe",
+  "monnaie": "riyal qatarien (ر.ق)"
+ },
+ "ROU": {
+  "capitale": "Bucarest",
+  "i18n": {
+   "ar": {
+    "capitale": "بوخارست",
+    "langues": "الرومانية",
+    "monnaie": "ليو روماني (lei)"
+   },
+   "en": {
+    "capitale": "Bucharest",
+    "langues": "Romanian",
+    "monnaie": "Romanian leu (lei)"
+   },
+   "es": {
+    "capitale": "Bucarest",
+    "langues": "rumano",
+    "monnaie": "leu rumano (lei)"
+   },
+   "zh": {
+    "capitale": "布加勒斯特",
+    "langues": "罗马尼亚语",
+    "monnaie": "罗马尼亚列伊 (lei)"
+   }
+  },
+  "iso2": "RO",
+  "langues": "roumain",
+  "monnaie": "leu roumain (lei)"
+ },
+ "RUS": {
+  "capitale": "Moscou",
+  "i18n": {
+   "ar": {
+    "capitale": "موسكو",
+    "langues": "الروسية",
+    "monnaie": "روبل روسي (₽)"
+   },
+   "en": {
+    "capitale": "Moscow",
+    "langues": "Russian",
+    "monnaie": "Russian ruble (₽)"
+   },
+   "es": {
+    "capitale": "Moscú",
+    "langues": "ruso",
+    "monnaie": "rublo ruso (₽)"
+   },
+   "zh": {
+    "capitale": "莫斯科",
+    "langues": "俄语",
+    "monnaie": "俄罗斯卢布 (₽)"
+   }
+  },
+  "iso2": "RU",
+  "langues": "russe",
+  "monnaie": "rouble russe (₽)"
+ },
+ "RWA": {
+  "capitale": "Kigali",
+  "i18n": {
+   "ar": {
+    "capitale": "كيغالي",
+    "langues": "الإنجليزية، الفرنسية، الكينيارواندية",
+    "monnaie": "فرنك روندي (Fr)"
+   },
+   "en": {
+    "capitale": "Kigali",
+    "langues": "English, French, Kinyarwanda",
+    "monnaie": "Rwandan franc (Fr)"
+   },
+   "es": {
+    "capitale": "Kigali",
+    "langues": "inglés, francés, kiñaruanda",
+    "monnaie": "franco ruandés (Fr)"
+   },
+   "zh": {
+    "capitale": "基加利",
+    "langues": "英语、法语、卢旺达语",
+    "monnaie": "卢旺达法郎 (Fr)"
+   }
+  },
+  "iso2": "RW",
+  "langues": "anglais, français, kinyarwanda",
+  "monnaie": "franc rwandais (Fr)"
+ },
+ "SAH": {
+  "capitale": "El Aaiún",
+  "i18n": {
+   "ar": {
+    "capitale": "El Aaiún",
+    "langues": "Berber، لهجة حسانية، الإسبانية",
+    "monnaie": "دينار جزائري (دج)، درهم مغربي (DH)، أوقية موريتانية (UM)"
+   },
+   "en": {
+    "capitale": "El Aaiún",
+    "langues": "Berber, Hassaniya Arabic, Spanish",
+    "monnaie": "Algerian dinar (دج), Moroccan dirham (DH), Mauritanian ouguiya (UM)"
+   },
+   "es": {
+    "capitale": "El Aaiún",
+    "langues": "berber, hassanía, español",
+    "monnaie": "dinar argelino (دج), dírham marroquí (DH), uguiya (UM)"
+   },
+   "zh": {
+    "capitale": "El Aaiún",
+    "langues": "Berber、哈桑语、西班牙语",
+    "monnaie": "阿尔及利亚第纳尔 (دج)、摩洛哥迪尔汗 (DH)、毛里塔尼亚乌吉亚 (UM)"
+   }
+  },
+  "iso2": "EH",
+  "langues": "berbère, hassanya, espagnol",
+  "monnaie": "dinar algérien (دج), dirham marocain (DH), ouguiya (UM)"
+ },
+ "SAU": {
+  "capitale": "Riyad",
+  "i18n": {
+   "ar": {
+    "capitale": "الرياض",
+    "langues": "العربية",
+    "monnaie": "ريال سعودي (ر.س)"
+   },
+   "en": {
+    "capitale": "Riyadh",
+    "langues": "Arabic",
+    "monnaie": "Saudi riyal (ر.س)"
+   },
+   "es": {
+    "capitale": "Riad",
+    "langues": "árabe",
+    "monnaie": "riyal saudí (ر.س)"
+   },
+   "zh": {
+    "capitale": "利雅得",
+    "langues": "阿拉伯语",
+    "monnaie": "沙特里亚尔 (ر.س)"
+   }
+  },
+  "iso2": "SA",
+  "langues": "arabe",
+  "monnaie": "riyal saoudien (ر.س)"
+ },
+ "SDN": {
+  "capitale": "Khartoum",
+  "i18n": {
+   "ar": {
+    "capitale": "الخرطوم",
+    "langues": "العربية، الإنجليزية",
+    "monnaie": "جنيه سوداني (PT)"
+   },
+   "en": {
+    "capitale": "Khartoum",
+    "langues": "Arabic, English",
+    "monnaie": "Sudanese pound (PT)"
+   },
+   "es": {
+    "capitale": "Jartum",
+    "langues": "árabe, inglés",
+    "monnaie": "libra sudanesa (PT)"
+   },
+   "zh": {
+    "capitale": "喀土穆",
+    "langues": "阿拉伯语、英语",
+    "monnaie": "苏丹镑 (PT)"
+   }
+  },
+  "iso2": "SD",
+  "langues": "arabe, anglais",
+  "monnaie": "livre soudanaise (PT)"
+ },
+ "SDS": {
+  "capitale": "Djouba",
+  "i18n": {
+   "ar": {
+    "capitale": "جوبا",
+    "langues": "الإنجليزية",
+    "monnaie": "جنيه جنوب سوداني (£)"
+   },
+   "en": {
+    "capitale": "Juba",
+    "langues": "English",
+    "monnaie": "South Sudanese pound (£)"
+   },
+   "es": {
+    "capitale": "Yuba",
+    "langues": "inglés",
+    "monnaie": "libra sursudanesa (£)"
+   },
+   "zh": {
+    "capitale": "朱巴",
+    "langues": "英语",
+    "monnaie": "南苏丹镑 (£)"
+   }
+  },
+  "iso2": "SS",
+  "langues": "anglais",
+  "monnaie": "livre sud-soudanaise (£)"
+ },
+ "SEN": {
+  "capitale": "Dakar",
+  "i18n": {
+   "ar": {
+    "capitale": "دكار",
+    "langues": "الفرنسية",
+    "monnaie": "فرنك غرب إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Dakar",
+    "langues": "French",
+    "monnaie": "West African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Dakar",
+    "langues": "francés",
+    "monnaie": "franco CFA de África Occidental (Fr)"
+   },
+   "zh": {
+    "capitale": "达喀尔",
+    "langues": "法语",
+    "monnaie": "西非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "SN",
+  "langues": "français",
+  "monnaie": "franc CFA (Fr)"
+ },
+ "SGP": {
+  "capitale": "Singapour",
+  "i18n": {
+   "ar": {
+    "capitale": "سنغافورة",
+    "langues": "الإنجليزية، الملايوية، التملية، الصينية",
+    "monnaie": "دولار سنغافوري ($)"
+   },
+   "en": {
+    "capitale": "Singapore",
+    "langues": "English, Malay, Tamil, Chinese",
+    "monnaie": "Singapore dollar ($)"
+   },
+   "es": {
+    "capitale": "Singapur",
+    "langues": "inglés, malayo, tamil, chino",
+    "monnaie": "dólar de Singapur ($)"
+   },
+   "zh": {
+    "capitale": "新加坡",
+    "langues": "英语、马来语、泰米尔语、中文",
+    "monnaie": "新加坡元 ($)"
+   }
+  },
+  "iso2": "SG",
+  "langues": "anglais, malais, tamoul, chinois",
+  "monnaie": "dollar de Singapour ($)"
+ },
+ "SGS": {
+  "capitale": "King Edward Point",
+  "i18n": {
+   "ar": {
+    "capitale": "نقطة الملك إدوارد",
+    "langues": "الإنجليزية",
+    "monnaie": "جنيه سانت هيليني (£)"
+   },
+   "en": {
+    "capitale": "King Edward Point",
+    "langues": "English",
+    "monnaie": "Saint Helena pound (£)"
+   },
+   "es": {
+    "capitale": "King Edward Point",
+    "langues": "inglés",
+    "monnaie": "libra de Santa Elena (£)"
+   },
+   "zh": {
+    "capitale": "愛德華七世角",
+    "langues": "英语",
+    "monnaie": "圣赫勒拿镑 (£)"
+   }
+  },
+  "iso2": "GS",
+  "langues": "anglais",
+  "monnaie": "livre de Sainte-Hélène (£)"
+ },
+ "SHN": {
+  "capitale": "Jamestown",
+  "i18n": {
+   "ar": {
+    "capitale": "جيمس تاون",
+    "langues": "الإنجليزية",
+    "monnaie": "جنيه إسترليني (£)، جنيه سانت هيليني (£)"
+   },
+   "en": {
+    "capitale": "Jamestown",
+    "langues": "English",
+    "monnaie": "pound sterling (£), Saint Helena pound (£)"
+   },
+   "es": {
+    "capitale": "Jamestown",
+    "langues": "inglés",
+    "monnaie": "libra esterlina (£), libra de Santa Elena (£)"
+   },
+   "zh": {
+    "capitale": "詹姆斯敦",
+    "langues": "英语",
+    "monnaie": "英镑 (£)、圣赫勒拿镑 (£)"
+   }
+  },
+  "iso2": "SH",
+  "langues": "anglais",
+  "monnaie": "livre sterling (£), livre de Sainte-Hélène (£)"
+ },
+ "SLB": {
+  "capitale": "Honiara",
+  "i18n": {
+   "ar": {
+    "capitale": "هونيارا",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار جزر سليمان ($)"
+   },
+   "en": {
+    "capitale": "Honiara",
+    "langues": "English",
+    "monnaie": "Solomon Islands dollar ($)"
+   },
+   "es": {
+    "capitale": "Honiara",
+    "langues": "inglés",
+    "monnaie": "dólar de las Islas Salomón ($)"
+   },
+   "zh": {
+    "capitale": "霍尼亚拉",
+    "langues": "英语",
+    "monnaie": "所罗门群岛元 ($)"
+   }
+  },
+  "iso2": "SB",
+  "langues": "anglais",
+  "monnaie": "dollar des îles Salomon ($)"
+ },
+ "SLE": {
+  "capitale": "Freetown",
+  "i18n": {
+   "ar": {
+    "capitale": "فريتاون",
+    "langues": "الإنجليزية",
+    "monnaie": "ليون سيراليوني (Le)"
+   },
+   "en": {
+    "capitale": "Freetown",
+    "langues": "English",
+    "monnaie": "leone (Le)"
+   },
+   "es": {
+    "capitale": "Freetown",
+    "langues": "inglés",
+    "monnaie": "leone (Le)"
+   },
+   "zh": {
+    "capitale": "弗里敦",
+    "langues": "英语",
+    "monnaie": "塞拉利昂利昂 (Le)"
+   }
+  },
+  "iso2": "SL",
+  "langues": "anglais",
+  "monnaie": "leone (Le)"
+ },
+ "SLV": {
+  "capitale": "San Salvador",
+  "i18n": {
+   "ar": {
+    "capitale": "سان سلفادور",
+    "langues": "الإسبانية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "San Salvador",
+    "langues": "Spanish",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "San Salvador",
+    "langues": "español",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "圣萨尔瓦多",
+    "langues": "西班牙语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "SV",
+  "langues": "espagnol",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "SMR": {
+  "capitale": "Saint-Marin",
+  "i18n": {
+   "ar": {
+    "capitale": "مدينة سان مارينو",
+    "langues": "الإيطالية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "San Marino",
+    "langues": "Italian",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "San Marino",
+    "langues": "italiano",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "圣马力诺",
+    "langues": "意大利语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "SM",
+  "langues": "italien",
+  "monnaie": "euro (€)"
+ },
+ "SOL": {
+  "capitale": "Hargeisa",
+  "langues": "somali, arabe",
+  "monnaie": "shilling du Somaliland"
+ },
+ "SOM": {
+  "capitale": "Mogadiscio",
+  "i18n": {
+   "ar": {
+    "capitale": "مقديشو",
+    "langues": "العربية، الصومالية",
+    "monnaie": "شلن صومالي (Sh)"
+   },
+   "en": {
+    "capitale": "Mogadishu",
+    "langues": "Arabic, Somali",
+    "monnaie": "Somali shilling (Sh)"
+   },
+   "es": {
+    "capitale": "Mogadiscio",
+    "langues": "árabe, somalí",
+    "monnaie": "chelín somalí (Sh)"
+   },
+   "zh": {
+    "capitale": "摩加迪休",
+    "langues": "阿拉伯语、索马里语",
+    "monnaie": "索马里先令 (Sh)"
+   }
+  },
+  "iso2": "SO",
+  "langues": "arabe, somali",
+  "monnaie": "shilling somalien (Sh)"
+ },
+ "SPM": {
+  "capitale": "Saint-Pierre",
+  "i18n": {
+   "ar": {
+    "capitale": "سان بيير (سان بيير وميكلون)",
+    "langues": "الفرنسية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Saint-Pierre",
+    "langues": "French",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "San Pedro",
+    "langues": "francés",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "圣皮埃尔",
+    "langues": "法语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "PM",
+  "langues": "français",
+  "monnaie": "euro (€)"
+ },
+ "SRB": {
+  "capitale": "Belgrade",
+  "i18n": {
+   "ar": {
+    "capitale": "بلغراد",
+    "langues": "الصربية",
+    "monnaie": "دينار صربي (дин.)"
+   },
+   "en": {
+    "capitale": "Belgrade",
+    "langues": "Serbian",
+    "monnaie": "Serbian dinar (дин.)"
+   },
+   "es": {
+    "capitale": "Belgrado",
+    "langues": "serbio",
+    "monnaie": "dinar serbio (дин.)"
+   },
+   "zh": {
+    "capitale": "贝尔格莱德",
+    "langues": "塞尔维亚语",
+    "monnaie": "塞尔维亚第纳尔 (дин.)"
+   }
+  },
+  "iso2": "RS",
+  "langues": "serbe",
+  "monnaie": "dinar serbe (дин.)"
+ },
+ "STP": {
+  "capitale": "São Tomé",
+  "i18n": {
+   "ar": {
+    "capitale": "ساو تومي",
+    "langues": "البرتغالية",
+    "monnaie": "دوبرا ساو تومي وبرينسيب (Db)"
+   },
+   "en": {
+    "capitale": "São Tomé",
+    "langues": "Portuguese",
+    "monnaie": "São Tomé and Príncipe dobra (Db)"
+   },
+   "es": {
+    "capitale": "Santo Tomé",
+    "langues": "portugués",
+    "monnaie": "dobra santotomense (Db)"
+   },
+   "zh": {
+    "capitale": "圣多美",
+    "langues": "葡萄牙语",
+    "monnaie": "圣多美和普林西比多布拉 (Db)"
+   }
+  },
+  "iso2": "ST",
+  "langues": "portugais",
+  "monnaie": "dobra (Db)"
+ },
+ "SUR": {
+  "capitale": "Paramaribo",
+  "i18n": {
+   "ar": {
+    "capitale": "باراماريبو",
+    "langues": "الهولندية",
+    "monnaie": "دولار سورينامي ($)"
+   },
+   "en": {
+    "capitale": "Paramaribo",
+    "langues": "Dutch",
+    "monnaie": "Surinamese dollar ($)"
+   },
+   "es": {
+    "capitale": "Paramaribo",
+    "langues": "neerlandés",
+    "monnaie": "dólar surinamés ($)"
+   },
+   "zh": {
+    "capitale": "帕拉马里博",
+    "langues": "荷兰语",
+    "monnaie": "苏里南元 ($)"
+   }
+  },
+  "iso2": "SR",
+  "langues": "néerlandais",
+  "monnaie": "dollar du Surinam ($)"
+ },
+ "SVK": {
+  "capitale": "Bratislava",
+  "i18n": {
+   "ar": {
+    "capitale": "براتيسلافا",
+    "langues": "السلوفاكية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Bratislava",
+    "langues": "Slovak",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Bratislava",
+    "langues": "eslovaco",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "布拉迪斯拉发",
+    "langues": "斯洛伐克语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "SK",
+  "langues": "slovaque",
+  "monnaie": "euro (€)"
+ },
+ "SVN": {
+  "capitale": "Ljubljana",
+  "i18n": {
+   "ar": {
+    "capitale": "لبلانة",
+    "langues": "السلوفينية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Ljubljana",
+    "langues": "Slovene",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Liubliana",
+    "langues": "esloveno",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "卢布尔雅那",
+    "langues": "斯洛文尼亚语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "SI",
+  "langues": "slovène",
+  "monnaie": "euro (€)"
+ },
+ "SWE": {
+  "capitale": "Stockholm",
+  "i18n": {
+   "ar": {
+    "capitale": "ستوكهولم",
+    "langues": "السويدية",
+    "monnaie": "كرونة سويدية (kr)"
+   },
+   "en": {
+    "capitale": "Stockholm",
+    "langues": "Swedish",
+    "monnaie": "Swedish krona (kr)"
+   },
+   "es": {
+    "capitale": "Estocolmo",
+    "langues": "sueco",
+    "monnaie": "corona sueca (kr)"
+   },
+   "zh": {
+    "capitale": "斯德哥尔摩",
+    "langues": "瑞典语",
+    "monnaie": "瑞典克朗 (kr)"
+   }
+  },
+  "iso2": "SE",
+  "langues": "suédois",
+  "monnaie": "couronne suédoise (kr)"
+ },
+ "SWZ": {
+  "capitale": "Mbabane, Lobamba",
+  "i18n": {
+   "ar": {
+    "capitale": "مبابان، لوبامبا",
+    "langues": "الإنجليزية، السوازية",
+    "monnaie": "ليلانغيني سوازيلندي (L)، راند جنوب إفريقي (R)"
+   },
+   "en": {
+    "capitale": "Mbabane, Lobamba",
+    "langues": "English, Swazi",
+    "monnaie": "lilangeni (L), rand (R)"
+   },
+   "es": {
+    "capitale": "Mbabane, Lobamba",
+    "langues": "inglés, suazi",
+    "monnaie": "lilangeni (L), rand sudafricano (R)"
+   },
+   "zh": {
+    "capitale": "姆巴巴内、洛班巴",
+    "langues": "英语、斯瓦蒂语",
+    "monnaie": "斯威士兰里兰吉尼 (L)、南非兰特 (R)"
+   }
+  },
+  "iso2": "SZ",
+  "langues": "anglais, swati",
+  "monnaie": "lilangeni (L), rand (R)"
+ },
+ "SXM": {
+  "capitale": "Philipsburg",
+  "i18n": {
+   "ar": {
+    "capitale": "فيليبسبورغ",
+    "langues": "الإنجليزية، الفرنسية، الهولندية",
+    "monnaie": "غيلدر الأنتيل الهولندية (ƒ)"
+   },
+   "en": {
+    "capitale": "Philipsburg",
+    "langues": "English, French, Dutch",
+    "monnaie": "Netherlands Antillean guilder (ƒ)"
+   },
+   "es": {
+    "capitale": "Philipsburg",
+    "langues": "inglés, francés, neerlandés",
+    "monnaie": "florín antillano neerlandés (ƒ)"
+   },
+   "zh": {
+    "capitale": "菲利普斯堡",
+    "langues": "英语、法语、荷兰语",
+    "monnaie": "荷属安的列斯盾 (ƒ)"
+   }
+  },
+  "iso2": "SX",
+  "langues": "anglais, français, néerlandais",
+  "monnaie": "florin des Antilles néerlandaises (ƒ)"
+ },
+ "SYC": {
+  "capitale": "Victoria",
+  "i18n": {
+   "ar": {
+    "capitale": "فكتوريا",
+    "langues": "الكريولية السيشيلية، الإنجليزية، الفرنسية",
+    "monnaie": "روبية سيشلية (₨)"
+   },
+   "en": {
+    "capitale": "Victoria",
+    "langues": "Seychellois Creole, English, French",
+    "monnaie": "Seychellois rupee (₨)"
+   },
+   "es": {
+    "capitale": "Victoria",
+    "langues": "criollo seychelense, inglés, francés",
+    "monnaie": "rupia seychelense (₨)"
+   },
+   "zh": {
+    "capitale": "维多利亚",
+    "langues": "塞舌尔克里奥尔语、英语、法语",
+    "monnaie": "塞舌尔卢比 (₨)"
+   }
+  },
+  "iso2": "SC",
+  "langues": "créole seychellois, anglais, français",
+  "monnaie": "roupie seychelloise (₨)"
+ },
+ "SYR": {
+  "capitale": "Damas",
+  "i18n": {
+   "ar": {
+    "capitale": "دمشق",
+    "langues": "العربية",
+    "monnaie": "ليرة سورية (£)"
+   },
+   "en": {
+    "capitale": "Damascus",
+    "langues": "Arabic",
+    "monnaie": "list of Syrian coins (£)"
+   },
+   "es": {
+    "capitale": "Damasco",
+    "langues": "árabe",
+    "monnaie": "libra siria (£)"
+   },
+   "zh": {
+    "capitale": "大马士革",
+    "langues": "阿拉伯语",
+    "monnaie": "叙利亚镑 (£)"
+   }
+  },
+  "iso2": "SY",
+  "langues": "arabe",
+  "monnaie": "livre syrienne (£)"
+ },
+ "TCA": {
+  "capitale": "Cockburn Town",
+  "i18n": {
+   "ar": {
+    "capitale": "كوكبرن تاون",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Cockburn Town",
+    "langues": "English",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Cockburn Town",
+    "langues": "inglés",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "科伯恩城",
+    "langues": "英语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "TC",
+  "langues": "anglais",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "TCD": {
+  "capitale": "N'Djaména",
+  "i18n": {
+   "ar": {
+    "capitale": "انجمينا",
+    "langues": "العربية، الفرنسية",
+    "monnaie": "فرنك وسط إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "N'Djamena",
+    "langues": "Arabic, French",
+    "monnaie": "Central African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Yamena",
+    "langues": "árabe, francés",
+    "monnaie": "franco CFA de África Central (Fr)"
+   },
+   "zh": {
+    "capitale": "恩贾梅纳",
+    "langues": "阿拉伯语、法语",
+    "monnaie": "中非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "TD",
+  "langues": "arabe, français",
+  "monnaie": "franc CFA d'Afrique centrale (Fr)"
+ },
+ "TGO": {
+  "capitale": "Lomé",
+  "i18n": {
+   "ar": {
+    "capitale": "لومي",
+    "langues": "الفرنسية",
+    "monnaie": "فرنك غرب إفريقي (Fr)"
+   },
+   "en": {
+    "capitale": "Lomé",
+    "langues": "French",
+    "monnaie": "West African CFA franc (Fr)"
+   },
+   "es": {
+    "capitale": "Lomé",
+    "langues": "francés",
+    "monnaie": "franco CFA de África Occidental (Fr)"
+   },
+   "zh": {
+    "capitale": "洛美",
+    "langues": "法语",
+    "monnaie": "西非非洲金融共同体法郎 (Fr)"
+   }
+  },
+  "iso2": "TG",
+  "langues": "français",
+  "monnaie": "franc CFA (Fr)"
+ },
+ "THA": {
+  "capitale": "Bangkok",
+  "i18n": {
+   "ar": {
+    "capitale": "بانكوك",
+    "langues": "التايلندية",
+    "monnaie": "بات تايلاندي (฿)"
+   },
+   "en": {
+    "capitale": "Bangkok",
+    "langues": "Thai",
+    "monnaie": "baht (฿)"
+   },
+   "es": {
+    "capitale": "Bangkok",
+    "langues": "tailandés",
+    "monnaie": "baht tailandés (฿)"
+   },
+   "zh": {
+    "capitale": "曼谷",
+    "langues": "泰语",
+    "monnaie": "泰铢 (฿)"
+   }
+  },
+  "iso2": "TH",
+  "langues": "thaï",
+  "monnaie": "baht (฿)"
+ },
+ "TJK": {
+  "capitale": "Douchanbé",
+  "i18n": {
+   "ar": {
+    "capitale": "دوشنبة",
+    "langues": "الروسية، الطاجيكية",
+    "monnaie": "ساماني طاجيكي (ЅМ)"
+   },
+   "en": {
+    "capitale": "Dushanbe",
+    "langues": "Russian, Tajik",
+    "monnaie": "Tajikistani somoni (ЅМ)"
+   },
+   "es": {
+    "capitale": "Dusambé",
+    "langues": "ruso, tayiko",
+    "monnaie": "somoni tayiko (ЅМ)"
+   },
+   "zh": {
+    "capitale": "杜尚别",
+    "langues": "俄语、塔吉克语",
+    "monnaie": "塔吉克斯坦索莫尼 (ЅМ)"
+   }
+  },
+  "iso2": "TJ",
+  "langues": "russe, tadjik",
+  "monnaie": "somoni (ЅМ)"
+ },
+ "TKM": {
+  "capitale": "Achgabat",
+  "i18n": {
+   "ar": {
+    "capitale": "عشق آباد",
+    "langues": "الروسية، التركمانية",
+    "monnaie": "منات تركمانستاني (m)"
+   },
+   "en": {
+    "capitale": "Ashgabat",
+    "langues": "Russian, Turkmen",
+    "monnaie": "Turkmenistan new manat (m)"
+   },
+   "es": {
+    "capitale": "Asjabad",
+    "langues": "ruso, turcomano",
+    "monnaie": "manat turkmeno (m)"
+   },
+   "zh": {
+    "capitale": "阿什哈巴德",
+    "langues": "俄语、土库曼语",
+    "monnaie": "土库曼斯坦马纳特 (m)"
+   }
+  },
+  "iso2": "TM",
+  "langues": "russe, turkmène",
+  "monnaie": "manat turkmène (m)"
+ },
+ "TLS": {
+  "capitale": "Dili",
+  "i18n": {
+   "ar": {
+    "capitale": "ديلي",
+    "langues": "البرتغالية، التيتومية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Dili",
+    "langues": "Portuguese, Tetum",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Dili",
+    "langues": "portugués, idioma tetun",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "帝力",
+    "langues": "葡萄牙语、德顿语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "TL",
+  "langues": "portugais, tétoum",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "TON": {
+  "capitale": "Nukuʻalofa",
+  "i18n": {
+   "ar": {
+    "capitale": "نوكو ألوفا",
+    "langues": "الإنجليزية، اللغة التونغية",
+    "monnaie": "بانجا تونجي (T$)"
+   },
+   "en": {
+    "capitale": "Nukuʻalofa",
+    "langues": "English, Tongan",
+    "monnaie": "Tongan paʻanga (T$)"
+   },
+   "es": {
+    "capitale": "Nukualofa",
+    "langues": "inglés, tongano",
+    "monnaie": "pa'anga (T$)"
+   },
+   "zh": {
+    "capitale": "努库阿洛法",
+    "langues": "英语、汤加语",
+    "monnaie": "汤加潘加 (T$)"
+   }
+  },
+  "iso2": "TO",
+  "langues": "anglais, tongien",
+  "monnaie": "pa’anga (T$)"
+ },
+ "TTO": {
+  "capitale": "Port-d'Espagne",
+  "i18n": {
+   "ar": {
+    "capitale": "بورت أوف سبين",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار ترينيداد وتوباغو ($)"
+   },
+   "en": {
+    "capitale": "Port of Spain",
+    "langues": "English",
+    "monnaie": "Trinidad and Tobago dollar ($)"
+   },
+   "es": {
+    "capitale": "Puerto España",
+    "langues": "inglés",
+    "monnaie": "dólar trinitense ($)"
+   },
+   "zh": {
+    "capitale": "西班牙港",
+    "langues": "英语",
+    "monnaie": "特立尼达和多巴哥元 ($)"
+   }
+  },
+  "iso2": "TT",
+  "langues": "anglais",
+  "monnaie": "dollar de Trinité-et-Tobago ($)"
+ },
+ "TUN": {
+  "capitale": "Tunis",
+  "i18n": {
+   "ar": {
+    "capitale": "تونس",
+    "langues": "العربية",
+    "monnaie": "دينار تونسي (د.ت)"
+   },
+   "en": {
+    "capitale": "Tunis",
+    "langues": "Arabic",
+    "monnaie": "Tunisian dinar (د.ت)"
+   },
+   "es": {
+    "capitale": "Túnez",
+    "langues": "árabe",
+    "monnaie": "dinar tunecino (د.ت)"
+   },
+   "zh": {
+    "capitale": "突尼斯市",
+    "langues": "阿拉伯语",
+    "monnaie": "突尼斯第纳尔 (د.ت)"
+   }
+  },
+  "iso2": "TN",
+  "langues": "arabe",
+  "monnaie": "dinar tunisien (د.ت)"
+ },
+ "TUR": {
+  "capitale": "Ankara",
+  "i18n": {
+   "ar": {
+    "capitale": "أنقرة",
+    "langues": "التركية",
+    "monnaie": "ليرة تركية (₺)"
+   },
+   "en": {
+    "capitale": "Ankara",
+    "langues": "Turkish",
+    "monnaie": "Turkish lira (₺)"
+   },
+   "es": {
+    "capitale": "Ankara",
+    "langues": "turco",
+    "monnaie": "lira turca (₺)"
+   },
+   "zh": {
+    "capitale": "安卡拉",
+    "langues": "土耳其语",
+    "monnaie": "土耳其里拉 (₺)"
+   }
+  },
+  "iso2": "TR",
+  "langues": "turc",
+  "monnaie": "livre turque (₺)"
+ },
+ "TUV": {
+  "capitale": "Funafuti",
+  "i18n": {
+   "ar": {
+    "capitale": "فونافوتي",
+    "langues": "الإنجليزية، اللغة التوفالوية",
+    "monnaie": "دولار أسترالي ($)، Tuvaluan dollar ($)"
+   },
+   "en": {
+    "capitale": "Funafuti",
+    "langues": "English, Tuvaluan",
+    "monnaie": "Australian dollar ($), Tuvaluan dollar ($)"
+   },
+   "es": {
+    "capitale": "Funafuti",
+    "langues": "inglés, tuvaluano",
+    "monnaie": "dólar australiano ($), tuvaluan dollar ($)"
+   },
+   "zh": {
+    "capitale": "富纳富提",
+    "langues": "英语、图瓦卢语",
+    "monnaie": "澳大利亚元 ($)、Tuvaluan dollar ($)"
+   }
+  },
+  "iso2": "TV",
+  "langues": "anglais, tuvaluan",
+  "monnaie": "dollar australien ($), dollar tuvaluan ($)"
+ },
+ "TWN": {
+  "capitale": "Taipei",
+  "i18n": {
+   "ar": {
+    "capitale": "تايبيه",
+    "langues": "الصينية",
+    "monnaie": "دولار تايواني جديد ($)"
+   },
+   "en": {
+    "capitale": "Taipei",
+    "langues": "Chinese",
+    "monnaie": "New Taiwan dollar ($)"
+   },
+   "es": {
+    "capitale": "Taipéi",
+    "langues": "chino",
+    "monnaie": "nuevo dólar taiwanés ($)"
+   },
+   "zh": {
+    "capitale": "台北市",
+    "langues": "中文",
+    "monnaie": "新台币 ($)"
+   }
+  },
+  "iso2": "TW",
+  "langues": "chinois",
+  "monnaie": "nouveau dollar de Taïwan ($)"
+ },
+ "TZA": {
+  "capitale": "Dodoma",
+  "i18n": {
+   "ar": {
+    "capitale": "دودوما",
+    "langues": "الإنجليزية، السواحلية",
+    "monnaie": "شلن تنزاني (Sh)"
+   },
+   "en": {
+    "capitale": "Dodoma",
+    "langues": "English, Swahili",
+    "monnaie": "Tanzanian shilling (Sh)"
+   },
+   "es": {
+    "capitale": "Dodoma",
+    "langues": "inglés, suajili",
+    "monnaie": "chelín tanzano (Sh)"
+   },
+   "zh": {
+    "capitale": "多多马",
+    "langues": "英语、斯瓦希里语",
+    "monnaie": "坦桑尼亚先令 (Sh)"
+   }
+  },
+  "iso2": "TZ",
+  "langues": "anglais, swahili",
+  "monnaie": "shilling tanzanien (Sh)"
+ },
+ "UGA": {
+  "capitale": "Kampala",
+  "i18n": {
+   "ar": {
+    "capitale": "كامبالا",
+    "langues": "الإنجليزية، السواحلية",
+    "monnaie": "شلن أوغندي (Sh)"
+   },
+   "en": {
+    "capitale": "Kampala",
+    "langues": "English, Swahili",
+    "monnaie": "Ugandan shilling (Sh)"
+   },
+   "es": {
+    "capitale": "Kampala",
+    "langues": "inglés, suajili",
+    "monnaie": "chelín ugandés (Sh)"
+   },
+   "zh": {
+    "capitale": "坎帕拉",
+    "langues": "英语、斯瓦希里语",
+    "monnaie": "烏干達先令 (Sh)"
+   }
+  },
+  "iso2": "UG",
+  "langues": "anglais, swahili",
+  "monnaie": "shilling ougandais (Sh)"
+ },
+ "UKR": {
+  "capitale": "Kiev",
+  "i18n": {
+   "ar": {
+    "capitale": "كييف",
+    "langues": "الأوكرانية",
+    "monnaie": "هريفنا أوكرانية (₴)"
+   },
+   "en": {
+    "capitale": "Kyiv",
+    "langues": "Ukrainian",
+    "monnaie": "hryvnia (₴)"
+   },
+   "es": {
+    "capitale": "Kiev",
+    "langues": "ucraniano",
+    "monnaie": "grivna (₴)"
+   },
+   "zh": {
+    "capitale": "基辅",
+    "langues": "乌克兰语",
+    "monnaie": "乌克兰格里夫纳 (₴)"
+   }
+  },
+  "iso2": "UA",
+  "langues": "ukrainien",
+  "monnaie": "hryvnia (₴)"
+ },
+ "URY": {
+  "capitale": "Montevideo",
+  "i18n": {
+   "ar": {
+    "capitale": "مونتفيدو",
+    "langues": "الإسبانية",
+    "monnaie": "بيزو أوروغواني ($)"
+   },
+   "en": {
+    "capitale": "Montevideo",
+    "langues": "Spanish",
+    "monnaie": "Uruguayan peso ($)"
+   },
+   "es": {
+    "capitale": "Montevideo",
+    "langues": "español",
+    "monnaie": "peso uruguayo ($)"
+   },
+   "zh": {
+    "capitale": "蒙得维的亚",
+    "langues": "西班牙语",
+    "monnaie": "乌拉圭比索 ($)"
+   }
+  },
+  "iso2": "UY",
+  "langues": "espagnol",
+  "monnaie": "peso uruguayen ($)"
+ },
+ "USA": {
+  "capitale": "Washington",
+  "i18n": {
+   "ar": {
+    "capitale": "واشنطن العاصمة",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Washington, D.C.",
+    "langues": "English",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Washington D. C.",
+    "langues": "inglés",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "华盛顿哥伦比亚特区",
+    "langues": "英语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "US",
+  "langues": "anglais",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "UZB": {
+  "capitale": "Tachkent",
+  "i18n": {
+   "ar": {
+    "capitale": "طشقند",
+    "langues": "الروسية، الأوزبكية",
+    "monnaie": "سوم أوزبكستاني (so'm)"
+   },
+   "en": {
+    "capitale": "Tashkent",
+    "langues": "Russian, Uzbek",
+    "monnaie": "Uzbek som (so'm)"
+   },
+   "es": {
+    "capitale": "Taskent",
+    "langues": "ruso, uzbeko",
+    "monnaie": "som (so'm)"
+   },
+   "zh": {
+    "capitale": "塔什干",
+    "langues": "俄语、乌孜别克语",
+    "monnaie": "乌兹别克斯坦索姆 (so'm)"
+   }
+  },
+  "iso2": "UZ",
+  "langues": "russe, ouzbek",
+  "monnaie": "sum (so'm)"
+ },
+ "VAT": {
+  "capitale": "Vatican",
+  "i18n": {
+   "ar": {
+    "capitale": "الفاتيكان",
+    "langues": "الإيطالية، اللاتينية",
+    "monnaie": "يورو (€)"
+   },
+   "en": {
+    "capitale": "Vatican City",
+    "langues": "Italian, Latin",
+    "monnaie": "Euro (€)"
+   },
+   "es": {
+    "capitale": "Ciudad del Vaticano",
+    "langues": "italiano, latín",
+    "monnaie": "euro (€)"
+   },
+   "zh": {
+    "capitale": "梵蒂冈",
+    "langues": "意大利语、拉丁语",
+    "monnaie": "欧元 (€)"
+   }
+  },
+  "iso2": "VA",
+  "langues": "italien, latin",
+  "monnaie": "euro (€)"
+ },
+ "VCT": {
+  "capitale": "Kingstown",
+  "i18n": {
+   "ar": {
+    "capitale": "كينغستاون",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار شرق الكاريبي ($)"
+   },
+   "en": {
+    "capitale": "Kingstown",
+    "langues": "English",
+    "monnaie": "Eastern Caribbean dollar ($)"
+   },
+   "es": {
+    "capitale": "Kingstown",
+    "langues": "inglés",
+    "monnaie": "dólar del Caribe Oriental ($)"
+   },
+   "zh": {
+    "capitale": "金斯敦",
+    "langues": "英语",
+    "monnaie": "东加勒比元 ($)"
+   }
+  },
+  "iso2": "VC",
+  "langues": "anglais",
+  "monnaie": "dollar des Caraïbes orientales ($)"
+ },
+ "VEN": {
+  "capitale": "Caracas",
+  "i18n": {
+   "ar": {
+    "capitale": "كراكاس",
+    "langues": "الإسبانية",
+    "monnaie": "بوليفار السيادي (Bs.S.)"
+   },
+   "en": {
+    "capitale": "Caracas",
+    "langues": "Spanish",
+    "monnaie": "sovereign bolivar (Bs.S.)"
+   },
+   "es": {
+    "capitale": "Caracas",
+    "langues": "español",
+    "monnaie": "bolívar soberano (Bs.S.)"
+   },
+   "zh": {
+    "capitale": "加拉加斯",
+    "langues": "西班牙语",
+    "monnaie": "主权玻利瓦尔 (Bs.S.)"
+   }
+  },
+  "iso2": "VE",
+  "langues": "espagnol",
+  "monnaie": "bolivar souverain (Bs.S.)"
+ },
+ "VGB": {
+  "capitale": "Road Town",
+  "i18n": {
+   "ar": {
+    "capitale": "رود تاون",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Road Town",
+    "langues": "English",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Road Town",
+    "langues": "inglés",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "罗德城",
+    "langues": "英语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "VG",
+  "langues": "anglais",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "VIR": {
+  "capitale": "Charlotte-Amélie",
+  "i18n": {
+   "ar": {
+    "capitale": "شارلوت أمالي",
+    "langues": "الإنجليزية",
+    "monnaie": "دولار للولايات المتحدة ($)"
+   },
+   "en": {
+    "capitale": "Charlotte Amalie",
+    "langues": "English",
+    "monnaie": "United States dollar ($)"
+   },
+   "es": {
+    "capitale": "Charlotte Amalie",
+    "langues": "inglés",
+    "monnaie": "dólar estadounidense ($)"
+   },
+   "zh": {
+    "capitale": "夏洛特阿马利亚",
+    "langues": "英语",
+    "monnaie": "美元 ($)"
+   }
+  },
+  "iso2": "VI",
+  "langues": "anglais",
+  "monnaie": "dollar des États-Unis ($)"
+ },
+ "VNM": {
+  "capitale": "Hanoï",
+  "i18n": {
+   "ar": {
+    "capitale": "هانوي",
+    "langues": "الفيتنامية",
+    "monnaie": "دونغ فيتنامي (₫)"
+   },
+   "en": {
+    "capitale": "Hanoi",
+    "langues": "Vietnamese",
+    "monnaie": "Vietnamese đồng (₫)"
+   },
+   "es": {
+    "capitale": "Hanói",
+    "langues": "vietnamita",
+    "monnaie": "đồng vietnamita (₫)"
+   },
+   "zh": {
+    "capitale": "河内",
+    "langues": "越南语",
+    "monnaie": "越南盾 (₫)"
+   }
+  },
+  "iso2": "VN",
+  "langues": "vietnamien",
+  "monnaie": "dong (₫)"
+ },
+ "VUT": {
+  "capitale": "Port-Vila",
+  "i18n": {
+   "ar": {
+    "capitale": "بورت فيلا",
+    "langues": "لغة بسلاما، الإنجليزية، الفرنسية",
+    "monnaie": "فاتو فانواتي (Vt)"
+   },
+   "en": {
+    "capitale": "Port Vila",
+    "langues": "Bislama, English, French",
+    "monnaie": "Vanuatu vatus (Vt)"
+   },
+   "es": {
+    "capitale": "Port Vila",
+    "langues": "bislama, inglés, francés",
+    "monnaie": "vatu (Vt)"
+   },
+   "zh": {
+    "capitale": "维拉港",
+    "langues": "比斯拉马语、英语、法语",
+    "monnaie": "瓦努阿图瓦图 (Vt)"
+   }
+  },
+  "iso2": "VU",
+  "langues": "bichelamar, anglais, français",
+  "monnaie": "vatu (Vt)"
+ },
+ "WLF": {
+  "capitale": "Mata Utu",
+  "i18n": {
+   "ar": {
+    "capitale": "ماتا-أوتو",
+    "langues": "الفرنسية",
+    "monnaie": "فرنك باسيفيكي (₣)"
+   },
+   "en": {
+    "capitale": "Mata-Utu",
+    "langues": "French",
+    "monnaie": "CFP Franc (₣)"
+   },
+   "es": {
+    "capitale": "Mata-Utu",
+    "langues": "francés",
+    "monnaie": "franco CFP (₣)"
+   },
+   "zh": {
+    "capitale": "马塔乌图",
+    "langues": "法语",
+    "monnaie": "太平洋法郎 (₣)"
+   }
+  },
+  "iso2": "WF",
+  "langues": "français",
+  "monnaie": "franc Pacifique (₣)"
+ },
+ "WSM": {
+  "capitale": "Apia",
+  "i18n": {
+   "ar": {
+    "capitale": "أبيا",
+    "langues": "الإنجليزية، الساموية",
+    "monnaie": "تالا ساموي (T)"
+   },
+   "en": {
+    "capitale": "Apia",
+    "langues": "English, Samoan",
+    "monnaie": "Samoan tālā (T)"
+   },
+   "es": {
+    "capitale": "Apia",
+    "langues": "inglés, samoano",
+    "monnaie": "tālā (T)"
+   },
+   "zh": {
+    "capitale": "阿皮亚",
+    "langues": "英语、萨摩亚语",
+    "monnaie": "薩摩亞塔拉 (T)"
+   }
+  },
+  "iso2": "WS",
+  "langues": "anglais, samoan",
+  "monnaie": "tala (T)"
+ },
+ "YEM": {
+  "capitale": "Sanaa, Aden",
+  "i18n": {
+   "ar": {
+    "capitale": "صنعاء، عدن",
+    "langues": "العربية",
+    "monnaie": "ريال يمني (﷼)"
+   },
+   "en": {
+    "capitale": "Sanaa, Aden",
+    "langues": "Arabic",
+    "monnaie": "Yemeni Rial (﷼)"
+   },
+   "es": {
+    "capitale": "Saná, Adén",
+    "langues": "árabe",
+    "monnaie": "rial yemení (﷼)"
+   },
+   "zh": {
+    "capitale": "亚丁",
+    "langues": "阿拉伯语",
+    "monnaie": "也门里亚尔 (﷼)"
+   }
+  },
+  "iso2": "YE",
+  "langues": "arabe",
+  "monnaie": "rial yéménite (﷼)"
+ },
+ "ZAF": {
+  "capitale": "Le Cap, Pretoria, Bloemfontein",
+  "i18n": {
+   "ar": {
+    "capitale": "كيب تاون، بريتوريا، بلومفونتين",
+    "langues": "الأفريقانية، الإنجليزية، لغة نديبلي جنوبية، لغة سوثو شمالية، لغة سوتية، السوازية، التسوانية، لغة تسونجا، الفيندية، الكوسية، الزولوية",
+    "monnaie": "راند جنوب إفريقي (R)"
+   },
+   "en": {
+    "capitale": "Cape Town, Pretoria, Bloemfontein",
+    "langues": "Afrikaans, English, Southern Ndebele, Northern Sotho, Sesotho, Swazi, Tswana, Tsonga, Venda, Xhosa, Zulu",
+    "monnaie": "rand (R)"
+   },
+   "es": {
+    "capitale": "Pretoria, Ciudad del Cabo, Bloemfontein",
+    "langues": "afrikáans, inglés, ndebele del Sur, idioma sotho septentrional, sesotho, suazi, setsuana, tsonga, venda, xhosa, zulú",
+    "monnaie": "rand sudafricano (R)"
+   },
+   "zh": {
+    "capitale": "开普敦、比勒陀利亚、布隆方丹",
+    "langues": "阿非利卡语、英语、南恩德贝莱语、北索托語、索托语、斯瓦蒂语、茨瓦纳语、聪加语、文达语、科萨语、祖鲁语",
+    "monnaie": "南非兰特 (R)"
+   }
+  },
+  "iso2": "ZA",
+  "langues": "afrikaans, anglais, nrebele, sotho du Nord, sotho du Sud, swati, tswana, tsonga, venda, xhosa, zoulou",
+  "monnaie": "rand (R)"
+ },
+ "ZMB": {
+  "capitale": "Lusaka",
+  "i18n": {
+   "ar": {
+    "capitale": "لوساكا",
+    "langues": "الإنجليزية",
+    "monnaie": "كواشا زامبي (ZK)"
+   },
+   "en": {
+    "capitale": "Lusaka",
+    "langues": "English",
+    "monnaie": "Zambian Kwacha (ZK)"
+   },
+   "es": {
+    "capitale": "Lusaka",
+    "langues": "inglés",
+    "monnaie": "kuacha zambiano (ZK)"
+   },
+   "zh": {
+    "capitale": "卢萨卡",
+    "langues": "英语",
+    "monnaie": "赞比亚克瓦查 (ZK)"
+   }
+  },
+  "iso2": "ZM",
+  "langues": "anglais",
+  "monnaie": "kwacha zambien (ZK)"
+ },
+ "ZWE": {
+  "capitale": "Harare",
+  "i18n": {
+   "ar": {
+    "capitale": "هراري",
+    "langues": "باروي، الإنجليزية، الكالنجا، Khoisan، النداو، النديبيلية الشمالية، لغة الشيشيوا، لغة الشونا، لغة سوتية، تونغا، التسوانية، لغة تسونجا، الفيندية، الكوسية، لغة الإشارة الزيمبابوية",
+    "monnaie": "بوتسوانا بولا (P)، رنمينبي (¥)، يورو (€)، جنيه إسترليني (£)، روبية هندية (₹)، ين ياباني (¥)، دولار للولايات المتحدة ($)، راند جنوب إفريقي (Rs)، Zimbabwean bonds ($)"
+   },
+   "en": {
+    "capitale": "Harare",
+    "langues": "Barwe, English, Kalanga, Khoisan, Ndau, Northern Ndebele, Chewa, Shona, Sesotho, Tonga, Tswana, Tsonga, Venda, Xhosa, Zimbabwe Sign Language",
+    "monnaie": "Botswana pula (P), renminbi (¥), Euro (€), pound sterling (£), Indian rupee (₹), yen (¥), United States dollar ($), rand (Rs), Zimbabwean bonds ($)"
+   },
+   "es": {
+    "capitale": "Harare",
+    "langues": "chibarwe, inglés, kalanga, khoisan, ndau, ndebele del norte, chichewa, shona, sesotho, chitonga, setsuana, tsonga, venda, xhosa, zimbabwean Sign Language",
+    "monnaie": "pula (P), yuan chino (¥), euro (€), libra esterlina (£), rupia india (₹), yen (¥), dólar estadounidense ($), rand sudafricano (Rs), zimbabwean bonds ($)"
+   },
+   "zh": {
+    "capitale": "哈拉雷",
+    "langues": "Chibarwe、英语、卡蘭加語、Khoisan、恩道方言、北恩德贝莱语、切瓦语、修納語、索托语、汤加语、茨瓦纳语、聪加语、文达语、科萨语、Zimbabwean Sign Language",
+    "monnaie": "博茨瓦纳普拉 (P)、人民币 (¥)、欧元 (€)、英镑 (£)、印度盧比 (₹)、日圆 (¥)、美元 ($)、南非兰特 (Rs)、Zimbabwean bonds ($)"
+   }
+  },
+  "iso2": "ZW",
+  "langues": "barwe, anglais, kalanga, khoïsan, ndau, sindebele, chewa, shona, sotho du Sud, chitonga, tswana, tsonga, venda, xhosa, langue des signes zimbabwéenne",
+  "monnaie": "pula (P), renminbi (¥), euro (€), livre sterling (£), roupie indienne (₹), yen (¥), dollar des États-Unis ($), rand (Rs), dollar zimbabwéen ($)"
+ }
+}
