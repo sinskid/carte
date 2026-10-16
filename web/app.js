@@ -443,8 +443,8 @@ function stationRow(s, country, showCountry) {
 function setRadioStatus(text) { $("radio-status").textContent = text; }
 
 function renderStations() {
-  const q = $("radio-filter").value.trim().toLowerCase();
-  const shown = stations.filter((s) => !q || `${s.name} ${s.tags}`.toLowerCase().includes(q));
+  const q = fold($("radio-filter").value.trim());     // accents don't matter: "sommieres" finds "Sommières"
+  const shown = stations.filter((s) => !q || fold(`${s.name} ${s.tags}`).includes(q));
   const country = selected && nameOf(selected);
   $("radio-list").replaceChildren(...shown.slice(0, 200).map((s) => stationRow(s, country)));
   revealRow("radio", $("radio-list"));
@@ -636,7 +636,26 @@ async function connectRadio(s, country, attempt) {
   } else setPlayer(`${country} · ${tr("state.unavailable")}`);
 }
 
-$("radio-filter").addEventListener("input", renderStations);
+// Only a country's 500 most played stations are loaded (France has thousands): a filter of 3+
+// letters also asks the directory for the country's other stations with that name (a small or new
+// local station, say), added to the list.
+let moreTimer = null;
+function searchMoreStations() {
+  clearTimeout(moreTimer);
+  const q = $("radio-filter").value.trim(), id = radioFor, iso2 = facts[id]?.iso2;
+  if (q.length < 3 || !iso2) return;
+  moreTimer = setTimeout(async () => {
+    try {
+      const url = `${RADIO_API}/stations/search?countrycode=${iso2}&name=${encodeURIComponent(q)}&hidebroken=true&order=clickcount&reverse=true&limit=50`;
+      const found = await fetch(url).then((r) => r.json());
+      if (radioFor !== id) return;
+      const seen = new Set(stations.map((s) => s.name.trim().toLowerCase()));
+      const extra = found.filter((s) => { const k = s.name.trim().toLowerCase(); return k && !seen.has(k) && seen.add(k); });
+      if (extra.length) { stations.push(...extra); renderStations(); }
+    } catch {}
+  }, 400);
+}
+$("radio-filter").addEventListener("input", () => { renderStations(); searchMoreStations(); });
 $("player-toggle").onclick = () => {
   if (audio.dead) { const again = audio.dead; audio.dead = null; stopMedia(audio); again(); }   // dropped while paused
   else if (audio.paused) audio.play().catch(() => {});
