@@ -1,7 +1,9 @@
 # Carte 🌍
 
 A world map you can listen to. Click a country to hear its radio stations live, watch its TV
-channels, and keep your favourites. In French, English, Spanish, Chinese and Arabic.
+channels, and keep your favourites. Or switch the Radio tab to **World** and type a style
+("lofi", "jazz") to find matching stations in every country. In French, English, Spanish, Chinese
+and Arabic.
 
 **Just want to try it?** Open **https://sinskid.github.io/carte/**. Nothing to install.
 

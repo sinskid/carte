@@ -92,6 +92,15 @@ a { color: var(--accent); }
   background: var(--sea); color: var(--ink); font: inherit; outline: none;
 }
 #radio-filter:focus { border-color: var(--accent); }
+.radio-search { display: flex; gap: 8px; align-items: center; }
+.radio-search #radio-filter { flex: 1; min-width: 0; }
+.scope { flex: none; display: flex; border: 1px solid var(--line); border-radius: 999px; padding: 2px; }
+.scope button {
+  border: 0; border-radius: 999px; background: none; padding: 6px 10px; color: var(--muted);
+  font: inherit; font-size: 13px; cursor: pointer; transition: background .15s, color .15s;
+}
+.scope button:hover { color: var(--ink); }
+.scope button.active { background: var(--accent); color: #fff; }
 #radio-status { font-size: 13px; margin: 10px 0 4px; }
 #radio-list { list-style: none; margin: 0; padding: 0; }
 .station { display: flex; align-items: center; gap: 12px; padding: 8px; margin: 0 -8px; border-radius: 8px; cursor: pointer; transition: background .15s; }

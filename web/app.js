@@ -402,11 +402,12 @@ async function loadRadio() {
   if (!p || radioFor === p.id) return;
   radioFor = p.id;
   stations = [];
-  $("radio-filter").value = "";
+  const status = (text) => radioScope === "country" && setRadioStatus(text);   // the world search has its own
+  if (radioScope === "country") $("radio-filter").value = "";
   renderStations();
   const iso2 = facts[p.id]?.iso2;
-  if (!iso2) return setRadioStatus(tr("radio.noCode"));
-  setRadioStatus(tr("radio.loading"));
+  if (!iso2) return status(tr("radio.noCode"));
+  status(tr("radio.loading"));
   try {
     const url = `${RADIO_API}/stations/bycountrycodeexact/${iso2}?hidebroken=true&order=clickcount&reverse=true&limit=500`;
     const list = await fetch(url).then((r) => r.json());
@@ -417,9 +418,9 @@ async function loadRadio() {
       return key && !seen.has(key) && seen.add(key);
     });
     renderStations();
-    if (!stations.length) setRadioStatus(tr("radio.none"));
+    if (!stations.length) status(tr("radio.none"));
   } catch {
-    if (radioFor === p.id) { radioFor = null; setRadioStatus(tr("radio.down")); }
+    if (radioFor === p.id) { radioFor = null; status(tr("radio.down")); }
   }
 }
 
@@ -443,6 +444,7 @@ function stationRow(s, country, showCountry) {
 function setRadioStatus(text) { $("radio-status").textContent = text; }
 
 function renderStations() {
+  if (radioScope === "world") return renderWorld();
   const q = fold($("radio-filter").value.trim());     // accents don't matter: "sommieres" finds "Sommières"
   const shown = stations.filter((s) => !q || fold(`${s.name} ${s.tags}`).includes(q));
   const country = selected && nameOf(selected);
@@ -655,7 +657,79 @@ function searchMoreStations() {
     } catch {}
   }, 400);
 }
-$("radio-filter").addEventListener("input", () => { renderStations(); searchMoreStations(); });
+$("radio-filter").addEventListener("input", () => {
+  if (radioScope === "world") return searchWorld();
+  renderStations(); searchMoreStations();
+});
+
+// ---------- world radio search (the "Monde" switch of the Radio tab) ----------
+// The filter then asks the directory for stations of any country whose name or tags contain the
+// text ("lofi", "jazz", "fip"). A typo is forgiven through the directory's popular tags: when few
+// stations match, the most used tag holding the letters in order ("lfi" → "lofi") is searched too,
+// and its stations come first: few literal matches mean the text was most likely that typo.
+let radioScope = "country", world = { q: "", hits: [], tag: null, busy: false }, worldTimer = null, popularTags = null;
+
+const subsequence = (q, s) => { let i = 0; for (const ch of s) if (ch === q[i]) i++; return i === q.length; };
+function fuzzyTag(q) {
+  return popularTags?.find((t) => t !== q && !t.includes(q) && t[0] === q[0] && t.length <= q.length + 3 && subsequence(q, t));
+}
+
+function searchWorld() {
+  clearTimeout(worldTimer);
+  const q = $("radio-filter").value.trim();
+  if (q.length < 2) { world = { q: "", hits: [], tag: null, busy: false }; return renderWorld(); }
+  world.busy = true;
+  renderWorld();
+  worldTimer = setTimeout(async () => {
+    const ask = (params) => fetch(`${RADIO_API}/stations/search?${params}&hidebroken=true&order=clickcount&reverse=true&limit=100`)
+      .then((r) => r.json()).catch(() => []);
+    const enc = encodeURIComponent(q);
+    popularTags ??= await fetch(`${RADIO_API}/tags?hidebroken=true&order=stationcount&reverse=true&limit=1500`)
+      .then((r) => r.json()).then((l) => l.map((t) => fold(t.name))).catch(() => null);
+    const direct = (await Promise.all([ask(`name=${enc}`), ask(`tag=${enc}`)])).flat()
+      .sort((a, b) => b.clickcount - a.clickcount);
+    const tag = direct.length < 20 ? fuzzyTag(fold(q)) : null;
+    const extra = tag ? await ask(`tag=${encodeURIComponent(tag)}&tagExact=true`) : [];
+    if ($("radio-filter").value.trim() !== q || radioScope !== "world") return;    // typed on meanwhile
+    const seen = new Set();                           // duplicates again: keep the most played
+    const hits = [...extra, ...direct].filter((s) => { const k = s.name.trim().toLowerCase(); return k && !seen.has(k) && seen.add(k); });
+    world = { q, hits, tag: extra.length ? tag : null, busy: false };
+    renderWorld();
+  }, 350);
+}
+
+// A station's country as shown on the map (today's language), from its ISO code.
+function stationCountry(s) {
+  const f = features.find((x) => facts[x.properties.id]?.iso2 === s.countrycode);
+  return f ? { name: nameOf(f), id: f.properties.id } : { name: s.country || s.countrycode, id: null };
+}
+
+function renderWorld() {
+  const rows = world.hits.slice(0, 200).map((s) => {
+    const c = stationCountry(s);
+    return stationRow({ ...s, countryId: c.id }, c.name, true);
+  });
+  $("radio-list").replaceChildren(...rows);
+  revealRow("radio", $("radio-list"));
+  renderFavbar();
+  if (world.busy) return setRadioStatus(tr("radio.world.searching"));
+  if (!world.q) return setRadioStatus(tr("radio.world.hint"));
+  if (!world.hits.length) return setRadioStatus(tr("radio.world.none"));
+  const countries = new Set(world.hits.map((s) => s.countrycode)).size;
+  setRadioStatus(tr("radio.world.count", { n: world.hits.length, c: countries })
+    + (world.tag ? tr("radio.world.also", { tag: world.tag }) : "")
+    + (world.hits.length > 200 ? tr("radio.first200") : ""));
+}
+
+document.querySelectorAll("[data-scope]").forEach((b) => b.addEventListener("click", () => {
+  radioScope = b.dataset.scope;
+  document.querySelectorAll("[data-scope]").forEach((x) => x.classList.toggle("active", x === b));
+  $("radio-filter").dataset.i18nPh = radioScope === "world" ? "radio.world.filter" : "radio.filter";   // kept on a language change
+  $("radio-filter").placeholder = tr($("radio-filter").dataset.i18nPh);
+  $("radio-filter").focus();
+  if (radioScope === "world") searchWorld();
+  else { renderStations(); searchMoreStations(); }
+}));
 $("player-toggle").onclick = () => {
   if (audio.dead) { const again = audio.dead; audio.dead = null; stopMedia(audio); again(); }   // dropped while paused
   else if (audio.paused) audio.play().catch(() => {});

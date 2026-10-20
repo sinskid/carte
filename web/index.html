@@ -235,7 +235,13 @@
     </nav>
 
     <section id="tab-radio" class="tab">
-      <input id="radio-filter" type="search" data-i18n-ph="radio.filter" autocomplete="off">
+      <div class="radio-search">
+        <input id="radio-filter" type="search" data-i18n-ph="radio.filter" autocomplete="off">
+        <div class="scope" role="group">
+          <button data-scope="country" class="active" data-i18n="radio.scope.country" data-i18n-title="radio.scope.country.title"></button>
+          <button data-scope="world" data-i18n="radio.scope.world" data-i18n-title="radio.scope.world.title"></button>
+        </div>
+      </div>
       <p id="radio-status" class="muted"></p>
       <ul id="radio-list"></ul>
     </section>
